@@ -1,5 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { BottomNav } from './components/BottomNav'
+import { ScrollToTop } from './components/ScrollToTop'
 import { AppProvider, useApp } from './context/AppContext'
 import { CookPage } from './pages/CookPage'
 import { PlanPage } from './pages/PlanPage'
@@ -30,6 +31,7 @@ function Shell() {
 
   return (
     <div className="mx-auto min-h-dvh max-w-lg px-4 pb-24 pt-6">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<PlanPage />} />
         <Route path="/recipes" element={<RecipesPage />} />
