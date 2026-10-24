@@ -2,24 +2,26 @@
 
 ## Goal
 
-Usable MealPlan PWA on GitHub Pages for Sim & Adam’s dinner shop. Shipped.
+MealPlan PWA for Sim and Adam. Features for this version are done.
 
 ## Done
 
-- Plan, recipes, shop, cook, settings, filters, portions ↔ week strip, red-meat warning
-- Scroll always starts at the top of a screen
-- Once-per-week default: all proteins except poultry (chicken and turkey share poultry)
-- Repo: https://github.com/simipanda/MealPlan
+- Plan, randomise, locks, portions linked to the week strip
+- Recipes, filters, cook time, cuisine, cook mode, shop
+- Settings: meals per week, once-per-week (all ticked except poultry)
+- Soft red-meat warning; scroll opens each screen at the top
 - Live: https://simipanda.github.io/MealPlan/
-- Phone check (Sim + partner) passed
+- Repo: https://github.com/simipanda/MealPlan (public read, only this account can edit)
+- Phone check passed
 
 ## Next
 
-- Add real dishes in `public/recipes.json` (cuisine, `totalMinutes`, protein, tags)
-- Optional photos in `public/images/recipes/` plus `"image"` on each recipe, then push `main` to redeploy
+Edit `public/recipes.json` with real dishes (cuisine, `totalMinutes`, protein — `white` means poultry). Photos are optional: file in `public/images/recipes/` plus `"image"` on the recipe, then push `main`.
+
+No new features unless the scope changes.
 
 ## Verify
 
-1. Open https://simipanda.github.io/MealPlan/ (reopen the installed app after a deploy)
+1. Reopen the installed app after a deploy
 2. Randomise, lock, portions vs week strip, shop, cook units
-3. Settings → Once per week: poultry unticked, the rest ticked
+3. Settings → Once per week: poultry unticked, everything else ticked
