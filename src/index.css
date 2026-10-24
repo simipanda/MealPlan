@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
+  --color-cream: #f7f1e8;
+  --color-cream-dark: #ebe2d4;
+  --color-ink: #1c241f;
+  --color-ink-muted: #5c6b63;
+  --color-forest: #2f5d50;
+  --color-forest-deep: #23463c;
+  --color-clay: #c45c26;
+  --color-clay-soft: #e8a07a;
+  --color-leaf: #7a9e6f;
+  --color-card: #fffaf3;
+  --color-line: #d9cfc0;
+}
+
+@layer base {
+  html {
+    @apply bg-cream text-ink antialiased;
+    font-family: var(--font-body);
+  }
+
+  body {
+    @apply min-h-dvh bg-cream;
+    background-image:
+      radial-gradient(ellipse at top left, rgba(196, 92, 38, 0.08), transparent 45%),
+      radial-gradient(ellipse at bottom right, rgba(47, 93, 80, 0.1), transparent 40%);
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    @apply outline-none;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    @apply ring-2 ring-forest/40 ring-offset-2 ring-offset-cream;
+  }
+}
+
+@keyframes spin-dice {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  40% {
+    transform: rotate(180deg) scale(1.08);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes card-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-spin-dice {
+  animation: spin-dice 0.7s ease-in-out;
+}
+
+.animate-card-reveal {
+  animation: card-reveal 0.45s ease-out;
+}

@@ -1,0 +1,611 @@
+[
+  {
+    "id": "beef-ale-stew",
+    "title": "Beef & Ale Stew",
+    "basePortions": 6,
+    "caloriesPerPortion": 520,
+    "cookTag": "cook1",
+    "protein": "red",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "ingredients": [
+      {
+        "name": "Stewing beef",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 2,
+        "unit": "each"
+      },
+      {
+        "name": "Carrots",
+        "qty": 3,
+        "unit": "each"
+      },
+      {
+        "name": "Ale",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Beef stock",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Thyme",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Brown the beef in batches, then set aside.",
+      "Soft-fry onion and carrots, return beef, add ale, stock and thyme.",
+      "Simmer covered 2 hours until tender. Season to taste."
+    ],
+    "totalMinutes": 150,
+    "cuisine": "british"
+  },
+  {
+    "id": "chicken-lemon-tray",
+    "title": "Lemon Herb Chicken Traybake",
+    "basePortions": 4,
+    "caloriesPerPortion": 410,
+    "cookTag": "cook2",
+    "protein": "white",
+    "indulgence": "light",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Chicken thighs",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "New potatoes",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon",
+        "qty": 2,
+        "unit": "each"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Oregano",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "method": [
+      "Heat oven to 200°C. Toss potatoes with oil, garlic and oregano.",
+      "Nestle chicken on top, squeeze over lemon, roast 40–45 minutes."
+    ],
+    "totalMinutes": 55,
+    "cuisine": "greek"
+  },
+  {
+    "id": "mac-three-cheese",
+    "title": "Three-Cheese Macaroni",
+    "basePortions": 4,
+    "caloriesPerPortion": 680,
+    "cookTag": "either",
+    "protein": "veg",
+    "indulgence": "rich",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Macaroni",
+        "qty": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Cheddar",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Milk",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Butter",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Flour",
+        "qty": 40,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Cook pasta until al dente.",
+      "Make a roux with butter and flour, whisk in milk, melt in cheeses.",
+      "Combine, bake 20 minutes until bubbling."
+    ],
+    "totalMinutes": 45,
+    "cuisine": "american"
+  },
+  {
+    "id": "salmon-miso",
+    "title": "Miso Glazed Salmon",
+    "basePortions": 4,
+    "caloriesPerPortion": 390,
+    "cookTag": "cook2",
+    "protein": "fish",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "ingredients": [
+      {
+        "name": "Salmon fillets",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "name": "White miso",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Broccoli",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Mix miso, honey and soy. Brush over salmon.",
+      "Roast salmon 12–14 minutes at 200°C; steam broccoli; serve with rice."
+    ],
+    "totalMinutes": 25,
+    "cuisine": "japanese"
+  },
+  {
+    "id": "turkey-chilli",
+    "title": "Turkey Chilli",
+    "basePortions": 6,
+    "caloriesPerPortion": 430,
+    "cookTag": "cook1",
+    "protein": "white",
+    "indulgence": "light",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Turkey mince",
+        "qty": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "qty": 2,
+        "unit": "tin"
+      },
+      {
+        "name": "Kidney beans",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Chilli powder",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Pepper",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Brown turkey with onion.",
+      "Add spices, tomatoes and beans; simmer 30 minutes.",
+      "Season and serve with rice or jackets."
+    ],
+    "totalMinutes": 50,
+    "cuisine": "mexican"
+  },
+  {
+    "id": "lamb-tagine",
+    "title": "Lamb & Apricot Tagine",
+    "basePortions": 6,
+    "caloriesPerPortion": 560,
+    "cookTag": "cook1",
+    "protein": "lamb",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "ingredients": [
+      {
+        "name": "Lamb shoulder",
+        "qty": 900,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 2,
+        "unit": "each"
+      },
+      {
+        "name": "Dried apricots",
+        "qty": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Chickpeas",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Cinnamon",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cumin",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Stock",
+        "qty": 500,
+        "unit": "ml"
+      }
+    ],
+    "method": [
+      "Brown lamb and onions.",
+      "Add spices, apricots, chickpeas and stock; simmer 1.5–2 hours.",
+      "Serve with couscous."
+    ],
+    "totalMinutes": 140,
+    "cuisine": "middleEastern"
+  },
+  {
+    "id": "veggie-dahl",
+    "title": "Coconut Lentil Dahl",
+    "basePortions": 4,
+    "caloriesPerPortion": 380,
+    "cookTag": "either",
+    "protein": "veg",
+    "indulgence": "light",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Red lentils",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Onion",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Turmeric",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Spinach",
+        "qty": 150,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Soft-fry onion and garlic with spices.",
+      "Add lentils, coconut milk and water; simmer until soft.",
+      "Stir through spinach and season."
+    ],
+    "totalMinutes": 40,
+    "cuisine": "indian"
+  },
+  {
+    "id": "loaded-nachos",
+    "title": "Loaded Nachos Bake",
+    "basePortions": 4,
+    "caloriesPerPortion": 710,
+    "cookTag": "cook2",
+    "protein": "veg",
+    "indulgence": "rich",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Tortilla chips",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Cheddar",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Black beans",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Salsa",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Sour cream",
+        "qty": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Jalapeños",
+        "qty": 1,
+        "unit": "pinch"
+      }
+    ],
+    "method": [
+      "Layer chips, beans, salsa and cheese in a tray.",
+      "Bake 15 minutes at 200°C; finish with sour cream and jalapeños."
+    ],
+    "totalMinutes": 20,
+    "cuisine": "mexican"
+  },
+  {
+    "id": "cod-parcels",
+    "title": "Cod & Veg Parcels",
+    "basePortions": 4,
+    "caloriesPerPortion": 320,
+    "cookTag": "either",
+    "protein": "fish",
+    "indulgence": "light",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Cod fillets",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Courgette",
+        "qty": 2,
+        "unit": "each"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 20,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemon",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Parsley",
+        "qty": 1,
+        "unit": "pinch"
+      }
+    ],
+    "method": [
+      "Parcel fish with veg, oil and lemon.",
+      "Bake 18–20 minutes at 190°C. Scatter parsley."
+    ],
+    "totalMinutes": 30,
+    "cuisine": "british"
+  },
+  {
+    "id": "pork-stirfry",
+    "title": "Ginger Pork Stir-Fry",
+    "basePortions": 4,
+    "caloriesPerPortion": 450,
+    "cookTag": "cook2",
+    "protein": "pork",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "ingredients": [
+      {
+        "name": "Pork strips",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed stir-fry veg",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "Noodles",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Flash-fry pork, set aside.",
+      "Stir-fry veg with ginger and garlic, return pork with soy.",
+      "Serve over noodles."
+    ],
+    "totalMinutes": 25,
+    "cuisine": "chinese"
+  },
+  {
+    "id": "mushroom-risotto",
+    "title": "Creamy Mushroom Risotto",
+    "basePortions": 4,
+    "caloriesPerPortion": 540,
+    "cookTag": "cook1",
+    "protein": "veg",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "ingredients": [
+      {
+        "name": "Arborio rice",
+        "qty": 320,
+        "unit": "g"
+      },
+      {
+        "name": "Mixed mushrooms",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan",
+        "qty": 60,
+        "unit": "g"
+      },
+      {
+        "name": "White wine",
+        "qty": 125,
+        "unit": "ml"
+      },
+      {
+        "name": "Vegetable stock",
+        "qty": 900,
+        "unit": "ml"
+      },
+      {
+        "name": "Butter",
+        "qty": 30,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Sauté mushrooms; toast rice; add wine.",
+      "Ladle in hot stock until creamy.",
+      "Finish with butter and Parmesan."
+    ],
+    "totalMinutes": 45,
+    "cuisine": "italian"
+  },
+  {
+    "id": "chickpea-curry",
+    "title": "Quick Chickpea Curry",
+    "basePortions": 4,
+    "caloriesPerPortion": 360,
+    "cookTag": "either",
+    "protein": "veg",
+    "indulgence": "light",
+    "kidFriendly": true,
+    "ingredients": [
+      {
+        "name": "Chickpeas",
+        "qty": 2,
+        "unit": "tin"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Onion",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Curry paste",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Spinach",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Fry onion and curry paste.",
+      "Add chickpeas, tomatoes and coconut milk; simmer 15 minutes.",
+      "Wilt in spinach and serve with rice."
+    ],
+    "totalMinutes": 25,
+    "cuisine": "indian"
+  }
+]
