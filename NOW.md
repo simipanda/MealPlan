@@ -6,24 +6,19 @@ Ship a usable MealPlan PWA on GitHub Pages for Sim & Adam’s Sunday dinner shop
 
 ## Done
 
-- Vite + React + TS + Tailwind + PWA manifest/icons + GH Pages workflow
-- Domain docs (`CONTEXT.md`), demo `recipes.json` (12 recipes)
-- Unit conversion, portion scaling, shop merge, randomiser rules + tests
-- Screens: Plan, Recipes + tags, Cook mode, Shop, Settings
-- Variable meals/week + once-per-week protein categories
-- Recipe `totalMinutes` (Easy/Medium/Hard), thumbnails + placeholders, Recipes filters
-- Cuisine tag (16 styles) on recipes — filter, search, list/detail chips
+- App features (plan, recipes, shop, cook, settings, filters, red-meat warning)
+- Repo live: https://github.com/simipanda/MealPlan
+- GitHub Pages deployed: https://simipanda.github.io/MealPlan/
 
 ## Next
 
-- Push repo and enable GitHub Pages (Actions)
-- Admin: add real photos under `public/images/recipes/` and set `image` in JSON
-- Desktop smoke on Pages URL, then Samsung Add to Home screen
+- Phone smoke test + Add to Home screen
+- Admin: real recipes + photos under `public/images/recipes/`
 
-## Verify
+## Verify (phone)
 
-1. `npm test` and `npm run build`
-2. Recipes: cuisine filter + search “indian” / “thai”; other filters still work
-3. Pick recipe from Plan — filters still show crossed-out blocked items
-4. Recipe detail shows cuisine + cook time
-5. Settings once/week + meal templates still work
+1. Open https://simipanda.github.io/MealPlan/
+2. Randomise → lock a meal → randomise again
+3. Change portions; check week strip cook/reheat
+4. Shop ticks; Cook mode units
+5. Chrome menu → Add to Home screen / Install

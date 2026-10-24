@@ -9,7 +9,7 @@ export const DEFAULT_HOUSEHOLD: Household = {
   weekStartDay: 0,
   noRepeatWeeks: 6,
   peoplePerMeal: 2,
-  oncePerWeekProteins: ['red', 'lamb', 'pork'],
+  oncePerWeekProteins: ['red', 'lamb', 'pork', 'fish', 'veg'],
   mealTemplates: [
     {
       id: 'meal-sim',

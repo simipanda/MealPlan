@@ -36,6 +36,24 @@ function writeJson(key: string, value: unknown): void {
   localStorage.setItem(key, JSON.stringify(value))
 }
 
+const LEGACY_ONCE_PER_WEEK: Protein[] = ['red', 'lamb', 'pork']
+
+function sameProteins(a: Protein[], b: Protein[]): boolean {
+  if (a.length !== b.length) return false
+  const set = new Set(a)
+  return b.every((p) => set.has(p))
+}
+
+/** Old starter was beef/lamb/pork only. Move that exact set to the new default. */
+function migrateOncePerWeek(
+  stored: Protein[] | undefined,
+  fallback: Protein[],
+): Protein[] {
+  if (!stored?.length) return [...fallback]
+  if (sameProteins(stored, LEGACY_ONCE_PER_WEEK)) return [...fallback]
+  return [...stored]
+}
+
 /** Migrate older household shapes (cook-level schedule → mealTemplates). */
 export function normalizeHousehold(raw: Partial<Household> | null): Household {
   const base = structuredClone(DEFAULT_HOUSEHOLD)
@@ -71,8 +89,10 @@ export function normalizeHousehold(raw: Partial<Household> | null): Household {
     }))
   }
 
-  const oncePerWeekProteins: Protein[] =
-    raw.oncePerWeekProteins ?? base.oncePerWeekProteins
+  const oncePerWeekProteins = migrateOncePerWeek(
+    raw.oncePerWeekProteins,
+    base.oncePerWeekProteins,
+  )
 
   return {
     cooks,

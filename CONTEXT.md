@@ -26,4 +26,4 @@ Coverage evenings cannot overlap between meals. Changing portions updates that m
 - Recipe detail and cook/shop views scale ingredients to this week’s meal-slot portions when the recipe is on the plan.
 
 - Randomise never silently reuses a recipe blocked by history or health rules.
-- Once-per-week is per protein type (beef once, pork once, …). Beef + pork in the same week is allowed; the Plan shows a soft red-meat warning when both appear.
+- Once-per-week is per protein type. Default ticks everything except poultry (chicken and turkey share that category and may repeat). Beef + pork in the same week is allowed; the Plan shows a soft red-meat warning when both appear.

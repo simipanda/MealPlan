@@ -13,7 +13,7 @@ const ICON_FILE: Record<Protein, string> = {
 
 /** Badge chip + icon tint colours */
 const COLOURS: Record<Protein, string> = {
-  white: 'bg-[#eab308]/18 text-[#ca8a04] ring-[#eab308]/40', // chicken — yellow
+  white: 'bg-[#eab308]/18 text-[#ca8a04] ring-[#eab308]/40', // poultry — yellow
   red: 'bg-[#7f1d1d]/15 text-[#7f1d1d] ring-[#7f1d1d]/30', // beef — dark red
   lamb: 'bg-[#dc2626]/12 text-[#b91c1c] ring-[#dc2626]/30', // lamb — brighter red
   fish: 'bg-[#2563eb]/12 text-[#1d4ed8] ring-[#2563eb]/30', // seafood — blue

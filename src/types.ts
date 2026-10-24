@@ -4,7 +4,7 @@ export type CookId = 'cook1' | 'cook2'
 
 export type CookTag = CookId | 'either'
 
-/** red = beef */
+/** red = beef, white = poultry (chicken, turkey, …) */
 export type Protein = 'red' | 'lamb' | 'white' | 'pork' | 'fish' | 'veg'
 
 export type Indulgence = 'light' | 'rich'

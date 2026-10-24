@@ -178,9 +178,9 @@ export function SettingsPage() {
       <section className="rounded-2xl border border-line bg-card p-4">
         <h2 className="mb-1 font-display text-lg">Once per week</h2>
         <p className="mb-3 text-xs text-ink-muted">
-          Each ticked category may appear at most once per week (beef once, pork
-          once, fish once, …). Chicken/veg can stay unticked if repeats are fine.
-          The Plan shows a soft warning if you end up with more than one red meat.
+          Each ticked category may appear at most once per week. Poultry
+          (chicken, turkey) can repeat. The Plan shows a soft warning if you
+          end up with more than one red meat.
         </p>
         <div className="flex flex-wrap gap-2">
           {ALL_PROTEINS.map((protein) => {

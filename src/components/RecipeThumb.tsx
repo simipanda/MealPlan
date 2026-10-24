@@ -16,10 +16,12 @@ const SIZE_CLASS = {
   lg: 'aspect-[4/3] w-full',
 } as const
 
-function resolveImageUrl(image: string): string {
-  if (/^https?:\/\//i.test(image) || image.startsWith('data:')) return image
+function resolveImageUrl(image: string): string | null {
+  if (/^https:\/\//i.test(image)) return image
+  if (image.startsWith('data:image/')) return image
+  if (/^https?:\/\//i.test(image)) return null
   const base = import.meta.env.BASE_URL.replace(/\/?$/, '/')
-  const path = image.replace(/^\//, '')
+  const path = image.replace(/^\//, '').replace(/\.\./g, '')
   return `${base}${path}`
 }
 
@@ -32,7 +34,8 @@ export function RecipeThumb({
 }: Props) {
   const [failed, setFailed] = useState(false)
   const colour = PROTEIN_PLACEHOLDER[protein]
-  const showImage = Boolean(image) && !failed
+  const src = image ? resolveImageUrl(image) : null
+  const showImage = Boolean(src) && !failed
 
   return (
     <div
@@ -45,7 +48,7 @@ export function RecipeThumb({
     >
       {showImage ? (
         <img
-          src={resolveImageUrl(image!)}
+          src={src!}
           alt=""
           className="h-full w-full object-cover"
           loading="lazy"

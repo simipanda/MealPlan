@@ -3,7 +3,7 @@ import type { Protein } from '../types'
 export const PROTEIN_LABELS: Record<Protein, string> = {
   red: 'Beef',
   lamb: 'Lamb',
-  white: 'Chicken',
+  white: 'Poultry',
   pork: 'Pork',
   fish: 'Seafood',
   veg: 'Vegetarian',
