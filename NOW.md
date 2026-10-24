@@ -2,23 +2,24 @@
 
 ## Goal
 
-Ship a usable MealPlan PWA on GitHub Pages for Sim & Adam’s Sunday dinner shop.
+Usable MealPlan PWA on GitHub Pages for Sim & Adam’s dinner shop. Shipped.
 
 ## Done
 
-- App features (plan, recipes, shop, cook, settings, filters, red-meat warning)
-- Repo live: https://github.com/simipanda/MealPlan
-- GitHub Pages deployed: https://simipanda.github.io/MealPlan/
+- Plan, recipes, shop, cook, settings, filters, portions ↔ week strip, red-meat warning
+- Scroll always starts at the top of a screen
+- Once-per-week default: all proteins except poultry (chicken and turkey share poultry)
+- Repo: https://github.com/simipanda/MealPlan
+- Live: https://simipanda.github.io/MealPlan/
+- Phone check (Sim + partner) passed
 
 ## Next
 
-- Phone smoke test + Add to Home screen
-- Admin: real recipes + photos under `public/images/recipes/`
+- Add real dishes in `public/recipes.json` (cuisine, `totalMinutes`, protein, tags)
+- Optional photos in `public/images/recipes/` plus `"image"` on each recipe, then push `main` to redeploy
 
-## Verify (phone)
+## Verify
 
-1. Open https://simipanda.github.io/MealPlan/
-2. Randomise → lock a meal → randomise again
-3. Change portions; check week strip cook/reheat
-4. Shop ticks; Cook mode units
-5. Chrome menu → Add to Home screen / Install
+1. Open https://simipanda.github.io/MealPlan/ (reopen the installed app after a deploy)
+2. Randomise, lock, portions vs week strip, shop, cook units
+3. Settings → Once per week: poultry unticked, the rest ticked
