@@ -1,611 +1,409 @@
 [
   {
-    "id": "beef-ale-stew",
-    "title": "Beef & Ale Stew",
-    "basePortions": 6,
-    "caloriesPerPortion": 520,
-    "cookTag": "cook1",
-    "protein": "red",
+    "id": "chicken-tagine",
+    "title": "Chicken tagine",
+    "basePortions": 4,
+    "totalMinutes": 60,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "african",
     "indulgence": "light",
     "kidFriendly": false,
-    "ingredients": [
-      {
-        "name": "Stewing beef",
-        "qty": 900,
-        "unit": "g"
-      },
-      {
-        "name": "Onion",
-        "qty": 2,
-        "unit": "each"
-      },
-      {
-        "name": "Carrots",
-        "qty": 3,
-        "unit": "each"
-      },
-      {
-        "name": "Ale",
-        "qty": 500,
-        "unit": "ml"
-      },
-      {
-        "name": "Beef stock",
-        "qty": 400,
-        "unit": "ml"
-      },
-      {
-        "name": "Thyme",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "name": "Salt",
-        "qty": null,
-        "unit": "toTaste"
-      }
-    ],
+    "sourceUrl": "https://www.recipetineats.com/chicken-tagine/#recipe",
+    "householdNotes": "Added couscous as the carb. Added 2 tins of tomatoes for flavour.",
+    "ingredients": [],
     "method": [
-      "Brown the beef in batches, then set aside.",
-      "Soft-fry onion and carrots, return beef, add ale, stock and thyme.",
-      "Simmer covered 2 hours until tender. Season to taste."
-    ],
-    "totalMinutes": 150,
-    "cuisine": "british"
+      "Follow the original recipe for the method and amounts.",
+      "Serve with couscous and include the extra tinned tomatoes."
+    ]
   },
   {
-    "id": "chicken-lemon-tray",
-    "title": "Lemon Herb Chicken Traybake",
+    "id": "tuscan-chicken",
+    "title": "Tuscan chicken",
     "basePortions": 4,
-    "caloriesPerPortion": 410,
-    "cookTag": "cook2",
-    "protein": "white",
-    "indulgence": "light",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Chicken thighs",
-        "qty": 800,
-        "unit": "g"
-      },
-      {
-        "name": "New potatoes",
-        "qty": 600,
-        "unit": "g"
-      },
-      {
-        "name": "Lemon",
-        "qty": 2,
-        "unit": "each"
-      },
-      {
-        "name": "Olive oil",
-        "qty": 30,
-        "unit": "ml"
-      },
-      {
-        "name": "Garlic",
-        "qty": 3,
-        "unit": "clove"
-      },
-      {
-        "name": "Oregano",
-        "qty": 1,
-        "unit": "tsp"
-      }
-    ],
-    "method": [
-      "Heat oven to 200°C. Toss potatoes with oil, garlic and oregano.",
-      "Nestle chicken on top, squeeze over lemon, roast 40–45 minutes."
-    ],
-    "totalMinutes": 55,
-    "cuisine": "greek"
-  },
-  {
-    "id": "mac-three-cheese",
-    "title": "Three-Cheese Macaroni",
-    "basePortions": 4,
-    "caloriesPerPortion": 680,
-    "cookTag": "either",
-    "protein": "veg",
-    "indulgence": "rich",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Macaroni",
-        "qty": 350,
-        "unit": "g"
-      },
-      {
-        "name": "Cheddar",
-        "qty": 200,
-        "unit": "g"
-      },
-      {
-        "name": "Mozzarella",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "name": "Parmesan",
-        "qty": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Milk",
-        "qty": 500,
-        "unit": "ml"
-      },
-      {
-        "name": "Butter",
-        "qty": 40,
-        "unit": "g"
-      },
-      {
-        "name": "Flour",
-        "qty": 40,
-        "unit": "g"
-      }
-    ],
-    "method": [
-      "Cook pasta until al dente.",
-      "Make a roux with butter and flour, whisk in milk, melt in cheeses.",
-      "Combine, bake 20 minutes until bubbling."
-    ],
     "totalMinutes": 45,
-    "cuisine": "american"
-  },
-  {
-    "id": "salmon-miso",
-    "title": "Miso Glazed Salmon",
-    "basePortions": 4,
-    "caloriesPerPortion": 390,
-    "cookTag": "cook2",
-    "protein": "fish",
-    "indulgence": "light",
-    "kidFriendly": false,
-    "ingredients": [
-      {
-        "name": "Salmon fillets",
-        "qty": 600,
-        "unit": "g"
-      },
-      {
-        "name": "White miso",
-        "qty": 2,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Honey",
-        "qty": 1,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Soy sauce",
-        "qty": 1,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Broccoli",
-        "qty": 400,
-        "unit": "g"
-      },
-      {
-        "name": "Rice",
-        "qty": 300,
-        "unit": "g"
-      }
-    ],
-    "method": [
-      "Mix miso, honey and soy. Brush over salmon.",
-      "Roast salmon 12–14 minutes at 200°C; steam broccoli; serve with rice."
-    ],
-    "totalMinutes": 25,
-    "cuisine": "japanese"
-  },
-  {
-    "id": "turkey-chilli",
-    "title": "Turkey Chilli",
-    "basePortions": 6,
-    "caloriesPerPortion": 430,
-    "cookTag": "cook1",
-    "protein": "white",
-    "indulgence": "light",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Turkey mince",
-        "qty": 750,
-        "unit": "g"
-      },
-      {
-        "name": "Onion",
-        "qty": 1,
-        "unit": "each"
-      },
-      {
-        "name": "Chopped tomatoes",
-        "qty": 2,
-        "unit": "tin"
-      },
-      {
-        "name": "Kidney beans",
-        "qty": 1,
-        "unit": "tin"
-      },
-      {
-        "name": "Chilli powder",
-        "qty": 2,
-        "unit": "tsp"
-      },
-      {
-        "name": "Cumin",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "name": "Pepper",
-        "qty": null,
-        "unit": "toTaste"
-      }
-    ],
-    "method": [
-      "Brown turkey with onion.",
-      "Add spices, tomatoes and beans; simmer 30 minutes.",
-      "Season and serve with rice or jackets."
-    ],
-    "totalMinutes": 50,
-    "cuisine": "mexican"
-  },
-  {
-    "id": "lamb-tagine",
-    "title": "Lamb & Apricot Tagine",
-    "basePortions": 6,
-    "caloriesPerPortion": 560,
-    "cookTag": "cook1",
-    "protein": "lamb",
-    "indulgence": "light",
-    "kidFriendly": false,
-    "ingredients": [
-      {
-        "name": "Lamb shoulder",
-        "qty": 900,
-        "unit": "g"
-      },
-      {
-        "name": "Onion",
-        "qty": 2,
-        "unit": "each"
-      },
-      {
-        "name": "Dried apricots",
-        "qty": 120,
-        "unit": "g"
-      },
-      {
-        "name": "Chickpeas",
-        "qty": 1,
-        "unit": "tin"
-      },
-      {
-        "name": "Cinnamon",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "name": "Cumin",
-        "qty": 2,
-        "unit": "tsp"
-      },
-      {
-        "name": "Stock",
-        "qty": 500,
-        "unit": "ml"
-      }
-    ],
-    "method": [
-      "Brown lamb and onions.",
-      "Add spices, apricots, chickpeas and stock; simmer 1.5–2 hours.",
-      "Serve with couscous."
-    ],
-    "totalMinutes": 140,
-    "cuisine": "middleEastern"
-  },
-  {
-    "id": "veggie-dahl",
-    "title": "Coconut Lentil Dahl",
-    "basePortions": 4,
-    "caloriesPerPortion": 380,
     "cookTag": "either",
-    "protein": "veg",
-    "indulgence": "light",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Red lentils",
-        "qty": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Coconut milk",
-        "qty": 400,
-        "unit": "ml"
-      },
-      {
-        "name": "Onion",
-        "qty": 1,
-        "unit": "each"
-      },
-      {
-        "name": "Garlic",
-        "qty": 3,
-        "unit": "clove"
-      },
-      {
-        "name": "Turmeric",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "name": "Garam masala",
-        "qty": 2,
-        "unit": "tsp"
-      },
-      {
-        "name": "Spinach",
-        "qty": 150,
-        "unit": "g"
-      }
-    ],
+    "protein": "white",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.thekitchn.com/tuscan-chicken-recipe-23624913",
+    "householdNotes": "Added mushrooms. Doubled all the spices for extra flavour, so the sauce is very liquid.",
+    "ingredients": [],
     "method": [
-      "Soft-fry onion and garlic with spices.",
-      "Add lentils, coconut milk and water; simmer until soft.",
-      "Stir through spinach and season."
-    ],
+      "Follow the original recipe for the method and amounts.",
+      "Add the mushrooms and use double the spices."
+    ]
+  },
+  {
+    "id": "chinese-lemon-chicken",
+    "title": "Chinese lemon chicken",
+    "basePortions": 4,
     "totalMinutes": 40,
-    "cuisine": "indian"
-  },
-  {
-    "id": "loaded-nachos",
-    "title": "Loaded Nachos Bake",
-    "basePortions": 4,
-    "caloriesPerPortion": 710,
-    "cookTag": "cook2",
-    "protein": "veg",
-    "indulgence": "rich",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Tortilla chips",
-        "qty": 300,
-        "unit": "g"
-      },
-      {
-        "name": "Cheddar",
-        "qty": 250,
-        "unit": "g"
-      },
-      {
-        "name": "Black beans",
-        "qty": 1,
-        "unit": "tin"
-      },
-      {
-        "name": "Salsa",
-        "qty": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "Sour cream",
-        "qty": 150,
-        "unit": "ml"
-      },
-      {
-        "name": "Jalapeños",
-        "qty": 1,
-        "unit": "pinch"
-      }
-    ],
-    "method": [
-      "Layer chips, beans, salsa and cheese in a tray.",
-      "Bake 15 minutes at 200°C; finish with sour cream and jalapeños."
-    ],
-    "totalMinutes": 20,
-    "cuisine": "mexican"
-  },
-  {
-    "id": "cod-parcels",
-    "title": "Cod & Veg Parcels",
-    "basePortions": 4,
-    "caloriesPerPortion": 320,
     "cookTag": "either",
-    "protein": "fish",
+    "protein": "white",
+    "cuisine": "chinese",
     "indulgence": "light",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Cod fillets",
-        "qty": 500,
-        "unit": "g"
-      },
-      {
-        "name": "Courgette",
-        "qty": 2,
-        "unit": "each"
-      },
-      {
-        "name": "Cherry tomatoes",
-        "qty": 250,
-        "unit": "g"
-      },
-      {
-        "name": "Olive oil",
-        "qty": 20,
-        "unit": "ml"
-      },
-      {
-        "name": "Lemon",
-        "qty": 1,
-        "unit": "each"
-      },
-      {
-        "name": "Parsley",
-        "qty": 1,
-        "unit": "pinch"
-      }
-    ],
-    "method": [
-      "Parcel fish with veg, oil and lemon.",
-      "Bake 18–20 minutes at 190°C. Scatter parsley."
-    ],
-    "totalMinutes": 30,
-    "cuisine": "british"
+    "kidFriendly": false,
+    "sourceUrl": "https://cafedelites.com/chinese-lemon-chicken/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
   },
   {
-    "id": "pork-stirfry",
-    "title": "Ginger Pork Stir-Fry",
+    "id": "pulled-pork-wraps",
+    "title": "Pulled pork wraps",
     "basePortions": 4,
-    "caloriesPerPortion": 450,
-    "cookTag": "cook2",
+    "totalMinutes": 180,
+    "cookTag": "either",
     "protein": "pork",
-    "indulgence": "light",
-    "kidFriendly": false,
-    "ingredients": [
-      {
-        "name": "Pork strips",
-        "qty": 500,
-        "unit": "g"
-      },
-      {
-        "name": "Mixed stir-fry veg",
-        "qty": 400,
-        "unit": "g"
-      },
-      {
-        "name": "Soy sauce",
-        "qty": 3,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Fresh ginger",
-        "qty": 20,
-        "unit": "g"
-      },
-      {
-        "name": "Garlic",
-        "qty": 2,
-        "unit": "clove"
-      },
-      {
-        "name": "Noodles",
-        "qty": 300,
-        "unit": "g"
-      }
-    ],
-    "method": [
-      "Flash-fry pork, set aside.",
-      "Stir-fry veg with ginger and garlic, return pork with soy.",
-      "Serve over noodles."
-    ],
-    "totalMinutes": 25,
-    "cuisine": "chinese"
-  },
-  {
-    "id": "mushroom-risotto",
-    "title": "Creamy Mushroom Risotto",
-    "basePortions": 4,
-    "caloriesPerPortion": 540,
-    "cookTag": "cook1",
-    "protein": "veg",
+    "cuisine": "american",
     "indulgence": "rich",
     "kidFriendly": false,
-    "ingredients": [
-      {
-        "name": "Arborio rice",
-        "qty": 320,
-        "unit": "g"
-      },
-      {
-        "name": "Mixed mushrooms",
-        "qty": 400,
-        "unit": "g"
-      },
-      {
-        "name": "Parmesan",
-        "qty": 60,
-        "unit": "g"
-      },
-      {
-        "name": "White wine",
-        "qty": 125,
-        "unit": "ml"
-      },
-      {
-        "name": "Vegetable stock",
-        "qty": 900,
-        "unit": "ml"
-      },
-      {
-        "name": "Butter",
-        "qty": 30,
-        "unit": "g"
-      }
-    ],
-    "method": [
-      "Sauté mushrooms; toast rice; add wine.",
-      "Ladle in hot stock until creamy.",
-      "Finish with butter and Parmesan."
-    ],
-    "totalMinutes": 45,
-    "cuisine": "italian"
+    "sourceUrl": "https://www.agonline.co.nz/recipes/pulled-pork-wraps-country-coleslaw-inspired-roger",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
   },
   {
-    "id": "chickpea-curry",
-    "title": "Quick Chickpea Curry",
+    "id": "chicken-japchae",
+    "title": "Chicken japchae",
     "basePortions": 4,
-    "caloriesPerPortion": 360,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "korean",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://thatspicychick.com/chicken-japchae-korean-glass-noodles-stir-fry/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "thai-chicken-coconut-curry",
+    "title": "Thai chicken coconut curry",
+    "basePortions": 4,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "thai",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.averiecooks.com/thai-chicken-coconut-curry/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "south-indian-chicken-lentil-curry",
+    "title": "South Indian chicken and lentil curry",
+    "basePortions": 4,
+    "totalMinutes": 50,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.thedoctorskitchen.com/recipes/south-indian-style-monkfish-and-lentil-curry",
+    "householdNotes": "Use chicken instead of monkfish.",
+    "ingredients": [],
+    "method": [
+      "Follow the original recipe for the method and amounts.",
+      "Swap the fish for chicken."
+    ]
+  },
+  {
+    "id": "sukiyaki-curry",
+    "title": "Sukiyaki curry",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "either",
+    "protein": "red",
+    "cuisine": "japanese",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "householdNotes": "Name only so far. No source link yet. Protein is set to beef until you say otherwise.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "patang-curry",
+    "title": "Patang curry",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "thai",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "householdNotes": "Name only so far. No source link yet. If this is Penang curry, rename it next time.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "tom-yum",
+    "title": "Tom yum",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "thai",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "householdNotes": "Name only so far. No source link yet. Protein is set to poultry until you say otherwise.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "clear-mince-soup",
+    "title": "Clear soup with mince",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "either",
+    "protein": "red",
+    "cuisine": "thai",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "householdNotes": "Idea only. No source link yet. Protein is set to beef mince until you say otherwise.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "tom-jeid",
+    "title": "Tom jeid",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "either",
+    "protein": "pork",
+    "cuisine": "thai",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "householdNotes": "Clear soup with glass noodles, egg, tofu and meat. No source link yet. Protein is set to pork until you say which meat.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "tom-saab",
+    "title": "Tom saab",
+    "basePortions": 4,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "red",
+    "cuisine": "thai",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "householdNotes": "Ground beef soup. No source link yet.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "khao-soi",
+    "title": "Khao soi",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "thai",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "householdNotes": "You wrote khao san. Stored as khao soi, the northern Thai curry soup. No source link yet. Protein is set to poultry until you say otherwise.",
+    "ingredients": [],
+    "method": ["Add a source link and your own amounts before cooking from the app."]
+  },
+  {
+    "id": "chicken-bites",
+    "title": "Chicken bites",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "american",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://carlsbadcravings.com/chicken-bites/#wprm-recipe-container-72649",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "cilantro-lime-dressing",
+    "title": "Cilantro lime dressing",
+    "basePortions": 4,
+    "totalMinutes": 10,
     "cookTag": "either",
     "protein": "veg",
+    "cuisine": "mexican",
     "indulgence": "light",
-    "kidFriendly": true,
-    "ingredients": [
-      {
-        "name": "Chickpeas",
-        "qty": 2,
-        "unit": "tin"
-      },
-      {
-        "name": "Chopped tomatoes",
-        "qty": 1,
-        "unit": "tin"
-      },
-      {
-        "name": "Onion",
-        "qty": 1,
-        "unit": "each"
-      },
-      {
-        "name": "Curry paste",
-        "qty": 2,
-        "unit": "tbsp"
-      },
-      {
-        "name": "Coconut milk",
-        "qty": 200,
-        "unit": "ml"
-      },
-      {
-        "name": "Spinach",
-        "qty": 100,
-        "unit": "g"
-      }
-    ],
-    "method": [
-      "Fry onion and curry paste.",
-      "Add chickpeas, tomatoes and coconut milk; simmer 15 minutes.",
-      "Wilt in spinach and serve with rice."
-    ],
+    "kidFriendly": false,
+    "sourceUrl": "https://carlsbadcravings.com/cilantro-lime-dressing/",
+    "householdNotes": "A dressing, not a dinner. Kept in the book so it can be planned or shopped later.",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "peri-peri-chicken-rice",
+    "title": "Peri peri chicken and rice",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "african",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.tamingtwins.com/peri-peri-chicken-and-rice-one-pot/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "marry-me-chicken-orzo",
+    "title": "Marry me chicken orzo",
+    "basePortions": 4,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.tamingtwins.com/marry-me-chicken-orzo/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "slow-cooker-chicken-curry",
+    "title": "Slow cooker chicken curry",
+    "basePortions": 4,
+    "totalMinutes": 240,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://myfoodstory.com/slow-cooker-chicken-curry-recipe/#wprm-recipe-container-12321",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "chicken-shawarma",
+    "title": "Chicken shawarma",
+    "basePortions": 4,
+    "totalMinutes": 50,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "middleEastern",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "chicken-passanda",
+    "title": "Chicken passanda",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.rachelphipps.com/2020/09/better-than-takeaway-chicken-passanda-curry-recipe.html",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "chicken-biryani",
+    "title": "Chicken biryani",
+    "basePortions": 4,
+    "totalMinutes": 75,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-biryani",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "chipotle-chicken-pasta",
+    "title": "Spicy chipotle chicken pasta",
+    "basePortions": 4,
+    "totalMinutes": 35,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "mexican",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://carlsbadcravings.com/spicy-chicken-chipotle-pasta/#wprm-recipe-container-74584",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "creamy-mushroom-chicken",
+    "title": "Creamy mushroom chicken",
+    "basePortions": 4,
+    "totalMinutes": 35,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "american",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://healthyfitnessmeals.com/creamy-mushroom-chicken/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "quick-pork-ramen",
+    "title": "Quick pork ramen",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "either",
+    "protein": "pork",
+    "cuisine": "japanese",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.macheesmo.com/quick-pork-ramen-recipe/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "curried-chicken-golden-rice",
+    "title": "Curried chicken garlic golden rice",
+    "basePortions": 4,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a31280477/curried-chicken-garlic-golden-rice-recipe/",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "cowboy-pasta-salad",
+    "title": "Cowboy pasta salad",
+    "basePortions": 4,
     "totalMinutes": 25,
-    "cuisine": "indian"
+    "cookTag": "either",
+    "protein": "pork",
+    "cuisine": "american",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://carlsbadcravings.com/cowboy-pasta-salad/",
+    "householdNotes": "A pasta salad, not a hot dinner. Protein is set to pork until you say otherwise.",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
+  },
+  {
+    "id": "easiest-ramen",
+    "title": "Easiest ramen",
+    "basePortions": 4,
+    "totalMinutes": 40,
+    "cookTag": "either",
+    "protein": "pork",
+    "cuisine": "japanese",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.joshuaweissman.com/post/i-made-the-easiest-ramen-ever",
+    "householdNotes": "Highly rated in this house. Protein is set to pork until you say otherwise.",
+    "ingredients": [],
+    "method": ["Follow the original recipe for the method and amounts."]
   }
 ]

@@ -65,6 +65,10 @@ export interface Recipe {
   indulgence: Indulgence
   kidFriendly: boolean
   ingredients: Ingredient[]
+  /** Page the method and amounts come from. Opens in a new tab. */
+  sourceUrl?: string
+  /** How this household changed the original. Shown under ingredients. */
+  householdNotes?: string
 }
 
 export interface RecipeTagOverlay {

@@ -109,7 +109,8 @@ export function RecipesPage() {
           r.protein.includes(needle) ||
           r.indulgence.includes(needle) ||
           r.cuisine.toLowerCase().includes(needle) ||
-          cuisineLabel.includes(needle)
+          cuisineLabel.includes(needle) ||
+          (r.householdNotes?.toLowerCase().includes(needle) ?? false)
         if (!hit) return false
       }
       if (proteinFilter !== 'all' && r.protein !== proteinFilter) return false

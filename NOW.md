@@ -16,7 +16,9 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 
 ## Next
 
-Edit `public/recipes.json` with real dishes (cuisine, `totalMinutes`, protein — `white` means poultry). Photos are optional: file in `public/images/recipes/` plus `"image"` on the recipe, then push `main`.
+Household recipe cards are in `public/recipes.json` (titles, links, our changes). Amounts and full methods stay on the original page via the Original recipe button.
+
+Still to do when wanted: type our own ingredient amounts into the JSON so shop and portion scaling work, add photos, and confirm guessed proteins on the name-only soups. Then push `main`.
 
 No new features unless the scope changes.
 

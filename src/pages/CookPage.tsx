@@ -1,5 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
+import { HouseholdNotes } from '../components/HouseholdNotes'
 import { IngredientLine } from '../components/IngredientLine'
+import { SourceRecipeLink } from '../components/SourceRecipeLink'
 import { useApp } from '../context/AppContext'
 
 export function CookPage() {
@@ -29,7 +31,10 @@ export function CookPage() {
         <p className="text-xs font-bold uppercase tracking-[0.16em] text-clay">
           Cook mode · {cookName(slot.cookId)} · {slot.portions} portions
         </p>
-        <h1 className="font-display text-3xl text-ink">{recipe.title}</h1>
+        <div className="mt-1 flex flex-wrap items-start justify-between gap-2">
+          <h1 className="font-display text-3xl text-ink">{recipe.title}</h1>
+          <SourceRecipeLink url={recipe.sourceUrl} />
+        </div>
       </header>
 
       <div className="flex gap-2">
@@ -65,18 +70,26 @@ export function CookPage() {
 
       <section className="rounded-2xl border border-line bg-card p-4">
         <h2 className="mb-2 font-display text-xl">Ingredients</h2>
-        <ul>
-          {recipe.ingredients.map((ing) => (
-            <IngredientLine
-              key={`${ing.name}-${ing.unit}`}
-              ingredient={ing}
-              basePortions={recipe.basePortions}
-              targetPortions={slot.portions}
-              unitSystem={prefs.unitSystem}
-              large
-            />
-          ))}
-        </ul>
+        {recipe.ingredients.length === 0 ? (
+          <p className="text-sm text-ink-muted">
+            Amounts are not stored in the app yet. Open the original recipe to
+            cook, and use this week’s portion count as your scale.
+          </p>
+        ) : (
+          <ul>
+            {recipe.ingredients.map((ing) => (
+              <IngredientLine
+                key={`${ing.name}-${ing.unit}`}
+                ingredient={ing}
+                basePortions={recipe.basePortions}
+                targetPortions={slot.portions}
+                unitSystem={prefs.unitSystem}
+                large
+              />
+            ))}
+          </ul>
+        )}
+        <HouseholdNotes notes={recipe.householdNotes} />
       </section>
 
       <section className="rounded-2xl border border-line bg-card p-4">

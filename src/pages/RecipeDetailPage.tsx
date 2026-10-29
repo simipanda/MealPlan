@@ -1,9 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
+import { HouseholdNotes } from '../components/HouseholdNotes'
 import { IngredientLine } from '../components/IngredientLine'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
+import { SourceRecipeLink } from '../components/SourceRecipeLink'
 import { useApp } from '../context/AppContext'
 import { CUISINE_LABELS } from '../data/cuisines'
 import type { CookTag, Indulgence } from '../types'
@@ -88,7 +90,10 @@ export function RecipeDetailPage() {
       />
 
       <header>
-        <h1 className="font-display text-3xl text-ink">{recipe.title}</h1>
+        <div className="flex flex-wrap items-start justify-between gap-2">
+          <h1 className="font-display text-3xl text-ink">{recipe.title}</h1>
+          <SourceRecipeLink url={recipe.sourceUrl} />
+        </div>
         <p className="mt-1 text-sm text-ink-muted">
           {scaledForPlan ? (
             <>
@@ -209,17 +214,25 @@ export function RecipeDetailPage() {
             {prefs.unitSystem === 'metric' ? 'UK metric' : 'US cups'}
           </button>
         </div>
-        <ul>
-          {recipe.ingredients.map((ing) => (
-            <IngredientLine
-              key={`${ing.name}-${ing.unit}`}
-              ingredient={ing}
-              basePortions={recipe.basePortions}
-              targetPortions={targetPortions}
-              unitSystem={prefs.unitSystem}
-            />
-          ))}
-        </ul>
+        {recipe.ingredients.length === 0 ? (
+          <p className="text-sm text-ink-muted">
+            Amounts are not stored in the app yet. Use the original recipe, then
+            scale to this week’s portions.
+          </p>
+        ) : (
+          <ul>
+            {recipe.ingredients.map((ing) => (
+              <IngredientLine
+                key={`${ing.name}-${ing.unit}`}
+                ingredient={ing}
+                basePortions={recipe.basePortions}
+                targetPortions={targetPortions}
+                unitSystem={prefs.unitSystem}
+              />
+            ))}
+          </ul>
+        )}
+        <HouseholdNotes notes={recipe.householdNotes} />
       </section>
 
       <section className="rounded-2xl border border-line bg-card p-4">
