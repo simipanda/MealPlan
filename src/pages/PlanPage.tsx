@@ -175,6 +175,7 @@ export function PlanPage() {
             onPortionsChange={(n) => changePortions(slot.id, n)}
             onToggleCoverDay={(day) => toggleCoverDay(slot.id, day)}
             onCookChange={(cookId) => setSlot(slot.id, { cookId })}
+            onCarbSideChange={(carbSideId) => setSlot(slot.id, { carbSideId })}
             onRemove={() => removeMealThisWeek(slot.id)}
           />
         ))}

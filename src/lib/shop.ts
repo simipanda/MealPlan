@@ -5,6 +5,7 @@ import type {
   ShopExtra,
   ShopSauceAdd,
 } from '../types'
+import { selectedCarbSide } from './carbSides'
 import { isSauceRecipe } from './recipes'
 import { scaleQty } from './units'
 
@@ -140,6 +141,15 @@ export function buildShopLines(
     for (const ing of recipe.ingredients) {
       const scaled = scaleQty(ing.qty, recipe.basePortions, slot.portions)
       addIngredient(map, ing.name, scaled, ing.unit, mealLabel)
+    }
+
+    const side = selectedCarbSide(recipe, slot.carbSideId)
+    if (side) {
+      const sideLabel = `${mealLabel} · ${side.label}`
+      for (const ing of side.ingredients) {
+        const scaled = scaleQty(ing.qty, recipe.basePortions, slot.portions)
+        addIngredient(map, ing.name, scaled, ing.unit, sideLabel)
+      }
     }
   }
 

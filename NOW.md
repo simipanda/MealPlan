@@ -11,20 +11,21 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 - Macros; ~35g protein floor; meat + carb on every dinner
 - Indulgence light/medium/rich; cuisine variety on randomise
 - Plan thumbnails; shop merges garlic toTaste into cloves
+- Side-carb picker for meat/sauce-led dinners → shop list
 
 ## Next
 
-Push done this session. Next: user feedback only.
+Push when asked. User feedback only after that.
 
 ## Latest
 
-- Filled missing carbs on 13 dinners; Mexican tacos renamed
-- Recipe list: cook + kcal always on second row
-- Shop: toTaste garlic = buy garlic (2 cloves) and merge cooks
+- `carbSideOptions` on 18 dinners (no baked-in carb / vague “to serve”)
+- Plan + recipe detail: Side carb dropdown; selection scales into shop
+- Vague forced carbs / “or” side lines removed from those recipes
 
 ## Verify
 
-1. Plan cards show thumbs; Mexican tacos title
-2. Shop: one Garlic line with Sim · Adam when both meals use it
-3. Recipes page meta layout consistent (kcal under badges)
-4. No dinner without meat + carb; protein ≥ ~35g/portion
+1. Plan a chasseur / chimichurri / chilli — Side carb dropdown on the card
+2. Change side (e.g. couscous) → Shop shows that carb under Sim/Adam · label
+3. Recipe detail (on plan): same picker; off plan: lists the ideas
+4. Randomise still fills slots; default side is first option

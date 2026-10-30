@@ -9,6 +9,7 @@ import {
   PROTEIN_LABELS,
   RED_MEAT_PROTEINS,
 } from '../data/proteinIcons'
+import { defaultCarbSideId } from './carbSides'
 import { isMealRecipe } from './recipes'
 import type {
   CookId,
@@ -168,7 +169,13 @@ export function randomiseUnlockedSlots(
       continue
     }
 
-    next[i] = { ...slot, recipeId: result.recipeId, locked: false }
+    const picked = recipes.find((r) => r.id === result.recipeId)
+    next[i] = {
+      ...slot,
+      recipeId: result.recipeId,
+      locked: false,
+      carbSideId: defaultCarbSideId(picked),
+    }
   }
 
   return { slots: next, errors }

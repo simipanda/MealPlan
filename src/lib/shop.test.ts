@@ -119,6 +119,49 @@ describe('buildShopLines', () => {
     expect(garlicLines[0]?.fromMeals).toEqual(['Sim', 'Adam'])
   })
 
+  it('adds the selected side carb to the shop (defaults to first option)', () => {
+    const withSides: EffectiveRecipe = {
+      ...recipes[0]!,
+      id: 'chasseur',
+      ingredients: [{ name: 'Chicken', qty: 500, unit: 'g' }],
+      carbSideOptions: [
+        {
+          id: 'crusty-bread',
+          label: 'Crusty bread',
+          ingredients: [{ name: 'Crusty bread', qty: 1, unit: 'each' }],
+        },
+        {
+          id: 'couscous',
+          label: 'Couscous',
+          ingredients: [{ name: 'Couscous (dry)', qty: 280, unit: 'g' }],
+        },
+      ],
+    }
+    const defaulted = buildShopLines(
+      [{ ...slots[0]!, recipeId: 'chasseur', portions: 2 }],
+      [withSides],
+      { cook1: 'Sim', cook2: 'Adam' },
+    )
+    expect(defaulted.find((l) => l.name === 'Crusty bread')?.qty).toBe(1)
+    expect(defaulted.find((l) => l.name === 'Couscous (dry)')).toBeUndefined()
+
+    const picked = buildShopLines(
+      [
+        {
+          ...slots[0]!,
+          recipeId: 'chasseur',
+          portions: 4,
+          carbSideId: 'couscous',
+        },
+      ],
+      [withSides],
+      { cook1: 'Sim', cook2: 'Adam' },
+    )
+    // 280g for base 2 → ×2 for 4 portions
+    expect(picked.find((l) => l.name === 'Couscous (dry)')?.qty).toBe(560)
+    expect(picked.find((l) => l.name === 'Crusty bread')).toBeUndefined()
+  })
+
   it('lists toTaste-only garlic as cloves so it still appears to buy', () => {
     const onlyLoose: EffectiveRecipe[] = [
       {

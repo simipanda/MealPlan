@@ -311,7 +311,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
         { overrideCookTag: options.overrideCookTag },
       )
       if (!status.ok) return
-      setSlot(slotId, { recipeId, locked: lock })
+      setSlot(slotId, {
+        recipeId,
+        locked: lock,
+        carbSideId: recipe.carbSideOptions?.[0]?.id ?? null,
+      })
     },
     [
       setSlot,

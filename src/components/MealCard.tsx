@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { DAY_LABELS } from '../data/defaultHousehold'
 import { CUISINE_LABELS } from '../data/cuisines'
+import { CarbSidePicker } from './CarbSidePicker'
 import { CookTimeBadge } from './CookTimeBadge'
 import { IndulgenceBadge } from './IndulgenceBadge'
 import { ProteinBadge } from './ProteinBadge'
@@ -18,6 +19,7 @@ interface Props {
   onPortionsChange: (n: number) => void
   onToggleCoverDay: (day: DayIndex) => void
   onCookChange: (cookId: CookId) => void
+  onCarbSideChange: (carbSideId: string) => void
   onRemove: () => void
   cookOptions: { id: CookId; name: string }[]
 }
@@ -33,9 +35,11 @@ export function MealCard({
   onPortionsChange,
   onToggleCoverDay,
   onCookChange,
+  onCarbSideChange,
   onRemove,
   cookOptions,
 }: Props) {
+  const carbOptions = recipe?.carbSideOptions ?? []
   const covers = slot.coverDays
     .slice()
     .sort((a, b) => a - b)
@@ -130,6 +134,17 @@ export function MealCard({
         </div>
       ) : (
         <p className="mb-3 font-display text-xl text-ink-muted">No recipe yet</p>
+      )}
+
+      {carbOptions.length > 0 && (
+        <div className="mb-3">
+          <CarbSidePicker
+            options={carbOptions}
+            value={slot.carbSideId}
+            onChange={onCarbSideChange}
+            compact
+          />
+        </div>
       )}
 
       <div className="mb-3 flex items-center justify-between gap-3">

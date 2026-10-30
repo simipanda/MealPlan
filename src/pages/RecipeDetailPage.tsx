@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { CarbSidePicker } from '../components/CarbSidePicker'
 import { CookTimeBadge } from '../components/CookTimeBadge'
 import { IngredientLine } from '../components/IngredientLine'
 import { IndulgenceBadge } from '../components/IndulgenceBadge'
@@ -35,6 +36,7 @@ export function RecipeDetailPage() {
     cookName,
     household,
     weekPlan,
+    setSlot,
     shop,
     addSauceToShop,
     removeSauceFromShop,
@@ -134,6 +136,32 @@ export function RecipeDetailPage() {
         <div className="mt-3">
           <MacroPanel recipe={recipe} />
         </div>
+        {recipe.carbSideOptions && recipe.carbSideOptions.length > 0 && (
+          <div className="mt-3 rounded-2xl border border-line bg-card/80 p-3">
+            {planSlot ? (
+              <CarbSidePicker
+                options={recipe.carbSideOptions}
+                value={planSlot.carbSideId}
+                onChange={(carbSideId) => setSlot(planSlot.id, { carbSideId })}
+              />
+            ) : (
+              <>
+                <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
+                  Side carb ideas
+                </p>
+                <p className="mt-1 text-sm text-ink-muted">
+                  When this meal is on the plan, pick one — it goes on the shop
+                  list.
+                </p>
+                <ul className="mt-2 list-inside list-disc text-sm text-ink">
+                  {recipe.carbSideOptions.map((o) => (
+                    <li key={o.id}>{o.label}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </div>
+        )}
         <div className="mt-3 flex flex-wrap items-center gap-2">
           {isSauceRecipe(recipe) && (
             <span className="rounded-full bg-clay/15 px-2.5 py-1 text-xs font-semibold text-clay">

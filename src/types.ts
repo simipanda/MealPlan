@@ -57,6 +57,14 @@ export type CookTimeBand = 'easy' | 'medium' | 'hard'
  */
 export type RecipeCatalog = 'meal' | 'sauce'
 
+/** Recommended side carb when the original dish is meat/sauce-led. */
+export interface CarbSideOption {
+  id: string
+  label: string
+  /** Amounts for `basePortions` of the parent recipe. */
+  ingredients: Ingredient[]
+}
+
 export interface Recipe {
   id: string
   title: string
@@ -88,6 +96,11 @@ export interface Recipe {
   proteinOptions?: Protein[]
   /** Short labels for swap chips (e.g. white → "Turkey mince"). */
   proteinOptionLabels?: Partial<Record<Protein, string>>
+  /**
+   * When the source dish has no built-in carb, offer these side choices.
+   * Cook picks one on the plan; ingredients join the shop.
+   */
+  carbSideOptions?: CarbSideOption[]
   cuisine: Cuisine
   indulgence: Indulgence
   kidFriendly: boolean
@@ -140,6 +153,8 @@ export interface MealSlot {
   locked: boolean
   portions: number
   coverDays: DayIndex[]
+  /** Selected `carbSideOptions[].id` for this week’s meal, if the recipe offers sides. */
+  carbSideId?: string | null
 }
 
 export interface WeekPlan {

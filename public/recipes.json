@@ -209,11 +209,6 @@
         "name": "Mushrooms",
         "qty": 250,
         "unit": "g"
-      },
-      {
-        "name": "Pasta or crusty bread to serve",
-        "qty": 320,
-        "unit": "g"
       }
     ],
     "method": [
@@ -221,13 +216,71 @@
       "Sear in batches in hot olive oil until browned on both sides (chicken will finish in the sauce). Set aside.",
       "Soften onion in the pan, then add garlic, sun-dried tomatoes, Italian seasoning, and mushrooms. Cook until fragrant; wilt spinach.",
       "Stir in Parmesan, cream, and remaining salt. Simmer gently, scraping up browned bits.",
-      "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid."
+      "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 1022,
     "image": "images/recipes/tuscan-chicken.jpg",
     "proteinPerPortionG": 37,
     "carbsPerPortionG": 70,
-    "fatPerPortionG": 66
+    "fatPerPortionG": 66,
+    "carbSideOptions": [
+      {
+        "id": "pasta",
+        "label": "Pasta",
+        "ingredients": [
+          {
+            "name": "Pasta",
+            "qty": 320,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "garlic-bread",
+        "label": "Garlic bread / focaccia",
+        "ingredients": [
+          {
+            "name": "Garlic bread or focaccia",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "crusty-bread",
+        "label": "Crusty bread",
+        "ingredients": [
+          {
+            "name": "Crusty bread",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 600,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chinese-lemon-chicken",
@@ -335,11 +388,6 @@
         "name": "Lemon slices",
         "qty": 5.0,
         "unit": "each"
-      },
-      {
-        "name": "Jasmine rice (dry)",
-        "qty": 280,
-        "unit": "g"
       }
     ],
     "method": [
@@ -348,13 +396,49 @@
       "Heat oil in a large wok, pan or skillet over medium-high heat on the stove top. When oil is hot (325°F | 165°C), shake off excess corn starch and fry chicken in batches in a single layer for about 5-6 minutes, turning half way during cooking, until golden and cooked through. Transfer to a plate lined with paper towel.",
       "Discard oil and wipe wok/pan over with paper towel. Heat a little oil over medium-high heat and sauté the garlic and ginger until fragrant (about 30 seconds). Add stock, soy sauce, lemon juice, sugar, honey, and a pinch of salt. Whisk and bring to a simmer until the sugar dissolves.",
       "Whisk corn starch mixture into the simmering sauce and stir until thickened. Add the fried chicken and toss until evenly coated in the sticky lemon sauce.",
-      "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture."
+      "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 818,
     "image": "images/recipes/chinese-lemon-chicken.jpg",
     "proteinPerPortionG": 43,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 42
+    "fatPerPortionG": 42,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "egg-noodles",
+        "label": "Egg noodles",
+        "ingredients": [
+          {
+            "name": "Egg noodles",
+            "qty": 320,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "quinoa",
+        "label": "Quinoa",
+        "ingredients": [
+          {
+            "name": "Quinoa (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "pulled-pork-wraps",
@@ -844,11 +928,6 @@
         "name": "Limes",
         "qty": 2.0,
         "unit": "each"
-      },
-      {
-        "name": "Basmati rice (dry)",
-        "qty": 280,
-        "unit": "g"
       }
     ],
     "method": [
@@ -857,13 +936,49 @@
       "Heat coconut oil in a heavy pan over medium-low heat. Fry star anise, cumin seeds, mustard seeds, turmeric and curry leaves 1–2 minutes. Add the paste and fry about 5 minutes until thick and fragrant.",
       "Add lentils, coconut milk and stock. Simmer gently about 20 minutes until lentils are soft.",
       "Add chicken (instead of monkfish), green beans and spinach; cook until chicken is done and beans are tender (about 8–12 minutes).",
-      "Serve with coriander and lime wedges."
+      "Serve with coriander and lime wedges.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/south-indian-chicken-lentil-curry.jpg",
     "caloriesPerPortion": 796,
     "proteinPerPortionG": 42,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 40
+    "fatPerPortionG": 40,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Basmati rice",
+        "ingredients": [
+          {
+            "name": "Basmati rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "naan",
+        "label": "Naan",
+        "ingredients": [
+          {
+            "name": "Naan",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sukiyaki-curry",
@@ -1085,24 +1200,44 @@
         "name": "Coriander, to finish",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Jasmine rice (dry)",
-        "qty": 280,
-        "unit": "g"
       }
     ],
     "method": [
       "Simmer aromatics (lemongrass, galangal, lime leaves, chilli) in stock until fragrant.",
       "Add mushrooms and protein; cook through.",
       "Season hot-sour-salty with fish sauce and lime; add chilli paste if using creamy style.",
-      "Finish with coriander. Critique note: balance sour vs spicy; don’t boil lime juice long."
+      "Finish with coriander. Critique note: balance sour vs spicy; don’t boil lime juice long.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tom-yum.jpg",
     "caloriesPerPortion": 547,
     "proteinPerPortionG": 36,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 15
+    "fatPerPortionG": 15,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "glass-noodles",
+        "label": "Glass noodles",
+        "ingredients": [
+          {
+            "name": "Glass noodles",
+            "qty": 200,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "clear-mince-soup",
@@ -1149,24 +1284,55 @@
         "name": "Spring onion / coriander",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Glass noodles",
-        "qty": 200,
-        "unit": "g"
       }
     ],
     "method": [
       "Bring stock to a simmer with garlic.",
       "Drop in mince in small clumps or pre-seasoned meatballs; poach gently.",
       "Add tofu/veg; season clear and savoury (fish sauce + white pepper).",
-      "Finish with spring onion. Critique note: keep broth clear — don’t boil hard after adding mince."
+      "Finish with spring onion. Critique note: keep broth clear — don’t boil hard after adding mince.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/clear-mince-soup.jpg",
     "caloriesPerPortion": 541,
     "proteinPerPortionG": 35,
     "carbsPerPortionG": 62,
-    "fatPerPortionG": 17
+    "fatPerPortionG": 17,
+    "carbSideOptions": [
+      {
+        "id": "glass-noodles",
+        "label": "Glass noodles",
+        "ingredients": [
+          {
+            "name": "Glass noodles",
+            "qty": 200,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "quinoa",
+        "label": "Quinoa",
+        "ingredients": [
+          {
+            "name": "Quinoa (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "tom-jeid",
@@ -1213,11 +1379,6 @@
         "name": "Optional: cabbage or Chinese greens",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Glass noodles",
-        "qty": 200,
-        "unit": "g"
       }
     ],
     "method": [
@@ -1225,13 +1386,38 @@
       "Cook meat; add tofu and greens.",
       "Add soaked glass noodles briefly so they don’t over-soften.",
       "Stir in beaten egg in a thin stream for ribbons, or poach eggs whole.",
-      "Finish with herbs. Critique note: noodles last; soup should stay clear and gentle."
+      "Finish with herbs. Critique note: noodles last; soup should stay clear and gentle.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tom-jeid.jpg",
     "caloriesPerPortion": 549,
     "proteinPerPortionG": 37,
     "carbsPerPortionG": 62,
-    "fatPerPortionG": 17
+    "fatPerPortionG": 17,
+    "carbSideOptions": [
+      {
+        "id": "glass-noodles",
+        "label": "Glass noodles",
+        "ingredients": [
+          {
+            "name": "Glass noodles",
+            "qty": 200,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "tom-saab",
@@ -1408,11 +1594,6 @@
         "name": "Chopped cilantro for garnish",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Soft flour tortillas",
-        "qty": 8,
-        "unit": "each"
       }
     ],
     "method": [
@@ -1420,13 +1601,49 @@
       "Season chicken: While the chopped chicken is still on the cutting board, pat it dry with paper towels, then toss it with the spice mix.",
       "Cook chicken: Heat 1 1/2 tablespoons olive oil in a large nonstick skillet or enameled cast iron pan over medium-high heat. Once smoking, add chicken in a single layer. Sear chicken for about 3 minutes, then flip over.  Continue to cook for an additional 2-3 minutes, or just until cooked through.",
       "Add glaze: Stir in the lime juice and honey until evenly coated. (start with 1 TBS honey if you want it less sweet),  Serve with all that yummy glaze.  Garnish with cilantro if desired.",
-      "Serve:  See post for lots of tasty serving ideas!"
+      "Serve:  See post for lots of tasty serving ideas!",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/chicken-bites.jpg",
     "caloriesPerPortion": 526,
     "proteinPerPortionG": 35,
     "carbsPerPortionG": 65,
-    "fatPerPortionG": 14
+    "fatPerPortionG": 14,
+    "carbSideOptions": [
+      {
+        "id": "tortillas",
+        "label": "Soft flour tortillas",
+        "ingredients": [
+          {
+            "name": "Soft flour tortillas",
+            "qty": 8,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "cilantro-lime-dressing",
@@ -1987,11 +2204,6 @@
         "name": "Small handful toasted almond flakes, for garnish",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Basmati rice (dry)",
-        "qty": 140,
-        "unit": "g"
       }
     ],
     "method": [
@@ -2000,13 +2212,49 @@
       "Meanwhile, peel and roughly chop the onion, garlic and ginger, and blitz to a fine paste in a mini chopper or food processor. Add the mixture to the pan and gently fry for 5 minutes until translucent and starting to brown.",
       "Add the ground coriander, tumeric and chilli powder, and fry for a further minute until aromatic.",
       "Cube the chicken thighs and stir into the pan until the pieces are well coated in the onion mixture. Stir in the yogurt, salt, water and ground almonds.",
-      "Raise the heat until the mixture is bubbling before dropping it down to low. Allow the curry to simmer, uncovered, for 15 minutes until the chicken has cooked through and the sauce has thickened."
+      "Raise the heat until the mixture is bubbling before dropping it down to low. Allow the curry to simmer, uncovered, for 15 minutes until the chicken has cooked through and the sauce has thickened.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/chicken-passanda.jpg",
     "caloriesPerPortion": 788,
     "proteinPerPortionG": 67,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 28
+    "fatPerPortionG": 28,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Basmati rice",
+        "ingredients": [
+          {
+            "name": "Basmati rice (dry)",
+            "qty": 140,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "naan",
+        "label": "Naan",
+        "ingredients": [
+          {
+            "name": "Naan",
+            "qty": 2,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 140,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chicken-biryani",
@@ -2317,11 +2565,6 @@
         "name": "Fresh chopped parsley",
         "qty": 1.0,
         "unit": "tbsp"
-      },
-      {
-        "name": "Jasmine rice (dry)",
-        "qty": 420,
-        "unit": "g"
       }
     ],
     "method": [
@@ -2329,13 +2572,60 @@
       "Heat remaining oil; brown mushrooms, then garlic until fragrant.",
       "Whisk cornstarch with 2 tbsp water. Add broth and slurry; season; bring to a bubble.",
       "Whisk in softened cream cheese until smooth and thick.",
-      "Return chicken; spoon sauce over; garnish with parsley."
+      "Return chicken; spoon sauce over; garnish with parsley.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 608,
     "image": "images/recipes/creamy-mushroom-chicken.jpg",
     "proteinPerPortionG": 40,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 20
+    "fatPerPortionG": 20,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 420,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "label": "Pasta",
+        "ingredients": [
+          {
+            "name": "Pasta",
+            "qty": 480,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 900,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "crusty-bread",
+        "label": "Crusty bread",
+        "ingredients": [
+          {
+            "name": "Crusty bread",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "quick-pork-ramen",
@@ -3008,11 +3298,6 @@
         "unit": "g"
       },
       {
-        "name": "Plain boiled long grain rice to serve",
-        "qty": null,
-        "unit": "toTaste"
-      },
-      {
         "name": "Soured cream to serve",
         "qty": null,
         "unit": "toTaste"
@@ -3034,13 +3319,60 @@
       "Drain and rinse a 410g can of red kidney beans in a sieve and stir them into the chilli pot. Bring to the boil again, and gently bubble without the lid for another 10 minutes, adding a little more water if it looks too dry.",
       "Taste a bit of the chilli and season. It will probably take a lot more seasoning than you think.",
       "Now replace the lid, turn off the heat and leave your chilli to stand for 10 minutes before serving. This is really important as it allows the flavours to mingle.",
-      "Serve with soured cream and plain boiled long grain rice."
+      "Serve with soured cream and plain boiled long grain rice.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 472,
     "image": "images/recipes/chilli-con-carne-recipe.jpg",
     "proteinPerPortionG": 35,
     "carbsPerPortionG": 40,
-    "fatPerPortionG": 19
+    "fatPerPortionG": 19,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Long grain rice",
+        "ingredients": [
+          {
+            "name": "Long grain rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "tortillas",
+        "label": "Soft flour tortillas",
+        "ingredients": [
+          {
+            "name": "Soft flour tortillas",
+            "qty": 8,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "crusty-bread",
+        "label": "Crusty bread",
+        "ingredients": [
+          {
+            "name": "Crusty bread",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "quinoa",
+        "label": "Quinoa",
+        "ingredients": [
+          {
+            "name": "Quinoa (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chicken-chorizo-jambalaya",
@@ -3355,23 +3687,65 @@
         "name": "A large handful of parsley chopped",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Rice mash or pasta, to serve",
-        "qty": null,
-        "unit": "toTaste"
       }
     ],
     "method": [
       "Heat half the oil in a frying pan and fry the chicken pieces over a medium high heat, stirring frequently. until golden brown. Season and transfer to a plate.",
       "Heat the remaining oil and lower the heat to medium. Fry the onion for 6-8 mins until softened but not golden, then stir in the garlic and paprika. Fry for a minute until fragrant, then pour in the stock, and add the Dijon and Worcestershire sauce. Tip in the seared chicken with any resting juices, and simmer for 5-6 mins until reduced slightly and the chicken is cooked through.",
-      "Over a low heat, stir in the soured cream until just combined to create a creamy sauce, and it’s just started to simmer. Scatter over the parsley and serve with rice, mash or pasta, if you like."
+      "Over a low heat, stir in the soured cream until just combined to create a creamy sauce, and it’s just started to simmer. Scatter over the parsley and serve with rice, mash or pasta, if you like.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 508,
     "image": "images/recipes/chicken-stroganoff.jpg",
     "proteinPerPortionG": 45,
     "carbsPerPortionG": 40,
-    "fatPerPortionG": 19
+    "fatPerPortionG": 19,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "label": "Pasta",
+        "ingredients": [
+          {
+            "name": "Pasta",
+            "qty": 320,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "mash",
+        "label": "Mashed potato",
+        "ingredients": [
+          {
+            "name": "Potatoes for mash",
+            "qty": 800,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 600,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "prawn-harissa-spaghetti",
@@ -3499,11 +3873,6 @@
         "name": "Chicken stock",
         "qty": 500.0,
         "unit": "ml"
-      },
-      {
-        "name": "Crusty bread",
-        "qty": 1,
-        "unit": "each"
       }
     ],
     "method": [
@@ -3514,13 +3883,60 @@
       "Stir in 2 tbsp tomato purée, let the liquid bubble and reduce for about 5 mins, then stir in 2 thyme sprigs and pour over 500ml chicken stock.",
       "Slip the chicken legs back into the pan, then cover and simmer on a low heat for about 1 hr until the chicken is very tender.",
       "Remove the chicken legs from the pan and keep warm. Rapidly boil down the sauce for 10 mins or so until it is syrupy and the flavour has concentrated.",
-      "Put the chicken legs back into the sauce and serve."
+      "Put the chicken legs back into the sauce and serve.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 530,
     "image": "images/recipes/one-pot-chicken-chasseur.jpg",
     "proteinPerPortionG": 39,
     "carbsPerPortionG": 62,
-    "fatPerPortionG": 14
+    "fatPerPortionG": 14,
+    "carbSideOptions": [
+      {
+        "id": "crusty-bread",
+        "label": "Crusty bread",
+        "ingredients": [
+          {
+            "name": "Crusty bread",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 600,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "pasta",
+        "label": "Pasta",
+        "ingredients": [
+          {
+            "name": "Pasta",
+            "qty": 320,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "sticky-chilli-beef",
@@ -3679,23 +4095,65 @@
         "name": "Small handful chopped flat-leaf parsley to serve",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Pasta or new potatoes",
-        "qty": 320,
-        "unit": "g"
       }
     ],
     "method": [
       "Heat the oil in a large non-stick frying pan. Tip in the prosciutto and fry for about 2 mins until crisp. Remove with a slotted spoon, letting any fat drain back into the pan, and set aside. Put the onion, garlic and herbs in the pan and fry for 3-4 mins.",
       "Spread the onion out in the pan, then lay the chicken breasts on top. Season with pepper and fry for 5 mins over a medium heat, turning the chicken once, until starting to brown on both sides and the onion is caramelising on the bottom of the pan. Remove the chicken and set aside on a plate. Raise the heat, give it a quick stir and, when sizzling, pour in the wine and let it bubble for 2 mins to reduce slightly.",
-      "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve."
+      "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 592,
     "image": "images/recipes/lighter-chicken-cacciatore.jpg",
     "proteinPerPortionG": 45,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 16
+    "fatPerPortionG": 16,
+    "carbSideOptions": [
+      {
+        "id": "pasta",
+        "label": "Pasta",
+        "ingredients": [
+          {
+            "name": "Pasta",
+            "qty": 320,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 600,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "garlic-bread",
+        "label": "Garlic bread / focaccia",
+        "ingredients": [
+          {
+            "name": "Garlic bread or focaccia",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chicken-madras",
@@ -3770,9 +4228,9 @@
         "unit": "toTaste"
       },
       {
-        "name": "Rice naan and mango chutney, to serve",
-        "qty": null,
-        "unit": "toTaste"
+        "name": "Mango chutney",
+        "qty": 1,
+        "unit": "each"
       }
     ],
     "method": [
@@ -3781,13 +4239,60 @@
       "Tip in ½ tsp turmeric, 1 tsp ground cumin, 1 tsp ground coriander and 1-2 tsp hot chilli powder and stir well, cook for a couple of mins to toast them a bit, then add 4 chicken breasts, cut into chunks. Stir and make sure everything is covered in the spice mix.",
       "Cook until the chicken begins to turn pale, adding a small splash of water if it sticks to the base of the pan at all.",
       "Pour in 400g can chopped tomatoes, along with a big pinch of salt, cover and cook on a low heat for 30 mins, until the chicken is tender.",
-      "Stir through small pack of coriander and serve with rice, naan and a big dollop of mango chutney."
+      "Stir through small pack of coriander and serve with rice, naan and a big dollop of mango chutney.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 481,
     "image": "images/recipes/chicken-madras.jpg",
     "proteinPerPortionG": 45,
     "carbsPerPortionG": 40,
-    "fatPerPortionG": 16
+    "fatPerPortionG": 16,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Basmati rice",
+        "ingredients": [
+          {
+            "name": "Basmati rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "naan",
+        "label": "Naan",
+        "ingredients": [
+          {
+            "name": "Naan",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "chapati",
+        "label": "Chapati",
+        "ingredients": [
+          {
+            "name": "Chapati",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "herbed-honey-mustard-chicken",
@@ -3845,24 +4350,66 @@
         "name": "¼ teaspoon freshly ground black pepper",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Baby potatoes",
-        "qty": 800,
-        "unit": "g"
       }
     ],
     "method": [
       "Preheat the oven to 350°F (177°C). Place the chicken in a baking dish and pat dry with a paper towel.",
       "In a small bowl, stir together the honey, mustard, garlic, oil, rosemary, thyme, salt, and pepper.",
       "Brush or spoon the honey mustard mixture liberally on top of the chicken.",
-      "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin."
+      "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 480,
     "image": "images/recipes/herbed-honey-mustard-chicken.jpg",
     "proteinPerPortionG": 36,
     "carbsPerPortionG": 57,
-    "fatPerPortionG": 12
+    "fatPerPortionG": 12,
+    "carbSideOptions": [
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 1200,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 560,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 560,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "crusty-bread",
+        "label": "Crusty bread",
+        "ingredients": [
+          {
+            "name": "Crusty bread",
+            "qty": 1,
+            "unit": "each"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "learn-to-make-spaghetti-carbonara",
@@ -4486,24 +5033,77 @@
         "name": "Crushed red pepper flakes, to taste",
         "qty": null,
         "unit": "toTaste"
-      },
-      {
-        "name": "Jasmine rice (dry)",
-        "qty": 420,
-        "unit": "g"
       }
     ],
     "method": [
       "Put all the chimichurri ingredients into a blender or food processor. Season with salt and black pepper. Pulse until combined, adding more olive oil, if needed, to reach desired consistency.",
       "Put the chicken thighs into a plastic zipper bag or shallow dish. Add 3/4 cup of the chimichurri sauce (reserve the remaining for serving) and toss to coat the chicken. Marinate in the refrigerator for at least 1 hour and up to overnight.",
       "Preheat the oven to 375 degrees F. While the oven heats up, heat an ovenproof skillet (preferably cast iron) over medium heat on the stovetop. Add the chicken, top side down, into the hot skillet with any marinade in the bag or dish. Cook until golden on the bottom, then flip the chicken over. Immediately put the chicken into the oven.",
-      "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce."
+      "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "caloriesPerPortion": 706,
     "image": "images/recipes/chimichurri-chicken-thighs-2.jpg",
     "proteinPerPortionG": 42,
     "carbsPerPortionG": 67,
-    "fatPerPortionG": 30
+    "fatPerPortionG": 30,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 420,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "potatoes",
+        "label": "Baby potatoes",
+        "ingredients": [
+          {
+            "name": "Baby potatoes",
+            "qty": 900,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "tortillas",
+        "label": "Soft flour tortillas",
+        "ingredients": [
+          {
+            "name": "Soft flour tortillas",
+            "qty": 12,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "quinoa",
+        "label": "Quinoa",
+        "ingredients": [
+          {
+            "name": "Quinoa (dry)",
+            "qty": 420,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 420,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "tuscan-chicken-pasta",
@@ -5427,11 +6027,6 @@
         "unit": "tbsp"
       },
       {
-        "name": "Flatbreads or pittas",
-        "qty": 4,
-        "unit": "each"
-      },
-      {
         "name": "Greek yoghurt",
         "qty": 150,
         "unit": "g"
@@ -5451,12 +6046,59 @@
       "Mix mince with grated onion, garlic, spices, herbs, salt and pepper. Shape into koftas or patties.",
       "Fry in a pan (or bake on a metal tray at 200°C for ~20 minutes) until browned and cooked through.",
       "Warm flatbreads. Stir yoghurt with grated cucumber, lemon, salt.",
-      "Stuff breads with kofta and yoghurt sauce."
+      "Stuff breads with kofta and yoghurt sauce.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/lamb-kofta.jpg",
     "proteinPerPortionG": 35,
     "carbsPerPortionG": 45,
-    "fatPerPortionG": 20
+    "fatPerPortionG": 20,
+    "carbSideOptions": [
+      {
+        "id": "flatbreads",
+        "label": "Flatbreads / pittas",
+        "ingredients": [
+          {
+            "name": "Flatbreads or pittas",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "rice",
+        "label": "Jasmine rice",
+        "ingredients": [
+          {
+            "name": "Jasmine rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "quinoa",
+        "label": "Quinoa",
+        "ingredients": [
+          {
+            "name": "Quinoa (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "chilli-garlic-prawns",
@@ -6146,16 +6788,6 @@
         "unit": "tbsp"
       },
       {
-        "name": "Basmati rice (dry)",
-        "qty": 280,
-        "unit": "g"
-      },
-      {
-        "name": "Naan or chapati",
-        "qty": 4,
-        "unit": "each"
-      },
-      {
         "name": "Natural yoghurt",
         "qty": null,
         "unit": "toTaste"
@@ -6169,12 +6801,59 @@
     "method": [
       "Cook the rice. Soft-fry onion; add diced chicken and brown.",
       "Pour in the jar sauce; simmer until chicken is cooked and sauce is hot (follow jar timing).",
-      "Warm naan. Serve curry with rice, bread, yoghurt and coriander."
+      "Warm naan. Serve curry with rice, bread, yoghurt and coriander.",
+      "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tikka-jar-chicken.jpg",
     "proteinPerPortionG": 42,
     "carbsPerPortionG": 100,
-    "fatPerPortionG": 15
+    "fatPerPortionG": 15,
+    "carbSideOptions": [
+      {
+        "id": "rice",
+        "label": "Basmati rice",
+        "ingredients": [
+          {
+            "name": "Basmati rice (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "id": "naan",
+        "label": "Naan",
+        "ingredients": [
+          {
+            "name": "Naan",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "chapati",
+        "label": "Chapati",
+        "ingredients": [
+          {
+            "name": "Chapati",
+            "qty": 4,
+            "unit": "each"
+          }
+        ]
+      },
+      {
+        "id": "couscous",
+        "label": "Couscous",
+        "ingredients": [
+          {
+            "name": "Couscous (dry)",
+            "qty": 280,
+            "unit": "g"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "korean-bbq-sachet-stir-fry",
