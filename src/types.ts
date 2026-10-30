@@ -7,7 +7,8 @@ export type CookTag = CookId | 'either'
 /** red = beef, white = poultry (chicken, turkey, …) */
 export type Protein = 'red' | 'lamb' | 'white' | 'pork' | 'fish' | 'veg'
 
-export type Indulgence = 'light' | 'rich'
+/** Per-portion heaviness; dinners usually derived from kcal bands. */
+export type Indulgence = 'light' | 'medium' | 'rich'
 
 /** Admin-set cuisine / food style for browse + filter. */
 export type Cuisine =

@@ -31,7 +31,7 @@ Published data lives in `public/recipes.json`. Photos go under `public/images/re
 | `cookTag` | `cook1` \| `cook2` \| `either` |
 | `protein` | Default: `white` \| `red` \| `pork` \| `lamb` \| `fish` \| `veg` |
 | `cuisine` | One cuisine key from the app list |
-| `indulgence` | `light` \| `rich` |
+| `indulgence` | `light` \| `medium` \| `rich` (from kcal/portion: ≤499 / 500–650 / ≥651) |
 | `kidFriendly` | boolean |
 | `ingredients` | Array of `{ name, qty, unit }` |
 | `method` | Array of step strings |

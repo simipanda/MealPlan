@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
+import { IndulgenceBadge } from '../components/IndulgenceBadge'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
 import { StarRating } from '../components/StarRating'
@@ -47,6 +48,16 @@ const BLOCK_STYLES: Record<
     card: 'border-[#7c3aed]/30 bg-[#7c3aed]/10',
     reason: 'text-[#6d28d9]',
     title: 'line-through text-[#7c3aed]/80',
+  },
+  cuisine: {
+    card: 'border-[#0e7490]/30 bg-[#0e7490]/8',
+    reason: 'text-[#0e7490]',
+    title: 'line-through text-[#0e7490]/80',
+  },
+  cuisine_family: {
+    card: 'border-[#0e7490]/30 bg-[#0e7490]/8',
+    reason: 'text-[#0e7490]',
+    title: 'line-through text-[#0e7490]/80',
   },
   wrong_cook: {
     card: 'border-[#0e7490]/30 bg-[#0e7490]/8',
@@ -212,8 +223,9 @@ export function RecipesPage() {
           {CUISINE_LABELS[recipe.cuisine]}
         </span>
         <CookTimeBadge totalMinutes={recipe.totalMinutes} showBand />
+        <IndulgenceBadge indulgence={recipe.indulgence} />
         <span>
-          {cookLabel(recipe.cookTag)} · {recipe.indulgence}
+          {cookLabel(recipe.cookTag)}
           {recipe.kidFriendly ? ' · kids' : ''}
           {recipe.caloriesPerPortion != null
             ? ` · ~${recipe.caloriesPerPortion} kcal/portion`
@@ -369,6 +381,7 @@ export function RecipesPage() {
           >
             <option value="all">All</option>
             <option value="light">Light</option>
+            <option value="medium">Medium</option>
             <option value="rich">Rich</option>
           </select>
         </label>

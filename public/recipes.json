@@ -7,7 +7,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "african",
-    "indulgence": "light",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.recipetineats.com/chicken-tagine/#recipe",
     "ingredients": [
@@ -232,7 +232,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "chinese",
-    "indulgence": "light",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://cafedelites.com/chinese-lemon-chicken/",
     "ingredients": [
@@ -354,7 +354,7 @@
     "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "american",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.agonline.co.nz/recipes/pulled-pork-wraps-country-coleslaw-inspired-roger",
     "ingredients": [
@@ -460,7 +460,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "korean",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://thatspicychick.com/chicken-japchae-korean-glass-noodles-stir-fry/",
     "ingredients": [
@@ -609,7 +609,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.averiecooks.com/thai-chicken-coconut-curry/",
     "ingredients": [
@@ -716,7 +716,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
-    "indulgence": "light",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.thedoctorskitchen.com/recipes/south-indian-style-monkfish-and-lentil-curry",
     "ingredients": [
@@ -858,7 +858,7 @@
     "cookTag": "cook1",
     "protein": "red",
     "cuisine": "japanese",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -943,7 +943,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -1280,7 +1280,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -1761,7 +1761,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "middleEastern",
-    "indulgence": "light",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/",
     "ingredients": [
@@ -1986,7 +1986,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-biryani",
     "ingredients": [
@@ -2073,7 +2073,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "mexican",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/spicy-chicken-chipotle-pasta/#wprm-recipe-container-74584",
     "ingredients": [
@@ -2234,7 +2234,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "american",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://healthyfitnessmeals.com/creamy-mushroom-chicken/",
     "ingredients": [
@@ -2310,7 +2310,7 @@
     "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "japanese",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.macheesmo.com/quick-pork-ramen-recipe/",
     "ingredients": [
@@ -2422,7 +2422,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a31280477/curried-chicken-garlic-golden-rice-recipe/",
     "ingredients": [
@@ -2672,7 +2672,7 @@
     "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "japanese",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.joshuaweissman.com/post/i-made-the-easiest-ramen-ever",
     "ingredients": [
@@ -2814,7 +2814,7 @@
     "cookTag": "cook1",
     "protein": "red",
     "cuisine": "italian",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/classic-lasagne-0",
     "image": "images/recipes/classic-lasagne.jpg",
@@ -3015,7 +3015,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "american",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-chorizo-jambalaya",
     "ingredients": [
@@ -3090,7 +3090,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "mexican",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.recipetineats.com/chicken-fajitas/",
     "ingredients": [
@@ -3267,7 +3267,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "misc",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-stroganoff",
     "ingredients": [
@@ -3346,7 +3346,7 @@
     "cookTag": "cook2",
     "protein": "fish",
     "cuisine": "italian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/prawn-harissa-spaghetti",
     "ingredients": [
@@ -3492,7 +3492,7 @@
     "totalMinutes": 35,
     "protein": "red",
     "cuisine": "chinese",
-    "indulgence": "rich",
+    "indulgence": "light",
     "caloriesPerPortion": 499,
     "ingredients": [
       {
@@ -3882,7 +3882,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "caribbean",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/jerk-chicken-rice-peas",
     "ingredients": [
@@ -4016,7 +4016,7 @@
     "cookTag": "cook2",
     "protein": "red",
     "cuisine": "italian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/meatballs-spaghetti",
     "ingredients": [
@@ -4101,7 +4101,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "american",
-    "indulgence": "light",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/cajun-chicken-one-pot",
     "ingredients": [
@@ -4180,7 +4180,7 @@
     "cookTag": "cook2",
     "protein": "red",
     "cuisine": "italian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/best-spaghetti-bolognese-recipe",
     "ingredients": [
@@ -4310,7 +4310,7 @@
     "cookTag": "cook2",
     "protein": "pork",
     "cuisine": "italian",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake",
     "ingredients": [
@@ -4388,7 +4388,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "misc",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://30seconds.com/food/tip/61580/Juicy-Skillet-Chimichurri-Chicken-Thighs-Recipe-One-Pan-Fabulous-Flavor",
     "ingredients": [
@@ -4774,7 +4774,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "mexican",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "sourceUrl": "https://www.allrecipes.com/recipe/278702/air-fryer-chimichangas/",
     "ingredients": [
@@ -4967,7 +4967,7 @@
     "cookTag": "either",
     "protein": "pork",
     "cuisine": "thai",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "proteinOptions": [
       "pork",
@@ -5066,7 +5066,7 @@
     "cookTag": "either",
     "protein": "white",
     "cuisine": "korean",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -5150,7 +5150,7 @@
     "cookTag": "either",
     "protein": "red",
     "cuisine": "korean",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "ingredients": [
       {
@@ -5318,7 +5318,7 @@
     "cookTag": "either",
     "protein": "lamb",
     "cuisine": "middleEastern",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": true,
     "ingredients": [
       {
@@ -5412,7 +5412,7 @@
     "cookTag": "either",
     "protein": "fish",
     "cuisine": "misc",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -5485,7 +5485,7 @@
     "cookTag": "either",
     "protein": "fish",
     "cuisine": "japanese",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": true,
     "ingredients": [
       {
@@ -5549,7 +5549,7 @@
     "cookTag": "either",
     "protein": "red",
     "cuisine": "indian",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "proteinOptions": [
       "red",
@@ -5656,7 +5656,7 @@
     "cookTag": "either",
     "protein": "white",
     "cuisine": "african",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -5735,7 +5735,7 @@
     "cookTag": "either",
     "protein": "fish",
     "cuisine": "spanish",
-    "indulgence": "rich",
+    "indulgence": "light",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -5803,7 +5803,7 @@
     "cookTag": "either",
     "protein": "pork",
     "cuisine": "korean",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": false,
     "proteinOptions": [
       "pork",
@@ -5895,7 +5895,7 @@
     "cookTag": "either",
     "protein": "white",
     "cuisine": "chinese",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "ingredients": [
       {
@@ -6130,7 +6130,7 @@
     "cookTag": "either",
     "protein": "red",
     "cuisine": "korean",
-    "indulgence": "rich",
+    "indulgence": "medium",
     "kidFriendly": true,
     "proteinOptions": [
       "red",

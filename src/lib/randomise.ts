@@ -1,4 +1,10 @@
 import {
+  CUISINE_LABELS,
+  cuisineFlavourFamily,
+  FLAVOUR_FAMILY_LABELS,
+  type CuisineFlavourFamily,
+} from '../data/cuisines'
+import {
   isRedMeat,
   PROTEIN_LABELS,
   RED_MEAT_PROTEINS,
@@ -7,6 +13,7 @@ import { isMealRecipe } from './recipes'
 import type {
   CookId,
   CookTag,
+  Cuisine,
   EffectiveRecipe,
   MealSlot,
   Protein,
@@ -38,6 +45,8 @@ function lockedConstraints(
   const limited = new Set(oncePerWeekProteins)
   const usedLimited = new Set<Protein>()
   let hasRich = false
+  const usedCuisines = new Set<Cuisine>()
+  const usedFlavourFamilies = new Set<CuisineFlavourFamily>()
   const usedIds = new Set<string>()
 
   slots.forEach((slot, i) => {
@@ -48,16 +57,44 @@ function lockedConstraints(
     if (!recipe) return
     if (limited.has(recipe.protein)) usedLimited.add(recipe.protein)
     if (recipe.indulgence === 'rich') hasRich = true
+    usedCuisines.add(recipe.cuisine)
+    const family = cuisineFlavourFamily(recipe.cuisine)
+    if (family) usedFlavourFamilies.add(family)
   })
 
-  return { usedLimited, hasRich, usedIds, limited }
+  return {
+    usedLimited,
+    hasRich,
+    usedCuisines,
+    usedFlavourFamilies,
+    usedIds,
+    limited,
+  }
+}
+
+function cuisineBlocked(
+  cuisine: Cuisine,
+  usedCuisines: Set<Cuisine>,
+  usedFlavourFamilies: Set<CuisineFlavourFamily>,
+): 'cuisine' | 'cuisine_family' | null {
+  if (usedCuisines.has(cuisine)) return 'cuisine'
+  const family = cuisineFlavourFamily(cuisine)
+  if (family && usedFlavourFamilies.has(family)) return 'cuisine_family'
+  return null
 }
 
 export function candidatePool(input: RandomiseInput): EffectiveRecipe[] {
   const slot = input.slots[input.slotIndex]
   if (!slot) return []
 
-  const { usedLimited, hasRich, usedIds, limited } = lockedConstraints(
+  const {
+    usedLimited,
+    hasRich,
+    usedCuisines,
+    usedFlavourFamilies,
+    usedIds,
+    limited,
+  } = lockedConstraints(
     input.slots,
     input.recipes,
     input.slotIndex,
@@ -73,6 +110,9 @@ export function candidatePool(input: RandomiseInput): EffectiveRecipe[] {
       return false
     }
     if (hasRich && recipe.indulgence === 'rich') return false
+    if (cuisineBlocked(recipe.cuisine, usedCuisines, usedFlavourFamilies)) {
+      return false
+    }
     return true
   })
 }
@@ -169,6 +209,8 @@ export type PickBlockKind =
   | 'recent_history'
   | 'protein_limit'
   | 'rich'
+  | 'cuisine'
+  | 'cuisine_family'
   | 'wrong_cook'
   | 'not_a_meal'
   | 'unavailable'
@@ -206,7 +248,14 @@ export function manualPickStatus(
     }
   }
 
-  const { usedLimited, hasRich, usedIds, limited } = lockedConstraints(
+  const {
+    usedLimited,
+    hasRich,
+    usedCuisines,
+    usedFlavourFamilies,
+    usedIds,
+    limited,
+  } = lockedConstraints(
     input.slots,
     input.recipes,
     input.slotIndex,
@@ -239,6 +288,26 @@ export function manualPickStatus(
       ok: false,
       reason: 'Rich meal already planned this week',
       kind: 'rich',
+    }
+  }
+  const cuisineHit = cuisineBlocked(
+    recipe.cuisine,
+    usedCuisines,
+    usedFlavourFamilies,
+  )
+  if (cuisineHit === 'cuisine') {
+    return {
+      ok: false,
+      reason: `${CUISINE_LABELS[recipe.cuisine]} already planned this week`,
+      kind: 'cuisine',
+    }
+  }
+  if (cuisineHit === 'cuisine_family') {
+    const family = cuisineFlavourFamily(recipe.cuisine)!
+    return {
+      ok: false,
+      reason: `${FLAVOUR_FAMILY_LABELS[family]} already planned this week — pick another flavour`,
+      kind: 'cuisine_family',
     }
   }
 

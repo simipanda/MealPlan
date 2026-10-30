@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
 import { IngredientLine } from '../components/IngredientLine'
+import { IndulgenceBadge } from '../components/IndulgenceBadge'
 import { MacroPanel } from '../components/MacroPanel'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
@@ -151,9 +152,7 @@ export function RecipeDetailPage() {
           <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold text-ink-muted">
             {cookLabel}
           </span>
-          <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold capitalize text-ink-muted">
-            {recipe.indulgence}
-          </span>
+          <IndulgenceBadge indulgence={recipe.indulgence} size="md" />
           {recipe.kidFriendly && (
             <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold text-ink-muted">
               Kid-friendly
@@ -235,8 +234,9 @@ export function RecipeDetailPage() {
                 })
               }
             >
-              <option value="light">Light / balanced</option>
-              <option value="rich">Rich / cheesy</option>
+              <option value="light">Light (~under 500 kcal)</option>
+              <option value="medium">Medium (~500–650 kcal)</option>
+              <option value="rich">Rich (~over 650 kcal)</option>
             </select>
           </label>
           <label className="flex items-center gap-2 text-sm font-semibold">

@@ -31,7 +31,7 @@ const recipes: EffectiveRecipe[] = [
     title: 'Chicken Traybake',
     basePortions: 4,
     totalMinutes: 55,
-    cuisine: 'british',
+    cuisine: 'american',
     method: [],
     cookTag: 'cook2',
     protein: 'white',
@@ -218,12 +218,12 @@ describe('candidatePool', () => {
         title: 'More Beef',
         basePortions: 4,
         totalMinutes: 60,
-        cuisine: 'british',
+        cuisine: 'mexican',
         method: [],
         cookTag: 'cook2',
         protein: 'red',
-    baseProtein: 'red',
-    rating: null,
+        baseProtein: 'red',
+        rating: null,
         indulgence: 'light',
         kidFriendly: false,
         ingredients: [],
@@ -241,6 +241,103 @@ describe('candidatePool', () => {
       input(1, [{ recipeId: 'cheesy-pasta', locked: true }, {}]),
     )
     expect(pool.every((r) => r.indulgence !== 'rich')).toBe(true)
+  })
+
+  it('excludes the same cuisine twice in a week', () => {
+    const twoBritish: EffectiveRecipe[] = [
+      ...recipes,
+      {
+        id: 'cottage-pie',
+        title: 'Cottage pie',
+        basePortions: 4,
+        totalMinutes: 60,
+        cuisine: 'british',
+        method: [],
+        cookTag: 'cook2',
+        protein: 'red',
+        baseProtein: 'red',
+        rating: null,
+        indulgence: 'medium',
+        kidFriendly: true,
+        ingredients: [],
+      },
+    ]
+    const pool = candidatePool({
+      ...input(1, [{ recipeId: 'beef-stew', locked: true }, {}], new Set(), []),
+      recipes: twoBritish,
+    })
+    expect(pool.map((r) => r.id)).not.toContain('cottage-pie')
+    expect(pool.map((r) => r.id)).toContain('chicken-tray') // american — ok
+    expect(pool.map((r) => r.id)).toContain('salmon')
+  })
+
+  it('excludes East/SE Asian flavour family when one is already planned', () => {
+    const withKorean: EffectiveRecipe[] = [
+      ...recipes,
+      {
+        id: 'bulgogi',
+        title: 'Bulgogi',
+        basePortions: 4,
+        totalMinutes: 30,
+        cuisine: 'korean',
+        method: [],
+        cookTag: 'cook1',
+        protein: 'red',
+        baseProtein: 'red',
+        rating: null,
+        indulgence: 'medium',
+        kidFriendly: false,
+        ingredients: [],
+      },
+    ]
+    // salmon is japanese on cook2; picking for cook1 should drop korean
+    const pool = candidatePool({
+      ...input(0, [{}, { recipeId: 'salmon', locked: true }], new Set(), []),
+      recipes: withKorean,
+    })
+    expect(pool.map((r) => r.id)).not.toContain('bulgogi')
+    expect(pool.map((r) => r.id)).toContain('beef-stew')
+  })
+
+  it('excludes Mediterranean family pairs (italian blocks spanish)', () => {
+    const withSpanish: EffectiveRecipe[] = [
+      ...recipes,
+      {
+        id: 'pil-pil',
+        title: 'Pil pil',
+        basePortions: 4,
+        totalMinutes: 20,
+        cuisine: 'spanish',
+        method: [],
+        cookTag: 'cook2',
+        protein: 'fish',
+        baseProtein: 'fish',
+        rating: null,
+        indulgence: 'medium',
+        kidFriendly: false,
+        ingredients: [],
+      },
+      {
+        id: 'lasagna',
+        title: 'Lasagne',
+        basePortions: 6,
+        totalMinutes: 90,
+        cuisine: 'italian',
+        method: [],
+        cookTag: 'cook1',
+        protein: 'red',
+        baseProtein: 'red',
+        rating: null,
+        indulgence: 'rich',
+        kidFriendly: true,
+        ingredients: [],
+      },
+    ]
+    const pool = candidatePool({
+      ...input(1, [{ recipeId: 'lasagna', locked: true }, {}], new Set(), []),
+      recipes: withSpanish,
+    })
+    expect(pool.map((r) => r.id)).not.toContain('pil-pil')
   })
 
   it('excludes recipes in the no-repeat history set', () => {

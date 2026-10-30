@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { DAY_LABELS } from '../data/defaultHousehold'
 import { CUISINE_LABELS } from '../data/cuisines'
 import { CookTimeBadge } from './CookTimeBadge'
+import { IndulgenceBadge } from './IndulgenceBadge'
 import { ProteinBadge } from './ProteinBadge'
 import type { CookId, DayIndex, EffectiveRecipe, MealSlot } from '../types'
 
@@ -107,9 +108,7 @@ export function MealCard({
               {CUISINE_LABELS[recipe.cuisine]}
             </span>
             <CookTimeBadge totalMinutes={recipe.totalMinutes} />
-            <span className="rounded-full bg-cream-dark px-2 py-0.5 capitalize">
-              {recipe.indulgence}
-            </span>
+            <IndulgenceBadge indulgence={recipe.indulgence} />
             {recipe.caloriesPerPortion != null && (
               <span className="rounded-full bg-cream-dark px-2 py-0.5">
                 ~{recipe.caloriesPerPortion} kcal/portion

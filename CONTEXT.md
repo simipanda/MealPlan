@@ -30,4 +30,7 @@ Coverage evenings cannot overlap between meals. Changing portions updates that m
 
 - Randomise never silently reuses a recipe blocked by history or health rules.
 - Once-per-week is per protein type. Default ticks everything except poultry (chicken and turkey share that category and may repeat). Beef + pork in the same week is allowed; the Plan shows a soft red-meat warning when both appear.
+- At most one **rich** meal per week.
+- **Cuisine variety:** each cuisine at most once per week (no Italian+Italian). Flavour families also at most once: East/SE Asian (JP/KR/CN/TH), Mediterranean (Italian/Greek/Spanish), Latin (Mexican/Caribbean).
+- **Indulgence** is light / medium / rich from per-portion kcal (~under 500 / 500–650 / over 650), shown with soft green / amber / clay chips.
 - Household taste: dinners are carnivore — real meat on every meal; tofu never as the main protein. Every dinner includes a proper carb (rice, pasta, potatoes, bread, wraps, couscous, quinoa, etc.) — meat + veg alone is not enough. ~35g protein per portion minimum. No cast-iron skillet recipes (pan / pot / slow cooker / oven tray or ceramic dish only). Thai basil is scarce in the UK — use named substitutes. Details in `docs/agents/recipes.md`.
