@@ -63,6 +63,11 @@ export interface CarbSideOption {
   label: string
   /** Amounts for `basePortions` of the parent recipe. */
   ingredients: Ingredient[]
+  /** Approx macros for **one portion** of this side alone (added to the dish). */
+  caloriesPerPortion?: number
+  proteinPerPortionG?: number
+  carbsPerPortionG?: number
+  fatPerPortionG?: number
 }
 
 export interface Recipe {

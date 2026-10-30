@@ -7,7 +7,7 @@ A mobile-first PWA for a two-cook household recipe book and weekly dinner plan.
 - **Household** — two cooks, week-start day, no-repeat window, and schedule defaults.
 - **Cook** — a named person with a default cook day, coverage days, and portion count.
 - **Recipe** — a published dish in `recipes.json`, optionally with local tag overlays. Includes cuisine, total cook minutes (prep+cook), ingredients, method, **per-portion macros** (kcal + protein/carbs/fat grams; one plate, not the whole pot), an optional source link, optional protein swaps, optional **carb side choices** (`carbSideOptions`) when the original dish has no baked-in carb, and an optional admin thumbnail under `public/images/recipes/`. How this house cooks the dish is written into ingredients and method (no separate notes field). Dinners aim for **~35g protein per portion** (~125g raw chicken breast equivalent each).
-- **Carb side** — recommended sides (rice, couscous, garlic bread, …) on meat/sauce-led dinners. The cook picks one on the plan (`MealSlot.carbSideId`); that side’s ingredients join the shop.
+- **Carb side** — recommended sides (rice, couscous, garlic bread, …) on meat/sauce-led dinners. The cook picks one on the plan (`MealSlot.carbSideId`); that side’s ingredients join the shop, and its per-portion macros are added to the dish macros for the plate kcal.
 - **Protein swap** — optional alternate meats on a recipe (e.g. pork ↔ chicken). Amounts stay the same; the active choice is stored locally and drives once-per-week protein rules and shop meat names.
 - **Star rating** — local 1–5 rating per recipe (this device only).
 - **Cuisine** — one style tag per recipe (Mexican, Italian, British, …, Misc) for browse/filter/search.

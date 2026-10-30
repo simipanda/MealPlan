@@ -13,6 +13,8 @@ import {
   COOK_TIME_LABELS,
   cookTimeBand,
 } from '../lib/cookTime'
+import { indulgenceFromCalories } from '../lib/indulgence'
+import { portionMacros } from '../lib/macros'
 import { manualPickStatus, type PickBlockKind } from '../lib/randomise'
 import { isMealRecipe, recipeCatalog } from '../lib/recipes'
 import { recentRecipeIds } from '../lib/week'
@@ -213,6 +215,11 @@ export function RecipesPage() {
   }
 
   function recipeMeta(recipe: (typeof recipes)[0]) {
+    const plate = portionMacros(recipe)
+    const plateIndulgence =
+      plate.caloriesPerPortion != null && (recipe.carbSideOptions?.length ?? 0) > 0
+        ? indulgenceFromCalories(plate.caloriesPerPortion) ?? recipe.indulgence
+        : recipe.indulgence
     return (
       <div className="mt-1.5 space-y-1">
         <div className="flex flex-wrap items-center gap-1.5">
@@ -224,13 +231,13 @@ export function RecipesPage() {
             {CUISINE_LABELS[recipe.cuisine]}
           </span>
           <CookTimeBadge totalMinutes={recipe.totalMinutes} showBand />
-          <IndulgenceBadge indulgence={recipe.indulgence} />
+          <IndulgenceBadge indulgence={plateIndulgence} />
         </div>
         <p className="text-xs text-ink-muted">
           {cookLabel(recipe.cookTag)}
           {recipe.kidFriendly ? ' · kids' : ''}
-          {recipe.caloriesPerPortion != null
-            ? ` · ~${recipe.caloriesPerPortion} kcal/portion`
+          {plate.caloriesPerPortion != null
+            ? ` · ~${plate.caloriesPerPortion} kcal/portion`
             : ''}
         </p>
       </div>

@@ -219,11 +219,11 @@
       "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 1022,
+    "caloriesPerPortion": 753,
     "image": "images/recipes/tuscan-chicken.jpg",
-    "proteinPerPortionG": 37,
-    "carbsPerPortionG": 70,
-    "fatPerPortionG": 66,
+    "proteinPerPortionG": 27,
+    "carbsPerPortionG": 15,
+    "fatPerPortionG": 65,
     "carbSideOptions": [
       {
         "id": "pasta",
@@ -234,7 +234,11 @@
             "qty": 320,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "garlic-bread",
@@ -245,7 +249,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 35,
+        "fatPerPortionG": 12
       },
       {
         "id": "crusty-bread",
@@ -256,7 +264,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 200,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 38,
+        "fatPerPortionG": 2
       },
       {
         "id": "couscous",
@@ -267,7 +279,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       },
       {
         "id": "potatoes",
@@ -278,7 +294,11 @@
             "qty": 600,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       }
     ]
   },
@@ -399,11 +419,11 @@
       "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 818,
+    "caloriesPerPortion": 569,
     "image": "images/recipes/chinese-lemon-chicken.jpg",
-    "proteinPerPortionG": 43,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 42,
+    "proteinPerPortionG": 38,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 41,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -414,7 +434,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "egg-noodles",
@@ -425,7 +449,11 @@
             "qty": 320,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 52,
+        "fatPerPortionG": 3
       },
       {
         "id": "quinoa",
@@ -436,7 +464,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 4
       }
     ]
   },
@@ -940,10 +972,10 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/south-indian-chicken-lentil-curry.jpg",
-    "caloriesPerPortion": 796,
-    "proteinPerPortionG": 42,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 40,
+    "caloriesPerPortion": 547,
+    "proteinPerPortionG": 37,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 39,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -954,7 +986,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "naan",
@@ -965,7 +1001,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 300,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 50,
+        "fatPerPortionG": 8
       },
       {
         "id": "couscous",
@@ -976,7 +1016,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -1210,10 +1254,10 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tom-yum.jpg",
-    "caloriesPerPortion": 547,
-    "proteinPerPortionG": 36,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 15,
+    "caloriesPerPortion": 298,
+    "proteinPerPortionG": 31,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 14,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -1224,7 +1268,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "glass-noodles",
@@ -1235,7 +1283,11 @@
             "qty": 200,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 180,
+        "proteinPerPortionG": 0,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 0
       }
     ]
   },
@@ -1294,9 +1346,9 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/clear-mince-soup.jpg",
-    "caloriesPerPortion": 541,
+    "caloriesPerPortion": 365,
     "proteinPerPortionG": 35,
-    "carbsPerPortionG": 62,
+    "carbsPerPortionG": 18,
     "fatPerPortionG": 17,
     "carbSideOptions": [
       {
@@ -1308,7 +1360,11 @@
             "qty": 200,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 180,
+        "proteinPerPortionG": 0,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 0
       },
       {
         "id": "rice",
@@ -1319,7 +1375,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "quinoa",
@@ -1330,7 +1390,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 4
       }
     ]
   },
@@ -1390,9 +1454,9 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tom-jeid.jpg",
-    "caloriesPerPortion": 549,
+    "caloriesPerPortion": 373,
     "proteinPerPortionG": 37,
-    "carbsPerPortionG": 62,
+    "carbsPerPortionG": 18,
     "fatPerPortionG": 17,
     "carbSideOptions": [
       {
@@ -1404,7 +1468,11 @@
             "qty": 200,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 180,
+        "proteinPerPortionG": 0,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 0
       },
       {
         "id": "rice",
@@ -1415,7 +1483,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -1605,10 +1677,10 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/chicken-bites.jpg",
-    "caloriesPerPortion": 526,
-    "proteinPerPortionG": 35,
-    "carbsPerPortionG": 65,
-    "fatPerPortionG": 14,
+    "caloriesPerPortion": 247,
+    "proteinPerPortionG": 27,
+    "carbsPerPortionG": 19,
+    "fatPerPortionG": 7,
     "carbSideOptions": [
       {
         "id": "tortillas",
@@ -1619,7 +1691,11 @@
             "qty": 8,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 46,
+        "fatPerPortionG": 7
       },
       {
         "id": "rice",
@@ -1630,7 +1706,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "couscous",
@@ -1641,7 +1721,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -2216,10 +2300,10 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/chicken-passanda.jpg",
-    "caloriesPerPortion": 788,
-    "proteinPerPortionG": 67,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 28,
+    "caloriesPerPortion": 539,
+    "proteinPerPortionG": 62,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 27,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -2230,7 +2314,11 @@
             "qty": 140,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "naan",
@@ -2241,7 +2329,11 @@
             "qty": 2,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 300,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 50,
+        "fatPerPortionG": 8
       },
       {
         "id": "couscous",
@@ -2252,7 +2344,11 @@
             "qty": 140,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -2575,11 +2671,11 @@
       "Return chicken; spoon sauce over; garnish with parsley.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 608,
+    "caloriesPerPortion": 359,
     "image": "images/recipes/creamy-mushroom-chicken.jpg",
-    "proteinPerPortionG": 40,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 20,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 19,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -2590,7 +2686,11 @@
             "qty": 420,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "pasta",
@@ -2601,7 +2701,11 @@
             "qty": 480,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "potatoes",
@@ -2612,7 +2716,11 @@
             "qty": 900,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       },
       {
         "id": "crusty-bread",
@@ -2623,7 +2731,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 200,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 38,
+        "fatPerPortionG": 2
       }
     ]
   },
@@ -3223,7 +3335,7 @@
     "cookTag": "cook2",
     "protein": "red",
     "cuisine": "mexican",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chilli-con-carne-recipe",
     "ingredients": [
@@ -3322,11 +3434,11 @@
       "Serve with soured cream and plain boiled long grain rice.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 472,
+    "caloriesPerPortion": 282,
     "image": "images/recipes/chilli-con-carne-recipe.jpg",
-    "proteinPerPortionG": 35,
-    "carbsPerPortionG": 40,
-    "fatPerPortionG": 19,
+    "proteinPerPortionG": 30,
+    "carbsPerPortionG": 0,
+    "fatPerPortionG": 18,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -3337,7 +3449,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "tortillas",
@@ -3348,7 +3464,11 @@
             "qty": 8,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 46,
+        "fatPerPortionG": 7
       },
       {
         "id": "crusty-bread",
@@ -3359,7 +3479,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 200,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 38,
+        "fatPerPortionG": 2
       },
       {
         "id": "quinoa",
@@ -3370,7 +3494,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 4
       }
     ]
   },
@@ -3695,11 +3823,11 @@
       "Over a low heat, stir in the soured cream until just combined to create a creamy sauce, and it’s just started to simmer. Scatter over the parsley and serve with rice, mash or pasta, if you like.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 508,
+    "caloriesPerPortion": 322,
     "image": "images/recipes/chicken-stroganoff.jpg",
-    "proteinPerPortionG": 45,
-    "carbsPerPortionG": 40,
-    "fatPerPortionG": 19,
+    "proteinPerPortionG": 40,
+    "carbsPerPortionG": 0,
+    "fatPerPortionG": 18,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -3710,7 +3838,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "pasta",
@@ -3721,7 +3853,11 @@
             "qty": 320,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "mash",
@@ -3732,7 +3868,11 @@
             "qty": 800,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 160,
+        "proteinPerPortionG": 4,
+        "carbsPerPortionG": 35,
+        "fatPerPortionG": 1
       },
       {
         "id": "potatoes",
@@ -3743,7 +3883,11 @@
             "qty": 600,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       }
     ]
   },
@@ -3886,11 +4030,11 @@
       "Put the chicken legs back into the sauce and serve.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 530,
+    "caloriesPerPortion": 332,
     "image": "images/recipes/one-pot-chicken-chasseur.jpg",
-    "proteinPerPortionG": 39,
-    "carbsPerPortionG": 62,
-    "fatPerPortionG": 14,
+    "proteinPerPortionG": 32,
+    "carbsPerPortionG": 24,
+    "fatPerPortionG": 12,
     "carbSideOptions": [
       {
         "id": "crusty-bread",
@@ -3901,7 +4045,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 200,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 38,
+        "fatPerPortionG": 2
       },
       {
         "id": "potatoes",
@@ -3912,7 +4060,11 @@
             "qty": 600,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       },
       {
         "id": "pasta",
@@ -3923,7 +4075,11 @@
             "qty": 320,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "couscous",
@@ -3934,7 +4090,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -4103,11 +4263,11 @@
       "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 592,
+    "caloriesPerPortion": 323,
     "image": "images/recipes/lighter-chicken-cacciatore.jpg",
-    "proteinPerPortionG": 45,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 16,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 15,
     "carbSideOptions": [
       {
         "id": "pasta",
@@ -4118,7 +4278,11 @@
             "qty": 320,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 10,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "potatoes",
@@ -4129,7 +4293,11 @@
             "qty": 600,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       },
       {
         "id": "garlic-bread",
@@ -4140,7 +4308,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 35,
+        "fatPerPortionG": 12
       },
       {
         "id": "couscous",
@@ -4151,7 +4323,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -4163,7 +4339,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "indian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-madras",
     "ingredients": [
@@ -4242,11 +4418,11 @@
       "Stir through small pack of coriander and serve with rice, naan and a big dollop of mango chutney.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 481,
+    "caloriesPerPortion": 295,
     "image": "images/recipes/chicken-madras.jpg",
-    "proteinPerPortionG": 45,
-    "carbsPerPortionG": 40,
-    "fatPerPortionG": 16,
+    "proteinPerPortionG": 40,
+    "carbsPerPortionG": 0,
+    "fatPerPortionG": 15,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -4257,7 +4433,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "naan",
@@ -4268,7 +4448,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 300,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 50,
+        "fatPerPortionG": 8
       },
       {
         "id": "chapati",
@@ -4279,7 +4463,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 150,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 28,
+        "fatPerPortionG": 3
       },
       {
         "id": "couscous",
@@ -4290,7 +4478,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -4359,10 +4551,10 @@
       "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 480,
+    "caloriesPerPortion": 368,
     "image": "images/recipes/herbed-honey-mustard-chicken.jpg",
-    "proteinPerPortionG": 36,
-    "carbsPerPortionG": 57,
+    "proteinPerPortionG": 33,
+    "carbsPerPortionG": 32,
     "fatPerPortionG": 12,
     "carbSideOptions": [
       {
@@ -4374,7 +4566,11 @@
             "qty": 1200,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       },
       {
         "id": "rice",
@@ -4385,7 +4581,11 @@
             "qty": 560,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "couscous",
@@ -4396,7 +4596,11 @@
             "qty": 560,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       },
       {
         "id": "crusty-bread",
@@ -4407,7 +4611,11 @@
             "qty": 1,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 200,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 38,
+        "fatPerPortionG": 2
       }
     ]
   },
@@ -5042,11 +5250,11 @@
       "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce.",
       "Serve with your chosen side carb from the plan picker."
     ],
-    "caloriesPerPortion": 706,
+    "caloriesPerPortion": 457,
     "image": "images/recipes/chimichurri-chicken-thighs-2.jpg",
-    "proteinPerPortionG": 42,
-    "carbsPerPortionG": 67,
-    "fatPerPortionG": 30,
+    "proteinPerPortionG": 37,
+    "carbsPerPortionG": 12,
+    "fatPerPortionG": 29,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -5057,7 +5265,11 @@
             "qty": 420,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "potatoes",
@@ -5068,7 +5280,11 @@
             "qty": 900,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 110,
+        "proteinPerPortionG": 3,
+        "carbsPerPortionG": 25,
+        "fatPerPortionG": 0
       },
       {
         "id": "tortillas",
@@ -5079,7 +5295,11 @@
             "qty": 12,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 280,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 46,
+        "fatPerPortionG": 7
       },
       {
         "id": "quinoa",
@@ -5090,7 +5310,11 @@
             "qty": 420,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 4
       },
       {
         "id": "couscous",
@@ -5101,7 +5325,11 @@
             "qty": 420,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },
@@ -5968,7 +6196,7 @@
     "id": "lamb-kofta",
     "title": "Lamb kofta",
     "basePortions": 4,
-    "caloriesPerPortion": 498,
+    "caloriesPerPortion": 276,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "lamb",
@@ -6050,9 +6278,9 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/lamb-kofta.jpg",
-    "proteinPerPortionG": 35,
-    "carbsPerPortionG": 45,
-    "fatPerPortionG": 20,
+    "proteinPerPortionG": 28,
+    "carbsPerPortionG": 5,
+    "fatPerPortionG": 16,
     "carbSideOptions": [
       {
         "id": "flatbreads",
@@ -6063,7 +6291,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 220,
+        "proteinPerPortionG": 7,
+        "carbsPerPortionG": 40,
+        "fatPerPortionG": 4
       },
       {
         "id": "couscous",
@@ -6074,7 +6306,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       },
       {
         "id": "rice",
@@ -6085,7 +6321,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "quinoa",
@@ -6096,7 +6336,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 44,
+        "fatPerPortionG": 4
       }
     ]
   },
@@ -6759,7 +7003,7 @@
     "id": "tikka-jar-chicken",
     "title": "Tikka jar chicken",
     "basePortions": 4,
-    "caloriesPerPortion": 701,
+    "caloriesPerPortion": 454,
     "totalMinutes": 30,
     "cookTag": "either",
     "protein": "white",
@@ -6805,9 +7049,9 @@
       "Serve with your chosen side carb from the plan picker."
     ],
     "image": "images/recipes/tikka-jar-chicken.jpg",
-    "proteinPerPortionG": 42,
-    "carbsPerPortionG": 100,
-    "fatPerPortionG": 15,
+    "proteinPerPortionG": 37,
+    "carbsPerPortionG": 45,
+    "fatPerPortionG": 14,
     "carbSideOptions": [
       {
         "id": "rice",
@@ -6818,7 +7062,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 55,
+        "fatPerPortionG": 1
       },
       {
         "id": "naan",
@@ -6829,7 +7077,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 300,
+        "proteinPerPortionG": 9,
+        "carbsPerPortionG": 50,
+        "fatPerPortionG": 8
       },
       {
         "id": "chapati",
@@ -6840,7 +7092,11 @@
             "qty": 4,
             "unit": "each"
           }
-        ]
+        ],
+        "caloriesPerPortion": 150,
+        "proteinPerPortionG": 5,
+        "carbsPerPortionG": 28,
+        "fatPerPortionG": 3
       },
       {
         "id": "couscous",
@@ -6851,7 +7107,11 @@
             "qty": 280,
             "unit": "g"
           }
-        ]
+        ],
+        "caloriesPerPortion": 250,
+        "proteinPerPortionG": 8,
+        "carbsPerPortionG": 48,
+        "fatPerPortionG": 1
       }
     ]
   },

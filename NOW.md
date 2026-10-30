@@ -11,21 +11,20 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 - Macros; ~35g protein floor; meat + carb on every dinner
 - Indulgence light/medium/rich; cuisine variety on randomise
 - Plan thumbnails; shop merges garlic toTaste into cloves
-- Side-carb picker for meat/sauce-led dinners → shop list
+- Side-carb picker for meat/sauce-led dinners → shop list + plate macros
 
 ## Next
 
-Push when asked. User feedback only after that.
+User feedback only.
 
 ## Latest
 
-- `carbSideOptions` on 18 dinners (no baked-in carb / vague “to serve”)
-- Plan + recipe detail: Side carb dropdown; selection scales into shop
-- Vague forced carbs / “or” side lines removed from those recipes
+- Selected side carb updates kcal / P/C/F on plan card + recipe detail
+- Recipe base macros exclude the side; each option carries its own macros
 
 ## Verify
 
-1. Plan a chasseur / chimichurri / chilli — Side carb dropdown on the card
-2. Change side (e.g. couscous) → Shop shows that carb under Sim/Adam · label
-3. Recipe detail (on plan): same picker; off plan: lists the ideas
-4. Randomise still fills slots; default side is first option
+1. Put chimichurri (or chasseur) on the plan
+2. Change Side carb — kcal badge on the card should change
+3. Open Details — MacroPanel kcal/carbs should match the selection
+4. Shop still lists the chosen side

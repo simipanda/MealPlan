@@ -48,7 +48,7 @@ Published data lives in `public/recipes.json`. Photos go under `public/images/re
 | `image` | Path under `public/`, e.g. `images/recipes/foo.jpg` |
 | `proteinOptions` | Extra proteins allowed as swaps, e.g. `["pork","white"]` |
 | `proteinOptionLabels` | Chip labels, e.g. `{ "white": "Turkey mince" }` |
-| `carbSideOptions` | Side-carb choices when the original dish has no baked-in carb: `[{ id, label, ingredients }]` |
+| `carbSideOptions` | Side-carb choices when the original dish has no baked-in carb: `[{ id, label, ingredients, caloriesPerPortion, proteinPerPortionG, carbsPerPortionG, fatPerPortionG }]` (side macros are for the side alone; dish macros exclude them) |
 | `catalog` | `meal` (default) or `sauce` for dressings/sauces |
 
 Macros are required for **meals**. For sauces they are optional (one sauce serving, not a dinner).
@@ -108,7 +108,7 @@ Each dinner portion should deliver **~35g protein minimum**.
 - **Every dinner meal must have real meat** (chicken, turkey, beef, pork, lamb, or fish/prawns). No vegetarian mains.
 - **Every dinner meal must include a proper carb** so the plate fills you up: rice, pasta, noodles, potatoes, bread, wraps/tortillas, couscous, quinoa, or similar. Meat + veg alone is not a complete meal.
   - If the **source recipe already includes** the carb (pasta bake, noodle dish, burrito bowls with rice written in), put it in `ingredients` with real amounts.
-  - If the source is **meat/sauce-led** (no baked-in carb), do **not** invent a vague “pasta or bread to serve” line. Set `carbSideOptions` instead — a short list of recommended sides (`id`, `label`, `ingredients` for `basePortions`). The plan dropdown picks one; that side joins the shop.
+  - If the source is **meat/sauce-led** (no baked-in carb), do **not** invent a vague “pasta or bread to serve” line. Set `carbSideOptions` instead — a short list of recommended sides (`id`, `label`, `ingredients` for `basePortions`, plus per-portion macros for the side alone). Recipe macros are **without** the side; the app adds the chosen side’s macros to the plate kcal. The plan dropdown picks one; that side joins the shop.
 - **~35g protein per portion** (see Protein floor above).
 - **Tofu is never the main protein.** Optional as a small extra only if a meat dish already has proper meat.
 - **Kit:** frying pan / wok, saucepan / pot, slow cooker, oven (metal tray or ceramic/clay lasagne-style dish). **Do not** write recipes that need a cast-iron / iron skillet as the hero cookware.

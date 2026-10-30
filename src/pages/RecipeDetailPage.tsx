@@ -5,6 +5,8 @@ import { CookTimeBadge } from '../components/CookTimeBadge'
 import { IngredientLine } from '../components/IngredientLine'
 import { IndulgenceBadge } from '../components/IndulgenceBadge'
 import { MacroPanel } from '../components/MacroPanel'
+import { indulgenceFromCalories } from '../lib/indulgence'
+import { portionMacros } from '../lib/macros'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
 import { SourceRecipeLink } from '../components/SourceRecipeLink'
@@ -83,6 +85,12 @@ export function RecipeDetailPage() {
 
   const targetPortions = planSlot?.portions ?? recipe.basePortions
   const scaledForPlan = Boolean(planSlot)
+  const plate = portionMacros(recipe, planSlot?.carbSideId)
+  const plateIndulgence =
+    plate.caloriesPerPortion != null &&
+    (recipe.carbSideOptions?.length ?? 0) > 0
+      ? indulgenceFromCalories(plate.caloriesPerPortion) ?? recipe.indulgence
+      : recipe.indulgence
   const cookLabel =
     recipe.cookTag === 'either'
       ? 'Either'
@@ -133,9 +141,6 @@ export function RecipeDetailPage() {
             <>Base {recipe.basePortions} portions</>
           )}
         </p>
-        <div className="mt-3">
-          <MacroPanel recipe={recipe} />
-        </div>
         {recipe.carbSideOptions && recipe.carbSideOptions.length > 0 && (
           <div className="mt-3 rounded-2xl border border-line bg-card/80 p-3">
             {planSlot ? (
@@ -151,17 +156,28 @@ export function RecipeDetailPage() {
                 </p>
                 <p className="mt-1 text-sm text-ink-muted">
                   When this meal is on the plan, pick one — it goes on the shop
-                  list.
+                  list and updates the calories below.
                 </p>
                 <ul className="mt-2 list-inside list-disc text-sm text-ink">
                   {recipe.carbSideOptions.map((o) => (
-                    <li key={o.id}>{o.label}</li>
+                    <li key={o.id}>
+                      {o.label}
+                      {o.caloriesPerPortion != null
+                        ? ` (~${o.caloriesPerPortion} kcal)`
+                        : ''}
+                    </li>
                   ))}
                 </ul>
               </>
             )}
           </div>
         )}
+        <div className="mt-3">
+          <MacroPanel
+            recipe={recipe}
+            carbSideId={planSlot?.carbSideId}
+          />
+        </div>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           {isSauceRecipe(recipe) && (
             <span className="rounded-full bg-clay/15 px-2.5 py-1 text-xs font-semibold text-clay">
@@ -180,7 +196,7 @@ export function RecipeDetailPage() {
           <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold text-ink-muted">
             {cookLabel}
           </span>
-          <IndulgenceBadge indulgence={recipe.indulgence} size="md" />
+          <IndulgenceBadge indulgence={plateIndulgence} size="md" />
           {recipe.kidFriendly && (
             <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold text-ink-muted">
               Kid-friendly

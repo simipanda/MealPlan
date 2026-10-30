@@ -1,3 +1,4 @@
+import { portionMacros } from '../lib/macros'
 import type { Recipe } from '../types'
 
 type MacroRecipe = Pick<
@@ -6,21 +7,30 @@ type MacroRecipe = Pick<
   | 'proteinPerPortionG'
   | 'carbsPerPortionG'
   | 'fatPerPortionG'
+  | 'carbSideOptions'
 >
 
-export function MacroPanel({ recipe }: { recipe: MacroRecipe }) {
+export function MacroPanel({
+  recipe,
+  carbSideId,
+}: {
+  recipe: MacroRecipe
+  /** When set (or recipe has sides), plate macros include that side carb. */
+  carbSideId?: string | null
+}) {
+  const macros = portionMacros(recipe, carbSideId)
   const hasAny =
-    recipe.caloriesPerPortion != null ||
-    recipe.proteinPerPortionG != null ||
-    recipe.carbsPerPortionG != null ||
-    recipe.fatPerPortionG != null
+    macros.caloriesPerPortion != null ||
+    macros.proteinPerPortionG != null ||
+    macros.carbsPerPortionG != null ||
+    macros.fatPerPortionG != null
 
   if (!hasAny) return null
 
-  const macros = [
-    { key: 'p', label: 'Protein', value: recipe.proteinPerPortionG, unit: 'g' },
-    { key: 'c', label: 'Carbs', value: recipe.carbsPerPortionG, unit: 'g' },
-    { key: 'f', label: 'Fat', value: recipe.fatPerPortionG, unit: 'g' },
+  const rows = [
+    { key: 'p', label: 'Protein', value: macros.proteinPerPortionG, unit: 'g' },
+    { key: 'c', label: 'Carbs', value: macros.carbsPerPortionG, unit: 'g' },
+    { key: 'f', label: 'Fat', value: macros.fatPerPortionG, unit: 'g' },
   ].filter((m) => m.value != null)
 
   return (
@@ -32,17 +42,17 @@ export function MacroPanel({ recipe }: { recipe: MacroRecipe }) {
         Per portion
       </p>
       <div className="mt-2 flex flex-wrap items-end gap-x-6 gap-y-3">
-        {recipe.caloriesPerPortion != null && (
+        {macros.caloriesPerPortion != null && (
           <div>
             <p className="font-display text-3xl leading-none text-forest">
-              ~{recipe.caloriesPerPortion}
+              ~{macros.caloriesPerPortion}
             </p>
             <p className="mt-1 text-xs font-semibold text-ink-muted">kcal</p>
           </div>
         )}
-        {macros.length > 0 && (
+        {rows.length > 0 && (
           <div className="flex flex-wrap gap-4">
-            {macros.map((m) => (
+            {rows.map((m) => (
               <div key={m.key} className="min-w-[3.5rem]">
                 <p className="text-lg font-bold tabular-nums text-ink">
                   {m.value}

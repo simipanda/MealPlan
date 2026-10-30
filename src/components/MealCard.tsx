@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import { DAY_LABELS } from '../data/defaultHousehold'
 import { CUISINE_LABELS } from '../data/cuisines'
+import { indulgenceFromCalories } from '../lib/indulgence'
+import { portionMacros } from '../lib/macros'
 import { CarbSidePicker } from './CarbSidePicker'
 import { CookTimeBadge } from './CookTimeBadge'
 import { IndulgenceBadge } from './IndulgenceBadge'
@@ -40,6 +42,13 @@ export function MealCard({
   cookOptions,
 }: Props) {
   const carbOptions = recipe?.carbSideOptions ?? []
+  const plate = recipe
+    ? portionMacros(recipe, slot.carbSideId)
+    : null
+  const plateIndulgence =
+    recipe && plate?.caloriesPerPortion != null && carbOptions.length > 0
+      ? indulgenceFromCalories(plate.caloriesPerPortion)
+      : recipe?.indulgence
   const covers = slot.coverDays
     .slice()
     .sort((a, b) => a - b)
@@ -124,10 +133,12 @@ export function MealCard({
               {CUISINE_LABELS[recipe.cuisine]}
             </span>
             <CookTimeBadge totalMinutes={recipe.totalMinutes} />
-            <IndulgenceBadge indulgence={recipe.indulgence} />
-            {recipe.caloriesPerPortion != null && (
+            {plateIndulgence && (
+              <IndulgenceBadge indulgence={plateIndulgence} />
+            )}
+            {plate?.caloriesPerPortion != null && (
               <span className="rounded-full bg-cream-dark px-2 py-0.5">
-                ~{recipe.caloriesPerPortion} kcal/portion
+                ~{plate.caloriesPerPortion} kcal/portion
               </span>
             )}
           </div>
