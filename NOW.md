@@ -8,10 +8,9 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 
 - Plan, randomise, locks, portions, shop, cook mode, filters, settings
 - Live: https://simipanda.github.io/MealPlan/
-- Recipes populated; kcal/portion; stars; protein swaps
-- Dressings & sauces + shop add-in
-- Authoring: `docs/agents/recipes.md` (meat + carb every dinner; no tofu mains; no cast iron; Thai basil substitutes)
-- Sim cook1 / Adam cook2; shared midweek pack as **either**
+- Recipes with photos; protein swaps; dressings & sauces + shop add-in
+- Household rules in `docs/agents/recipes.md` (meat + carb, ~35g protein/portion, no tofu mains, no cast iron, Thai basil substitutes)
+- **Per-portion macros** on meals: kcal + protein / carbs / fat (g), shown on recipe detail
 
 ## Next
 
@@ -19,11 +18,13 @@ Push `main` when you want GitHub Pages updated.
 
 ## Latest
 
-- Mexican spice-sachet tacos (beef ↔ turkey)
-- 15 midweek flavour meals + photos (and taco photo). Black bean beef skipped. Book has no missing images.
+- Macro panel on recipe detail; `proteinPerPortionG` / `carbsPerPortionG` / `fatPerPortionG` on meals
+- Meat amounts bumped so dinners clear ~35g protein/portion (~125g chicken-equivalent)
+- Midweek flavour pack + spice-sachet tacos already in the book
 
 ## Verify
 
-1. Recipes → browse new either meals; each has meat + carb in ingredients
-2. Holy basil method names Italian basil + lime substitute
-3. Tacos + keema / holy basil / kimchi / Korean BBQ show protein swap chips where set
+1. Open any dinner → macros strip shows ~kcal and Protein / Carbs / Fat (g)
+2. Spot-check a former thin dish (e.g. tuscan chicken, miso salmon) — meat grams raised; protein ≥ ~35g
+3. Dressing (cilantro lime) has no 35g floor / may omit full macros
+4. Recipes list / plan cards still show light `~N kcal/portion`

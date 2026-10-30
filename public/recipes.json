@@ -132,8 +132,11 @@
       "Simmer uncovered 20 minutes - Remove lid then cook for a further 20 minutes or until the internal temperature of the chicken is at least 70°C/158°F (Note 6).",
       "Serve - Remove from stove and rest for 5 minutes. Serve over couscous (Note 9), sprinkled with fresh coriander."
     ],
-    "caloriesPerPortion": 780,
-    "image": "images/recipes/chicken-tagine.jpg"
+    "caloriesPerPortion": 676,
+    "image": "images/recipes/chicken-tagine.jpg",
+    "proteinPerPortionG": 62,
+    "carbsPerPortionG": 59,
+    "fatPerPortionG": 22
   },
   {
     "id": "tuscan-chicken",
@@ -148,9 +151,9 @@
     "sourceUrl": "https://www.thekitchn.com/tuscan-chicken-recipe-23624913",
     "ingredients": [
       {
-        "name": "Large boneless, skinless chicken breasts",
-        "qty": 2.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 500,
+        "unit": "g"
       },
       {
         "name": "Kosher salt, divided",
@@ -215,8 +218,11 @@
       "Stir in Parmesan, cream, and remaining salt. Simmer gently, scraping up browned bits.",
       "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid."
     ],
-    "caloriesPerPortion": 640,
-    "image": "images/recipes/tuscan-chicken.jpg"
+    "caloriesPerPortion": 900,
+    "image": "images/recipes/tuscan-chicken.jpg",
+    "proteinPerPortionG": 37,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 66
   },
   {
     "id": "chinese-lemon-chicken",
@@ -334,8 +340,11 @@
       "Whisk corn starch mixture into the simmering sauce and stir until thickened. Add the fried chicken and toss until evenly coated in the sticky lemon sauce.",
       "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture."
     ],
-    "caloriesPerPortion": 660,
-    "image": "images/recipes/chinese-lemon-chicken.jpg"
+    "caloriesPerPortion": 710,
+    "image": "images/recipes/chinese-lemon-chicken.jpg",
+    "proteinPerPortionG": 43,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 42
   },
   {
     "id": "pulled-pork-wraps",
@@ -350,9 +359,9 @@
     "sourceUrl": "https://www.agonline.co.nz/recipes/pulled-pork-wraps-country-coleslaw-inspired-roger",
     "ingredients": [
       {
-        "name": "Pulled pork: 2.3-2.8 kg pork shoulder",
-        "qty": null,
-        "unit": "toTaste"
+        "name": "Pork shoulder",
+        "qty": 1080,
+        "unit": "g"
       },
       {
         "name": "Onion",
@@ -438,7 +447,10 @@
       "Shred pork; assemble wraps with coleslaw and crispy onions."
     ],
     "image": "images/recipes/pulled-pork-wraps.png",
-    "caloriesPerPortion": 560
+    "caloriesPerPortion": 534,
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 22
   },
   {
     "id": "chicken-japchae",
@@ -452,6 +464,11 @@
     "kidFriendly": false,
     "sourceUrl": "https://thatspicychick.com/chicken-japchae-korean-glass-noodles-stir-fry/",
     "ingredients": [
+      {
+        "name": "Chicken breast",
+        "qty": 250,
+        "unit": "g"
+      },
       {
         "name": "Low Sodium Light Soy Sauce",
         "qty": 2.5,
@@ -578,8 +595,11 @@
       "Add most of the toasted white sesame seeds (reserve some for topping) to the bowl. Toss and mix continuously until everything is combined and evenly coated in the sauce.",
       "Transfer to a large serving dish to serve family style or divide evenly onto plates or in bowls. Sprinkle with the remaining sesame seeds. Enjoy warm, at room temperature, or cold from the fridge (note 6)."
     ],
-    "caloriesPerPortion": 628,
-    "image": "images/recipes/chicken-japchae.jpg"
+    "caloriesPerPortion": 536,
+    "image": "images/recipes/chicken-japchae.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 56,
+    "fatPerPortionG": 19
   },
   {
     "id": "thai-chicken-coconut-curry",
@@ -605,7 +625,7 @@
       },
       {
         "name": "Boneless skinless chicken breast",
-        "qty": 454,
+        "qty": 750,
         "unit": "g"
       },
       {
@@ -682,8 +702,11 @@
       "Add the spinach, lime juice, and stir to combine. Cook until spinach has wilted and is tender, about 1 to 2 minutes. Taste and optionally add brown sugar, additional curry paste, salt, pepper, etc. to taste.",
       "Evenly sprinkle with the cilantro and serve immediately. Curry is best warm and fresh but will keep airtight in the fridge for up to 1 week."
     ],
-    "caloriesPerPortion": 474,
-    "image": "images/recipes/thai-chicken-coconut-curry.jpg"
+    "caloriesPerPortion": 435,
+    "image": "images/recipes/thai-chicken-coconut-curry.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 15
   },
   {
     "id": "south-indian-chicken-lentil-curry",
@@ -822,7 +845,10 @@
       "Serve with coriander and lime wedges."
     ],
     "image": "images/recipes/south-indian-chicken-lentil-curry.jpg",
-    "caloriesPerPortion": 621
+    "caloriesPerPortion": 692,
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 40
   },
   {
     "id": "sukiyaki-curry",
@@ -837,7 +863,7 @@
     "ingredients": [
       {
         "name": "Thinly sliced beef",
-        "qty": 450.0,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -904,7 +930,10 @@
       "Return beef briefly; serve over rice. Critique note: balance sweet-salty vs curry heat."
     ],
     "image": "images/recipes/sukiyaki-curry.jpg",
-    "caloriesPerPortion": 520
+    "caloriesPerPortion": 445,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 16
   },
   {
     "id": "patang-curry",
@@ -971,7 +1000,10 @@
       "Serve with rice. Critique note: Panang should be thicker/richer than a thin red curry."
     ],
     "image": "images/recipes/patang-curry.jpg",
-    "caloriesPerPortion": 550
+    "caloriesPerPortion": 390,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 10
   },
   {
     "id": "tom-yum",
@@ -1016,7 +1048,7 @@
       },
       {
         "name": "Chicken or prawns",
-        "qty": 350.0,
+        "qty": 600,
         "unit": "g"
       },
       {
@@ -1047,7 +1079,10 @@
       "Finish with coriander. Critique note: balance sour vs spicy; don’t boil lime juice long."
     ],
     "image": "images/recipes/tom-yum.jpg",
-    "caloriesPerPortion": 220
+    "caloriesPerPortion": 439,
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 15
   },
   {
     "id": "clear-mince-soup",
@@ -1062,7 +1097,7 @@
     "ingredients": [
       {
         "name": "Minced beef or pork",
-        "qty": 300.0,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -1108,7 +1143,10 @@
       "Finish with spring onion. Critique note: keep broth clear — don’t boil hard after adding mince."
     ],
     "image": "images/recipes/clear-mince-soup.jpg",
-    "caloriesPerPortion": 280
+    "caloriesPerPortion": 451,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 17
   },
   {
     "id": "tom-jeid",
@@ -1128,7 +1166,7 @@
       },
       {
         "name": "Minced pork or sliced meat",
-        "qty": 200.0,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -1170,7 +1208,10 @@
       "Finish with herbs. Critique note: noodles last; soup should stay clear and gentle."
     ],
     "image": "images/recipes/tom-jeid.jpg",
-    "caloriesPerPortion": 320
+    "caloriesPerPortion": 461,
+    "proteinPerPortionG": 37,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 17
   },
   {
     "id": "tom-saab",
@@ -1185,7 +1226,7 @@
     "ingredients": [
       {
         "name": "Ground beef",
-        "qty": 400.0,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -1226,7 +1267,10 @@
       "Heap with fresh herbs and shallot. Critique note: toasted rice powder is the signature texture."
     ],
     "image": "images/recipes/tom-saab.jpg",
-    "caloriesPerPortion": 300
+    "caloriesPerPortion": 445,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 16
   },
   {
     "id": "khao-soi",
@@ -1283,7 +1327,10 @@
       "Critique note: contrast soft noodles + crunchy topping is the dish’s teaching point."
     ],
     "image": "images/recipes/khao-soi.jpg",
-    "caloriesPerPortion": 620
+    "caloriesPerPortion": 390,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 10
   },
   {
     "id": "chicken-bites",
@@ -1319,7 +1366,7 @@
       },
       {
         "name": "Chicken breasts",
-        "qty": 454,
+        "qty": 500,
         "unit": "g"
       },
       {
@@ -1351,7 +1398,10 @@
       "Serve:  See post for lots of tasty serving ideas!"
     ],
     "image": "images/recipes/chicken-bites.jpg",
-    "caloriesPerPortion": 380
+    "caloriesPerPortion": 430,
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 14
   },
   {
     "id": "cilantro-lime-dressing",
@@ -1498,8 +1548,11 @@
       "Add peppers, stock, tomato purée, rice, salt and pepper. Cover, low heat, 15 minutes.",
       "Stir in peas; cover and cook 5 minutes more until rice and chicken are done."
     ],
-    "caloriesPerPortion": 518,
-    "image": "images/recipes/peri-peri-chicken-rice.jpg"
+    "caloriesPerPortion": 454,
+    "image": "images/recipes/peri-peri-chicken-rice.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 14
   },
   {
     "id": "marry-me-chicken-orzo",
@@ -1581,8 +1634,11 @@
       "On lowest heat, stir in spinach and cream 1–3 minutes until wilted and hot; check chicken is cooked.",
       "Off heat, stir in Parmesan."
     ],
-    "caloriesPerPortion": 790,
-    "image": "images/recipes/marry-me-chicken-orzo.jpg"
+    "caloriesPerPortion": 864,
+    "image": "images/recipes/marry-me-chicken-orzo.jpg",
+    "proteinPerPortionG": 49,
+    "carbsPerPortionG": 47,
+    "fatPerPortionG": 54
   },
   {
     "id": "slow-cooker-chicken-curry",
@@ -1618,7 +1674,7 @@
       },
       {
         "name": "Chicken Thighs",
-        "qty": 685.0,
+        "qty": 750,
         "unit": "g"
       },
       {
@@ -1691,8 +1747,11 @@
       "Heat oil in a pan and add chopped onions and minced garlic. Saute for 3-4 minutes till the onions soften. Transfer this mixture to the slow cooker along with all the other ingredients. Mix well.",
       "Cover and cook on high for 3.5-4 hours or low for 6 hours. Once the chicken curry is cooked, mix in the chopped coriander and serve hot on top of steamed rice or with some butter naan."
     ],
-    "caloriesPerPortion": 374,
-    "image": "images/recipes/slow-cooker-chicken-curry.jpg"
+    "caloriesPerPortion": 426,
+    "image": "images/recipes/slow-cooker-chicken-curry.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 14
   },
   {
     "id": "chicken-shawarma",
@@ -1806,8 +1865,11 @@
       "Slice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce (or dairy free Tahini sauce from this recipe).",
       "To make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!"
     ],
-    "caloriesPerPortion": 275,
-    "image": "images/recipes/chicken-shawarma.jpg"
+    "caloriesPerPortion": 744,
+    "image": "images/recipes/chicken-shawarma.jpg",
+    "proteinPerPortionG": 70,
+    "carbsPerPortionG": 51,
+    "fatPerPortionG": 29
   },
   {
     "id": "chicken-passanda",
@@ -1867,9 +1929,9 @@
         "unit": "tsp"
       },
       {
-        "name": "Skinless boneless chicken thighs",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken thighs",
+        "qty": 480,
+        "unit": "g"
       },
       {
         "name": "Full fat natural yogurt",
@@ -1911,7 +1973,10 @@
       "Raise the heat until the mixture is bubbling before dropping it down to low. Allow the curry to simmer, uncovered, for 15 minutes until the chicken has cooked through and the sauce has thickened."
     ],
     "image": "images/recipes/chicken-passanda.jpg",
-    "caloriesPerPortion": 580
+    "caloriesPerPortion": 683,
+    "proteinPerPortionG": 67,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 28
   },
   {
     "id": "chicken-biryani",
@@ -1961,9 +2026,9 @@
         "unit": "tsp"
       },
       {
-        "name": "Skinless chicken breasts cut into large chunks",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 640,
+        "unit": "g"
       },
       {
         "name": "Balti curry paste",
@@ -1994,8 +2059,11 @@
       "Place a tight-fitting lid on the pan and bring to a hard boil, then lower the heat to a minimum and cook the rice for another 5 mins.",
       "Turn off the heat and leave for 10 mins. Stir well, mixing through 15g chopped coriander. To serve, scatter over the leaves of the remaining 15g coriander and 2 tbsp toasted almonds."
     ],
-    "caloriesPerPortion": 660,
-    "image": "images/recipes/chicken-biryani.jpg"
+    "caloriesPerPortion": 545,
+    "image": "images/recipes/chicken-biryani.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 58,
+    "fatPerPortionG": 15
   },
   {
     "id": "chipotle-chicken-pasta",
@@ -2025,9 +2093,9 @@
         "unit": "tsp"
       },
       {
-        "name": "Medium chicken breasts",
-        "qty": 2.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 750,
+        "unit": "g"
       },
       {
         "name": "Olive oil",
@@ -2153,7 +2221,10 @@
       "Combine and season: Stir in the lime juice, chicken, asparagus, and peas, followed by the pasta.  Season with salt, pepper and/or chipotle chili pepper to taste.  If you would like to thin the sauce (optional), add some reserved pasta water a little at a time.   Garnish with freshly grated Parmesan cheese, fresh parsley or cilantro and lime juice (optional)."
     ],
     "image": "images/recipes/chipotle-chicken-pasta.jpg",
-    "caloriesPerPortion": 650
+    "caloriesPerPortion": 637,
+    "proteinPerPortionG": 44,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 33
   },
   {
     "id": "creamy-mushroom-chicken",
@@ -2174,7 +2245,7 @@
       },
       {
         "name": "Boneless skinless chicken breasts",
-        "qty": 680,
+        "qty": 750,
         "unit": "g"
       },
       {
@@ -2225,8 +2296,11 @@
       "Whisk in softened cream cheese until smooth and thick.",
       "Return chicken; spoon sauce over; garnish with parsley."
     ],
-    "caloriesPerPortion": 224,
-    "image": "images/recipes/creamy-mushroom-chicken.jpg"
+    "caloriesPerPortion": 496,
+    "image": "images/recipes/creamy-mushroom-chicken.jpg",
+    "proteinPerPortionG": 40,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 20
   },
   {
     "id": "quick-pork-ramen",
@@ -2261,9 +2335,9 @@
         "unit": "tsp"
       },
       {
-        "name": "1/4 pound pork loin",
-        "qty": 1.0,
-        "unit": "each"
+        "name": "Pork loin",
+        "qty": 560,
+        "unit": "g"
       },
       {
         "name": "Soy sauce",
@@ -2334,8 +2408,11 @@
       "Meanwhile, prep other ramen ingredients including cooking the noodles according to package, grating carrot, and chopping herbs, and making Soft Boiled Eggs.",
       "Slice pork thin into coins. Divide noodles between bowls and pour in warmed ramen stock. Top each bowl with some pork, an egg, veggies, and a drizzle of sesame oil and sesame seeds. You can also add soy sauce and chili oil if you want!"
     ],
-    "caloriesPerPortion": 582,
-    "image": "images/recipes/quick-pork-ramen.jpg"
+    "caloriesPerPortion": 514,
+    "image": "images/recipes/quick-pork-ramen.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 43,
+    "fatPerPortionG": 20
   },
   {
     "id": "curried-chicken-golden-rice",
@@ -2410,9 +2487,9 @@
         "unit": "tsp"
       },
       {
-        "name": "Tyson® Individually Frozen Boneless Skinless Chicken Breasts",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 640,
+        "unit": "g"
       },
       {
         "name": "Cilantro leaves, for serving",
@@ -2426,8 +2503,11 @@
       "Meanwhile, in a large bowl, whisk yogurt, remaining garlic, ginger, and curry powder, and cayenne, if using, until combined. Season with 1/2 teaspoon kosher salt, and use a small spatula or pastry brush to spread yogurt mixture all over frozen chicken breasts.",
       "In a 10\" or 12” high-sided skillet over medium heat, heat remaining oil. Add chicken and sear until lightly golden, 10 minutes per side, until internal temperature reaches 165°. Remove from heat and let rest 5 minutes before slicing. Divide rice and chicken between 4 bowls and top with the lime-pickled onions. Garnish with cilantro before serving."
     ],
-    "caloriesPerPortion": 905,
-    "image": "images/recipes/curried-chicken-golden-rice.jpg"
+    "caloriesPerPortion": 576,
+    "image": "images/recipes/curried-chicken-golden-rice.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 26
   },
   {
     "id": "cowboy-pasta-salad",
@@ -2448,7 +2528,7 @@
       },
       {
         "name": "Lean ground beef or turkey",
-        "qty": 454,
+        "qty": 1250,
         "unit": "g"
       },
       {
@@ -2579,7 +2659,10 @@
       "pork": "Pork mince",
       "white": "Turkey mince"
     },
-    "caloriesPerPortion": 520
+    "caloriesPerPortion": 703,
+    "proteinPerPortionG": 39,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 43
   },
   {
     "id": "easiest-ramen",
@@ -2600,7 +2683,7 @@
       },
       {
         "name": "Ground pork",
-        "qty": 150.0,
+        "qty": 280,
         "unit": "g"
       },
       {
@@ -2717,13 +2800,16 @@
       "pork": "Pork",
       "white": "Chicken"
     },
-    "caloriesPerPortion": 550
+    "caloriesPerPortion": 627,
+    "proteinPerPortionG": 38,
+    "carbsPerPortionG": 42,
+    "fatPerPortionG": 34
   },
   {
     "id": "classic-lasagne",
     "title": "Classic lasagne",
     "basePortions": 6,
-    "caloriesPerPortion": 580,
+    "caloriesPerPortion": 559,
     "totalMinutes": 120,
     "cookTag": "cook1",
     "protein": "red",
@@ -2740,7 +2826,7 @@
       },
       {
         "name": "Lean beef mince",
-        "qty": 750,
+        "qty": 808,
         "unit": "g"
       },
       {
@@ -2799,7 +2885,10 @@
       "Repeat the meat, pasta and white sauce layers until you have three layers of pasta. Cover with the remaining white sauce so no pasta shows.",
       "Scatter torn mozzarella over the top, then arrange the rest of the prosciutto on top.",
       "Bake for 45 minutes until bubbling and lightly browned. Rest 10–15 minutes before serving."
-    ]
+    ],
+    "proteinPerPortionG": 40,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 26
   },
   {
     "id": "chilli-con-carne-recipe",
@@ -2850,7 +2939,7 @@
       },
       {
         "name": "Lean minced beef",
-        "qty": 500.0,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -2912,8 +3001,11 @@
       "Now replace the lid, turn off the heat and leave your chilli to stand for 10 minutes before serving. This is really important as it allows the flavours to mingle.",
       "Serve with soured cream and plain boiled long grain rice."
     ],
-    "caloriesPerPortion": 380,
-    "image": "images/recipes/chilli-con-carne-recipe.jpg"
+    "caloriesPerPortion": 472,
+    "image": "images/recipes/chilli-con-carne-recipe.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 19
   },
   {
     "id": "chicken-chorizo-jambalaya",
@@ -2933,9 +3025,9 @@
         "unit": "tbsp"
       },
       {
-        "name": "Chicken breasts chopped",
-        "qty": 2.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 500,
+        "unit": "g"
       },
       {
         "name": "Onion diced",
@@ -2984,8 +3076,11 @@
       "Add 1 thinly sliced red pepper, 2 crushed garlic cloves, 75g sliced chorizo and 1 tbsp Cajun seasoning, and cook for 5 mins more.",
       "Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml chicken stock. Cover and simmer over a medium heat for 20-25 mins until the rice is tender."
     ],
-    "caloriesPerPortion": 445,
-    "image": "images/recipes/chicken-chorizo-jambalaya.jpg"
+    "caloriesPerPortion": 517,
+    "image": "images/recipes/chicken-chorizo-jambalaya.jpg",
+    "proteinPerPortionG": 40,
+    "carbsPerPortionG": 49,
+    "fatPerPortionG": 18
   },
   {
     "id": "chicken-fajitas",
@@ -3085,8 +3180,11 @@
       "Warm tortillas using chosen method.",
       "Pile peppers and onion onto tortilla. Top with chicken, drizzle with sour cream, squeeze over lime juice. Fold, devour and be happy."
     ],
-    "caloriesPerPortion": 196,
-    "image": "images/recipes/chicken-fajitas.jpg"
+    "caloriesPerPortion": 590,
+    "image": "images/recipes/chicken-fajitas.jpg",
+    "proteinPerPortionG": 49,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 26
   },
   {
     "id": "speedy-sausage-stroganoff-tagliatelle",
@@ -3112,8 +3210,8 @@
       },
       {
         "name": "Pork sausages",
-        "qty": 6.0,
-        "unit": "each"
+        "qty": 933,
+        "unit": "g"
       },
       {
         "name": "Chestnut mushrooms sliced",
@@ -3155,8 +3253,11 @@
       "Heat the butter and oil in a frying pan over a medium-high heat until foaming. Squeeze large chunks of the sausagemeat out of the skins and into the pan. Cook for 5-8 mins or until golden brown. Add the mushrooms and cook for a further 5 mins until starting to turn brown. Stir through the paprika and cook for 1 min before stirring in the soured cream, mustard and stock. Bring to a simmer and season to taste.",
       "Meanwhile, cook the pasta in a large pan of salted water according to pack instructions, then add to the sauce with half the parsley. Serve in deep bowls with the remaining parsley sprinkled on top."
     ],
-    "caloriesPerPortion": 826,
-    "image": "images/recipes/speedy-sausage-stroganoff-tagliatelle.jpg"
+    "caloriesPerPortion": 900,
+    "image": "images/recipes/speedy-sausage-stroganoff-tagliatelle.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 75,
+    "fatPerPortionG": 51
   },
   {
     "id": "chicken-stroganoff",
@@ -3176,9 +3277,9 @@
         "unit": "tbsp"
       },
       {
-        "name": "Skinless chicken breasts cut into chunks",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 640,
+        "unit": "g"
       },
       {
         "name": "Onions finely chopped",
@@ -3231,8 +3332,11 @@
       "Heat the remaining oil and lower the heat to medium. Fry the onion for 6-8 mins until softened but not golden, then stir in the garlic and paprika. Fry for a minute until fragrant, then pour in the stock, and add the Dijon and Worcestershire sauce. Tip in the seared chicken with any resting juices, and simmer for 5-6 mins until reduced slightly and the chicken is cooked through.",
       "Over a low heat, stir in the soured cream until just combined to create a creamy sauce, and it’s just started to simmer. Scatter over the parsley and serve with rice, mash or pasta, if you like."
     ],
-    "caloriesPerPortion": 425,
-    "image": "images/recipes/chicken-stroganoff.jpg"
+    "caloriesPerPortion": 508,
+    "image": "images/recipes/chicken-stroganoff.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 19
   },
   {
     "id": "prawn-harissa-spaghetti",
@@ -3273,7 +3377,7 @@
       },
       {
         "name": "Raw king prawns",
-        "qty": 150.0,
+        "qty": 300,
         "unit": "g"
       },
       {
@@ -3293,8 +3397,11 @@
       "Add the tomatoes to the pan and fry over a medium heat for 5 mins, or until beginning to soften and turn juicy. Stir through the prawns and cook for 2 mins, or until turning pink. Add the harissa and lemon zest, stirring to coat.",
       "Toss the cooked spaghetti and pasta water through the prawns and harissa. Stir through the broccoli, season to taste and serve."
     ],
-    "caloriesPerPortion": 511,
-    "image": "images/recipes/prawn-harissa-spaghetti.jpg"
+    "caloriesPerPortion": 549,
+    "image": "images/recipes/prawn-harissa-spaghetti.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 68,
+    "fatPerPortionG": 15
   },
   {
     "id": "one-pot-chicken-chasseur",
@@ -3320,8 +3427,8 @@
       },
       {
         "name": "Chicken legs",
-        "qty": 4.0,
-        "unit": "each"
+        "qty": 560,
+        "unit": "g"
       },
       {
         "name": "Onion chopped",
@@ -3369,8 +3476,11 @@
       "Remove the chicken legs from the pan and keep warm. Rapidly boil down the sauce for 10 mins or so until it is syrupy and the flavour has concentrated.",
       "Put the chicken legs back into the sauce and serve."
     ],
-    "caloriesPerPortion": 439,
-    "image": "images/recipes/one-pot-chicken-chasseur.jpg"
+    "caloriesPerPortion": 443,
+    "image": "images/recipes/one-pot-chicken-chasseur.jpg",
+    "proteinPerPortionG": 39,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 14
   },
   {
     "id": "sticky-chilli-beef",
@@ -3383,11 +3493,11 @@
     "protein": "red",
     "cuisine": "chinese",
     "indulgence": "rich",
-    "caloriesPerPortion": 520,
+    "caloriesPerPortion": 499,
     "ingredients": [
       {
         "name": "Beef steak strips",
-        "qty": 400,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -3453,7 +3563,10 @@
       "Add soy, honey and vinegar; bubble to a sticky glaze.",
       "Return beef and toss to coat. Finish with spring onions and sesame seeds; serve with rice."
     ],
-    "image": "images/recipes/sticky-chilli-beef.jpg"
+    "image": "images/recipes/sticky-chilli-beef.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 22
   },
   {
     "id": "lighter-chicken-cacciatore",
@@ -3498,9 +3611,9 @@
         "unit": "each"
       },
       {
-        "name": "Skinless chicken breasts , preferably organic",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 640,
+        "unit": "g"
       },
       {
         "name": "Dry white wine",
@@ -3533,8 +3646,11 @@
       "Spread the onion out in the pan, then lay the chicken breasts on top. Season with pepper and fry for 5 mins over a medium heat, turning the chicken once, until starting to brown on both sides and the onion is caramelising on the bottom of the pan. Remove the chicken and set aside on a plate. Raise the heat, give it a quick stir and, when sizzling, pour in the wine and let it bubble for 2 mins to reduce slightly.",
       "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve."
     ],
-    "caloriesPerPortion": 285,
-    "image": "images/recipes/lighter-chicken-cacciatore.jpg"
+    "caloriesPerPortion": 481,
+    "image": "images/recipes/lighter-chicken-cacciatore.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 16
   },
   {
     "id": "chicken-madras",
@@ -3594,9 +3710,9 @@
         "unit": "tsp"
       },
       {
-        "name": "Chicken breasts cut into chunks",
-        "qty": 4.0,
-        "unit": "each"
+        "name": "Chicken breast",
+        "qty": 640,
+        "unit": "g"
       },
       {
         "name": "Can chopped tomatoes",
@@ -3622,8 +3738,11 @@
       "Pour in 400g can chopped tomatoes, along with a big pinch of salt, cover and cook on a low heat for 30 mins, until the chicken is tender.",
       "Stir through small pack of coriander and serve with rice, naan and a big dollop of mango chutney."
     ],
-    "caloriesPerPortion": 373,
-    "image": "images/recipes/chicken-madras.jpg"
+    "caloriesPerPortion": 481,
+    "image": "images/recipes/chicken-madras.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 16
   },
   {
     "id": "herbed-honey-mustard-chicken",
@@ -3638,9 +3757,9 @@
     "sourceUrl": "https://downshiftology.com/recipes/herbed-honey-mustard-chicken/",
     "ingredients": [
       {
-        "name": "Bone-in chicken thighs",
-        "qty": 8.0,
-        "unit": "each"
+        "name": "Chicken thighs",
+        "qty": 1040,
+        "unit": "g"
       },
       {
         "name": "¼ cup honey",
@@ -3689,8 +3808,11 @@
       "Brush or spoon the honey mustard mixture liberally on top of the chicken.",
       "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin."
     ],
-    "caloriesPerPortion": 371,
-    "image": "images/recipes/herbed-honey-mustard-chicken.jpg"
+    "caloriesPerPortion": 413,
+    "image": "images/recipes/herbed-honey-mustard-chicken.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 12
   },
   {
     "id": "learn-to-make-spaghetti-carbonara",
@@ -3715,8 +3837,8 @@
         "unit": "tbsp"
       },
       {
-        "name": "Smoked pancetta cubes or streaky bacon, chopped",
-        "qty": 200.0,
+        "name": "Guanciale or pancetta",
+        "qty": 300,
         "unit": "g"
       },
       {
@@ -3726,7 +3848,7 @@
       },
       {
         "name": "Eggs",
-        "qty": 3.0,
+        "qty": 6,
         "unit": "each"
       },
       {
@@ -3736,7 +3858,7 @@
       },
       {
         "name": "Grana padano or parmesan finely grated, plus extra to serve",
-        "qty": 50.0,
+        "qty": 100,
         "unit": "g"
       }
     ],
@@ -3746,8 +3868,11 @@
       "Crack two of the eggs into a mixing bowl. Separate the yolk from the third egg: gently crack the side of the shell and, using both hands, slowly open it into two halves over a separate bowl - you want to keep the yolk in one of the halves. Tip the yolk from one shell half to the other and repeat until all the egg white has fallen into the bowl below, taking care not to crack the yolk on any rough shell edges. Tip the yolk in with the other eggs and beat together, along with the double cream, parmesan and some seasoning.",
       "Add the garlic to the pancetta and return the frying pan to hob. Fry over high heat for 1 min or until garlic is cooked and pancetta warmed through. Meanwhile, drain the spaghetti. Tip back into the hot saucepan off the heat. Pour egg mixture over pasta, followed by hot pancetta, garlic, any fat and oils. Toss quickly and thoroughly with spaghetti spoon or tongs. Mix until it has thickened to a smooth, creamy sauce. Serve with extra cheese and freshly ground pepper."
     ],
-    "caloriesPerPortion": 734,
-    "image": "images/recipes/learn-to-make-spaghetti-carbonara.jpg"
+    "caloriesPerPortion": 685,
+    "image": "images/recipes/learn-to-make-spaghetti-carbonara.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 75,
+    "fatPerPortionG": 27
   },
   {
     "id": "jerk-chicken-rice-peas",
@@ -3762,9 +3887,9 @@
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/jerk-chicken-rice-peas",
     "ingredients": [
       {
-        "name": "Chicken thighs bone in",
-        "qty": 12.0,
-        "unit": "each"
+        "name": "Chicken thighs",
+        "qty": 1440,
+        "unit": "g"
       },
       {
         "name": "Lime halved",
@@ -3877,8 +4002,11 @@
       "Season with salt, add 300ml cold water and set over a high heat. Once the rice begins to boil, turn it down to a medium heat, cover and cook for 10 mins. Add the kidney beans to the rice, then cover with a lid. Leave off the heat for 5 mins until all the liquid is absorbed.",
       "Squeeze the roasted lime over the chicken and serve with the rice & peas, and some hot sauce if you like it really spicy."
     ],
-    "caloriesPerPortion": 757,
-    "image": "images/recipes/jerk-chicken-rice-peas.jpg"
+    "caloriesPerPortion": 638,
+    "image": "images/recipes/jerk-chicken-rice-peas.jpg",
+    "proteinPerPortionG": 67,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 23
   },
   {
     "id": "meatballs-spaghetti",
@@ -3899,7 +4027,7 @@
       },
       {
         "name": "Pack minced beef",
-        "qty": 500.0,
+        "qty": 808,
         "unit": "g"
       },
       {
@@ -3959,8 +4087,11 @@
       "Pour the remaining oil into the pan, heat for 1 min then add the remaining garlic and fry for a few seconds. Tip in the tomatoes and break them down with a fork or wooden spoon. Cook over a moderately high heat for 5 mins until jammy. Season with salt, pepper and a little sugar.",
       "Tip in the meatballs and turn them over in the sauce, ensuring they’re all covered. Cover the pan and cook the meatballs on a low heat for about 30 mins, spoon over the sauce occasionally and add a little water if it’s becoming too dry. 15 mins before the end of the cooking time, cook the spaghetti. To serve, stir most of the remaining parsley into the sauce then spoon the meatballs and sauce over the spaghetti. Scatter with last of the parsley and serve Parmesan on the side."
     ],
-    "caloriesPerPortion": 791,
-    "image": "images/recipes/meatballs-spaghetti.jpg"
+    "caloriesPerPortion": 632,
+    "image": "images/recipes/meatballs-spaghetti.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 68,
+    "fatPerPortionG": 24
   },
   {
     "id": "cajun-chicken-one-pot",
@@ -3981,7 +4112,7 @@
       },
       {
         "name": "Chicken breasts chopped into large chunks",
-        "qty": 400.0,
+        "qty": 750,
         "unit": "g"
       },
       {
@@ -4035,8 +4166,11 @@
       "Stir in the garlic and cook for 2 mins more, then scatter over the Cajun-style seasoning and stir so the chicken pieces are evenly coated. Tip in the tomatoes, a quarter of a can of water and the stock cube. Stir, then bring to a simmer and cook for 5 mins.",
       "Meanwhile, bring a large pan of salted water to the boil and cook the pasta for a minute less than pack instructions. Stir the cream into the chicken and continue to simmer gently. When the pasta is cooked, drain well and stir into chicken mixture. Finish cooking the pasta in the sauce over a low heat for 2 mins, then stir in the parmesan and lemon juice, and cook for 1 min more. Serve the pasta straight from the pan, or tip into a large serving bowl. Scatter with parsley, if you like, and extra parmesan."
     ],
-    "caloriesPerPortion": 555,
-    "image": "images/recipes/cajun-chicken-one-pot.jpg"
+    "caloriesPerPortion": 713,
+    "image": "images/recipes/cajun-chicken-one-pot.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 62,
+    "fatPerPortionG": 36
   },
   {
     "id": "best-spaghetti-bolognese-recipe",
@@ -4087,7 +4221,7 @@
       },
       {
         "name": "Beef mince",
-        "qty": 500.0,
+        "qty": 808,
         "unit": "g"
       },
       {
@@ -4162,8 +4296,11 @@
       "When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions.",
       "Drain the spaghetti and either stir into the bolognese sauce, or serve the sauce on top. Serve with more grated parmesan, the remaining basil leaves and crusty bread, if you like."
     ],
-    "caloriesPerPortion": 624,
-    "image": "images/recipes/best-spaghetti-bolognese-recipe.jpg"
+    "caloriesPerPortion": 550,
+    "image": "images/recipes/best-spaghetti-bolognese-recipe.jpg",
+    "proteinPerPortionG": 38,
+    "carbsPerPortionG": 50,
+    "fatPerPortionG": 22
   },
   {
     "id": "chorizo-mozzarella-gnocchi-bake",
@@ -4177,6 +4314,11 @@
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake",
     "ingredients": [
+      {
+        "name": "Chicken breast",
+        "qty": 750,
+        "unit": "g"
+      },
       {
         "name": "Olive oil",
         "qty": 1.0,
@@ -4232,8 +4374,11 @@
       "Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high.",
       "Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season, scatter over the remaining basil and serve with green salad."
     ],
-    "caloriesPerPortion": 353,
-    "image": "images/recipes/chorizo-mozzarella-gnocchi-bake.jpg"
+    "caloriesPerPortion": 555,
+    "image": "images/recipes/chorizo-mozzarella-gnocchi-bake.jpg",
+    "proteinPerPortionG": 45,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 24
   },
   {
     "id": "chimichurri-chicken-thighs",
@@ -4248,9 +4393,9 @@
     "sourceUrl": "https://30seconds.com/food/tip/61580/Juicy-Skillet-Chimichurri-Chicken-Thighs-Recipe-One-Pan-Fabulous-Flavor",
     "ingredients": [
       {
-        "name": "Pounds boneless skinless chicken thighs",
-        "qty": 2.0,
-        "unit": "each"
+        "name": "Boneless skinless chicken thighs",
+        "qty": 908,
+        "unit": "g"
       },
       {
         "name": "Fresh parsley, packed",
@@ -4299,14 +4444,17 @@
       "Preheat the oven to 375 degrees F. While the oven heats up, heat an ovenproof skillet (preferably cast iron) over medium heat on the stovetop. Add the chicken, top side down, into the hot skillet with any marinade in the bag or dish. Cook until golden on the bottom, then flip the chicken over. Immediately put the chicken into the oven.",
       "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce."
     ],
-    "caloriesPerPortion": 352,
-    "image": "images/recipes/chimichurri-chicken-thighs-2.jpg"
+    "caloriesPerPortion": 600,
+    "image": "images/recipes/chimichurri-chicken-thighs-2.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 30
   },
   {
     "id": "tuscan-chicken-pasta",
     "title": "Tuscan chicken pasta",
     "basePortions": 4,
-    "caloriesPerPortion": 650,
+    "caloriesPerPortion": 822,
     "totalMinutes": 45,
     "cookTag": "cook2",
     "protein": "white",
@@ -4384,13 +4532,16 @@
       "Cook garlic and halved cherry tomatoes 2 minutes. Add cream, Parmesan and ½ cup pasta water; simmer ~3 minutes. Wilt spinach.",
       "Toss in pasta, then chicken and bacon. Loosen with more pasta water if needed. Garnish with basil."
     ],
-    "image": "images/recipes/tuscan-chicken-pasta.jpg"
+    "image": "images/recipes/tuscan-chicken-pasta.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 64,
+    "fatPerPortionG": 44
   },
   {
     "id": "simple-lasagne-adam",
     "title": "Simple lasagne",
     "basePortions": 6,
-    "caloriesPerPortion": 739,
+    "caloriesPerPortion": 731,
     "totalMinutes": 100,
     "cookTag": "cook2",
     "protein": "red",
@@ -4426,7 +4577,7 @@
       },
       {
         "name": "Beef mince",
-        "qty": 250,
+        "qty": 808,
         "unit": "g"
       },
       {
@@ -4497,13 +4648,16 @@
       "Heat oven to 200°C/180°C fan/gas 6. Layer ragu, pasta and white sauce three times. Top with Parmesan and mozzarella.",
       "Bake 40–45 minutes until piping hot and bubbling."
     ],
-    "image": "images/recipes/simple-lasagne-adam.jpg"
+    "image": "images/recipes/simple-lasagne-adam.jpg",
+    "proteinPerPortionG": 54,
+    "carbsPerPortionG": 49,
+    "fatPerPortionG": 36
   },
   {
     "id": "beef-enchiladas",
     "title": "Beef enchiladas",
     "basePortions": 4,
-    "caloriesPerPortion": 620,
+    "caloriesPerPortion": 792,
     "totalMinutes": 75,
     "cookTag": "cook2",
     "protein": "red",
@@ -4519,7 +4673,7 @@
       },
       {
         "name": "Beef mince",
-        "qty": 500,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -4606,13 +4760,16 @@
       "Divide the beef down the centre of each tortilla, roll up and place seam-side down in the dish.",
       "Scatter jalapeños and cheese. Cover with foil 10 minutes, then uncover 10 minutes until golden. Serve with soured cream."
     ],
-    "image": "images/recipes/beef-enchiladas.jpg"
+    "image": "images/recipes/beef-enchiladas.jpg",
+    "proteinPerPortionG": 47,
+    "carbsPerPortionG": 74,
+    "fatPerPortionG": 34
   },
   {
     "id": "air-fryer-chimichangas",
     "title": "Air fryer chimichangas",
     "basePortions": 6,
-    "caloriesPerPortion": 455,
+    "caloriesPerPortion": 541,
     "totalMinutes": 30,
     "cookTag": "cook2",
     "protein": "white",
@@ -4633,7 +4790,7 @@
       },
       {
         "name": "Shredded cooked chicken",
-        "qty": 300,
+        "qty": 750,
         "unit": "g"
       },
       {
@@ -4688,13 +4845,16 @@
       "Warm tortillas until pliable. Fill each with ~⅓ cup chicken mix and cheese; roll burrito-style and mist with cooking spray.",
       "Air-fry 4–6 minutes, flip, spray again, and cook 2–4 minutes more until golden."
     ],
-    "image": "images/recipes/air-fryer-chimichangas.jpg"
+    "image": "images/recipes/air-fryer-chimichangas.jpg",
+    "proteinPerPortionG": 44,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 23
   },
   {
     "id": "mexican-spice-sachet-tacos",
     "title": "Mexican spice-sachet tacos",
     "basePortions": 4,
-    "caloriesPerPortion": 480,
+    "caloriesPerPortion": 660,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "red",
@@ -4712,7 +4872,7 @@
     "ingredients": [
       {
         "name": "Lean beef mince",
-        "qty": 500,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -4793,13 +4953,16 @@
       "Warm the tortillas. Shred lettuce, dice tomatoes, grate cheese.",
       "Load tortillas with the mince, then lettuce, tomato, cheese, soured cream and salsa."
     ],
-    "image": "images/recipes/mexican-spice-sachet-tacos.jpg"
+    "image": "images/recipes/mexican-spice-sachet-tacos.jpg",
+    "proteinPerPortionG": 41,
+    "carbsPerPortionG": 64,
+    "fatPerPortionG": 27
   },
   {
     "id": "holy-basil-mince-stir-fry",
     "title": "Holy basil–style mince stir-fry",
     "basePortions": 4,
-    "caloriesPerPortion": 520,
+    "caloriesPerPortion": 590,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "pork",
@@ -4817,7 +4980,7 @@
     "ingredients": [
       {
         "name": "Pork mince",
-        "qty": 500,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -4889,13 +5052,16 @@
       "UK swap for Thai basil: tear in Italian basil off the heat and squeeze over lime. (Mint + basil also works.)",
       "Fry the eggs; serve mince over rice with a fried egg on each plate."
     ],
-    "image": "images/recipes/holy-basil-mince-stir-fry.jpg"
+    "image": "images/recipes/holy-basil-mince-stir-fry.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 23
   },
   {
     "id": "gochujang-chicken",
     "title": "Gochujang chicken",
     "basePortions": 4,
-    "caloriesPerPortion": 540,
+    "caloriesPerPortion": 640,
     "totalMinutes": 40,
     "cookTag": "either",
     "protein": "white",
@@ -4970,13 +5136,16 @@
       "Toss chicken in the sauce on a metal oven tray; roast 25–30 minutes until sticky and cooked through (or fry in a pan if preferred).",
       "Scatter spring onions and sesame seeds. Serve with rice."
     ],
-    "image": "images/recipes/gochujang-chicken.jpg"
+    "image": "images/recipes/gochujang-chicken.jpg",
+    "proteinPerPortionG": 56,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 22
   },
   {
     "id": "bulgogi-beef",
     "title": "Bulgogi beef",
     "basePortions": 4,
-    "caloriesPerPortion": 560,
+    "caloriesPerPortion": 558,
     "totalMinutes": 30,
     "cookTag": "either",
     "protein": "red",
@@ -4986,7 +5155,7 @@
     "ingredients": [
       {
         "name": "Beef frying steak or sirloin",
-        "qty": 500,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -5046,13 +5215,16 @@
       "Flash-fry in a hot frying pan in batches until caramelised.",
       "Finish with spring onions; serve over rice."
     ],
-    "image": "images/recipes/bulgogi-beef.jpg"
+    "image": "images/recipes/bulgogi-beef.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 22
   },
   {
     "id": "dan-dan-pork-noodles",
     "title": "Dan dan–style pork noodles",
     "basePortions": 4,
-    "caloriesPerPortion": 580,
+    "caloriesPerPortion": 753,
     "totalMinutes": 30,
     "cookTag": "either",
     "protein": "pork",
@@ -5062,7 +5234,7 @@
     "ingredients": [
       {
         "name": "Pork mince",
-        "qty": 400,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -5132,13 +5304,16 @@
       "Whisk chilli oil, soy, vinegar, peanut butter, stock and sugar into a loose sauce.",
       "Toss noodles with sauce and pork; loosen with noodle water. Top with spring onions."
     ],
-    "image": "images/recipes/dan-dan-pork-noodles.jpg"
+    "image": "images/recipes/dan-dan-pork-noodles.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 75,
+    "fatPerPortionG": 35
   },
   {
     "id": "lamb-kofta",
     "title": "Lamb kofta",
     "basePortions": 4,
-    "caloriesPerPortion": 550,
+    "caloriesPerPortion": 498,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "lamb",
@@ -5148,7 +5323,7 @@
     "ingredients": [
       {
         "name": "Lamb mince",
-        "qty": 500,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -5223,13 +5398,16 @@
       "Warm flatbreads. Stir yoghurt with grated cucumber, lemon, salt.",
       "Stuff breads with kofta and yoghurt sauce."
     ],
-    "image": "images/recipes/lamb-kofta.jpg"
+    "image": "images/recipes/lamb-kofta.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 45,
+    "fatPerPortionG": 20
   },
   {
     "id": "chilli-garlic-prawns",
     "title": "Chilli-garlic prawns",
     "basePortions": 4,
-    "caloriesPerPortion": 480,
+    "caloriesPerPortion": 378,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "fish",
@@ -5239,7 +5417,7 @@
     "ingredients": [
       {
         "name": "Raw king prawns",
-        "qty": 400,
+        "qty": 600,
         "unit": "g"
       },
       {
@@ -5293,13 +5471,16 @@
       "Add prawns; cook 3–5 minutes until pink. Squeeze over lemon; toss parsley.",
       "Serve with plenty of bread for mopping and a side salad."
     ],
-    "image": "images/recipes/chilli-garlic-prawns.jpg"
+    "image": "images/recipes/chilli-garlic-prawns.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 8
   },
   {
     "id": "miso-salmon",
     "title": "Miso salmon",
     "basePortions": 4,
-    "caloriesPerPortion": 520,
+    "caloriesPerPortion": 572,
     "totalMinutes": 30,
     "cookTag": "either",
     "protein": "fish",
@@ -5309,8 +5490,8 @@
     "ingredients": [
       {
         "name": "Salmon fillets",
-        "qty": 4,
-        "unit": "each"
+        "qty": 700,
+        "unit": "g"
       },
       {
         "name": "White miso",
@@ -5354,13 +5535,16 @@
       "Roast 12–15 minutes until just cooked. Steam or roast greens alongside.",
       "Serve salmon and greens over rice; finish with spring onions."
     ],
-    "image": "images/recipes/miso-salmon.jpg"
+    "image": "images/recipes/miso-salmon.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 24
   },
   {
     "id": "keema",
     "title": "Keema",
     "basePortions": 4,
-    "caloriesPerPortion": 530,
+    "caloriesPerPortion": 573,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "red",
@@ -5378,7 +5562,7 @@
     "ingredients": [
       {
         "name": "Beef mince",
-        "qty": 500,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -5458,13 +5642,16 @@
       "Add tomatoes; simmer 15 minutes. Stir in peas for 5 minutes. Season.",
       "Serve over rice with coriander."
     ],
-    "image": "images/recipes/keema.jpg"
+    "image": "images/recipes/keema.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 58,
+    "fatPerPortionG": 22
   },
   {
     "id": "harissa-chicken-traybake",
     "title": "Harissa chicken traybake",
     "basePortions": 4,
-    "caloriesPerPortion": 550,
+    "caloriesPerPortion": 582,
     "totalMinutes": 45,
     "cookTag": "either",
     "protein": "white",
@@ -5534,13 +5721,16 @@
       "Roast 35–40 minutes until chicken is cooked and potatoes are tender.",
       "Serve with a spoon of yoghurt."
     ],
-    "image": "images/recipes/harissa-chicken-traybake.jpg"
+    "image": "images/recipes/harissa-chicken-traybake.jpg",
+    "proteinPerPortionG": 56,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 22
   },
   {
     "id": "prawn-pil-pil",
     "title": "Prawn pil-pil",
     "basePortions": 4,
-    "caloriesPerPortion": 490,
+    "caloriesPerPortion": 493,
     "totalMinutes": 20,
     "cookTag": "either",
     "protein": "fish",
@@ -5550,7 +5740,7 @@
     "ingredients": [
       {
         "name": "Raw king prawns",
-        "qty": 400,
+        "qty": 600,
         "unit": "g"
       },
       {
@@ -5599,13 +5789,16 @@
       "Add prawns and paprika; cook until pink, 3–5 minutes. Season; finish with lemon and parsley.",
       "Serve in the oily sauce with lots of bread."
     ],
-    "image": "images/recipes/prawn-pil-pil.jpg"
+    "image": "images/recipes/prawn-pil-pil.jpg",
+    "proteinPerPortionG": 36,
+    "carbsPerPortionG": 40,
+    "fatPerPortionG": 21
   },
   {
     "id": "kimchi-fried-rice",
     "title": "Kimchi fried rice",
     "basePortions": 4,
-    "caloriesPerPortion": 540,
+    "caloriesPerPortion": 539,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "pork",
@@ -5628,7 +5821,7 @@
       },
       {
         "name": "Pork mince or diced pork",
-        "qty": 400,
+        "qty": 560,
         "unit": "g"
       },
       {
@@ -5688,13 +5881,16 @@
       "Stir in rice, kimchi juice, gochujang, soy and sesame oil until hot and coated.",
       "Fry eggs; serve rice topped with egg, spring onions and sesame."
     ],
-    "image": "images/recipes/kimchi-fried-rice.jpg"
+    "image": "images/recipes/kimchi-fried-rice.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 42,
+    "fatPerPortionG": 23
   },
   {
     "id": "salt-and-pepper-chicken",
     "title": "Salt and pepper chicken",
     "basePortions": 4,
-    "caloriesPerPortion": 560,
+    "caloriesPerPortion": 602,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "white",
@@ -5769,13 +5965,16 @@
       "Stir-fry onion, pepper, chilli and garlic; return chicken with spring onions.",
       "Serve over rice."
     ],
-    "image": "images/recipes/salt-and-pepper-chicken.jpg"
+    "image": "images/recipes/salt-and-pepper-chicken.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 24
   },
   {
     "id": "chorizo-chickpea-stew",
     "title": "Chorizo and chickpea stew",
     "basePortions": 4,
-    "caloriesPerPortion": 520,
+    "caloriesPerPortion": 666,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "pork",
@@ -5784,8 +5983,13 @@
     "kidFriendly": true,
     "ingredients": [
       {
+        "name": "Chicken breast",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
         "name": "Cooking chorizo",
-        "qty": 300,
+        "qty": 200,
         "unit": "g"
       },
       {
@@ -5849,13 +6053,16 @@
       "Add paprika, tomatoes, drained chickpeas and stock. Simmer 20 minutes until thick.",
       "Season; finish with parsley. Serve with crusty bread."
     ],
-    "image": "images/recipes/chorizo-chickpea-stew.jpg"
+    "image": "images/recipes/chorizo-chickpea-stew.jpg",
+    "proteinPerPortionG": 47,
+    "carbsPerPortionG": 59,
+    "fatPerPortionG": 27
   },
   {
     "id": "tikka-jar-chicken",
     "title": "Tikka jar chicken",
     "basePortions": 4,
-    "caloriesPerPortion": 510,
+    "caloriesPerPortion": 701,
     "totalMinutes": 30,
     "cookTag": "either",
     "protein": "white",
@@ -5909,13 +6116,16 @@
       "Pour in the jar sauce; simmer until chicken is cooked and sauce is hot (follow jar timing).",
       "Warm naan. Serve curry with rice, bread, yoghurt and coriander."
     ],
-    "image": "images/recipes/tikka-jar-chicken.jpg"
+    "image": "images/recipes/tikka-jar-chicken.jpg",
+    "proteinPerPortionG": 42,
+    "carbsPerPortionG": 100,
+    "fatPerPortionG": 15
   },
   {
     "id": "korean-bbq-sachet-stir-fry",
     "title": "Korean BBQ sachet stir-fry",
     "basePortions": 4,
-    "caloriesPerPortion": 530,
+    "caloriesPerPortion": 531,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "red",
@@ -5933,7 +6143,7 @@
     "ingredients": [
       {
         "name": "Beef frying strips",
-        "qty": 500,
+        "qty": 538,
         "unit": "g"
       },
       {
@@ -5983,6 +6193,9 @@
       "Return beef; stir in both sachets (double flavour) with a splash of water until glossy.",
       "Serve over rice with spring onions and sesame."
     ],
-    "image": "images/recipes/korean-bbq-sachet-stir-fry.jpg"
+    "image": "images/recipes/korean-bbq-sachet-stir-fry.jpg",
+    "proteinPerPortionG": 35,
+    "carbsPerPortionG": 55,
+    "fatPerPortionG": 19
   }
 ]

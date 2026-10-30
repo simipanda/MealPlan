@@ -65,6 +65,12 @@ export interface Recipe {
    * Head maths: portions × this number ≈ meal total.
    */
   caloriesPerPortion?: number
+  /** Approx protein grams for one portion (dinners aim for ≥ ~35). */
+  proteinPerPortionG?: number
+  /** Approx carbohydrate grams for one portion. */
+  carbsPerPortionG?: number
+  /** Approx fat grams for one portion. */
+  fatPerPortionG?: number
   /** Prep + cook time in minutes (admin-set). */
   totalMinutes: number
   /** Optional thumbnail path under public/ (admin-set). */

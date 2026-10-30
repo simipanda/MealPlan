@@ -6,7 +6,7 @@ A mobile-first PWA for a two-cook household recipe book and weekly dinner plan.
 
 - **Household** — two cooks, week-start day, no-repeat window, and schedule defaults.
 - **Cook** — a named person with a default cook day, coverage days, and portion count.
-- **Recipe** — a published dish in `recipes.json`, optionally with local tag overlays. Includes cuisine, total cook minutes (prep+cook), ingredients, method, **calories per portion** (one plate, not the whole pot), an optional source link, optional protein swaps, and an optional admin thumbnail under `public/images/recipes/`. How this house cooks the dish is written into ingredients and method (no separate notes field).
+- **Recipe** — a published dish in `recipes.json`, optionally with local tag overlays. Includes cuisine, total cook minutes (prep+cook), ingredients, method, **per-portion macros** (kcal + protein/carbs/fat grams; one plate, not the whole pot), an optional source link, optional protein swaps, and an optional admin thumbnail under `public/images/recipes/`. How this house cooks the dish is written into ingredients and method (no separate notes field). Dinners aim for **~35g protein per portion** (~125g raw chicken breast equivalent each).
 - **Protein swap** — optional alternate meats on a recipe (e.g. pork ↔ chicken). Amounts stay the same; the active choice is stored locally and drives once-per-week protein rules and shop meat names.
 - **Star rating** — local 1–5 rating per recipe (this device only).
 - **Cuisine** — one style tag per recipe (Mexican, Italian, British, …, Misc) for browse/filter/search.
@@ -30,4 +30,4 @@ Coverage evenings cannot overlap between meals. Changing portions updates that m
 
 - Randomise never silently reuses a recipe blocked by history or health rules.
 - Once-per-week is per protein type. Default ticks everything except poultry (chicken and turkey share that category and may repeat). Beef + pork in the same week is allowed; the Plan shows a soft red-meat warning when both appear.
-- Household taste: dinners are carnivore — real meat on every meal; tofu never as the main protein. Every dinner includes a proper carb (rice, pasta, potatoes, bread, wraps, couscous, quinoa, etc.) — meat + veg alone is not enough. No cast-iron skillet recipes (pan / pot / slow cooker / oven tray or ceramic dish only). Thai basil is scarce in the UK — use named substitutes. Details in `docs/agents/recipes.md`.
+- Household taste: dinners are carnivore — real meat on every meal; tofu never as the main protein. Every dinner includes a proper carb (rice, pasta, potatoes, bread, wraps, couscous, quinoa, etc.) — meat + veg alone is not enough. ~35g protein per portion minimum. No cast-iron skillet recipes (pan / pot / slow cooker / oven tray or ceramic dish only). Thai basil is scarce in the UK — use named substitutes. Details in `docs/agents/recipes.md`.

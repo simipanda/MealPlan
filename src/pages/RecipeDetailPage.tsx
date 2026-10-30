@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
 import { IngredientLine } from '../components/IngredientLine'
+import { MacroPanel } from '../components/MacroPanel'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
 import { SourceRecipeLink } from '../components/SourceRecipeLink'
@@ -128,10 +129,10 @@ export function RecipeDetailPage() {
           ) : (
             <>Base {recipe.basePortions} portions</>
           )}
-          {recipe.caloriesPerPortion != null
-            ? ` · ~${recipe.caloriesPerPortion} kcal/portion`
-            : ''}
         </p>
+        <div className="mt-3">
+          <MacroPanel recipe={recipe} />
+        </div>
         <div className="mt-3 flex flex-wrap items-center gap-2">
           {isSauceRecipe(recipe) && (
             <span className="rounded-full bg-clay/15 px-2.5 py-1 text-xs font-semibold text-clay">

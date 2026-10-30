@@ -10,12 +10,13 @@ Published data lives in `public/recipes.json`. Photos go under `public/images/re
 2. **Fill required fields** (see Reference below).
 3. **Write ingredients** with real amounts in app units so shop can scale.
 4. **Write method** as short cook/prep steps the cook can follow in the app.
-5. **Set `caloriesPerPortion`** — kcal for **one person’s plate only**, never the whole batch.
-6. **Set `proteinOptions` only when a meat swap is normal** for this house (same grams, different animal).
-7. **Copy a photo** to `public/images/recipes/{id}.jpg` (or `.png`) and set `image` to `images/recipes/{id}.jpg`.
-8. **Check in the app** — recipe detail shows amounts, method, kcal; shop scales when the dish is on the plan; meat chips appear if swaps exist.
+5. **Hit the protein floor** for dinners — about **35g protein per portion** (benchmark ~**125g raw chicken breast** or equivalent meat per person). Raise the meat grams in ingredients if short.
+6. **Set per-portion macros** — `caloriesPerPortion`, `proteinPerPortionG`, `carbsPerPortionG`, `fatPerPortionG` (one plate only, never the whole batch). Kcal should roughly match `4×P + 4×C + 9×F`.
+7. **Set `proteinOptions` only when a meat swap is normal** for this house (same grams, different animal).
+8. **Copy a photo** to `public/images/recipes/{id}.jpg` (or `.png`) and set `image` to `images/recipes/{id}.jpg`.
+9. **Check in the app** — recipe detail shows amounts, method, macros; shop scales when the dish is on the plan; meat chips appear if swaps exist.
 
-**Done when:** the recipe has ingredients with quantities, a usable method, a calorie figure, the right default protein, swaps only if intentional, and a working image path.
+**Done when:** the recipe has ingredients with quantities, a usable method, meat + carb for dinners, ~35g protein/portion, full macros, the right default protein, swaps only if intentional, and a working image path.
 
 ## Reference
 
@@ -34,17 +35,22 @@ Published data lives in `public/recipes.json`. Photos go under `public/images/re
 | `kidFriendly` | boolean |
 | `ingredients` | Array of `{ name, qty, unit }` |
 | `method` | Array of step strings |
+| `caloriesPerPortion` | Approx kcal for **one portion** (meals) |
+| `proteinPerPortionG` | Approx protein grams for **one portion** (meals; ≥ ~35) |
+| `carbsPerPortionG` | Approx carb grams for **one portion** (meals) |
+| `fatPerPortionG` | Approx fat grams for **one portion** (meals) |
 
 ### Optional fields
 
 | Field | Meaning |
 |---|---|
-| `caloriesPerPortion` | Approx kcal for **one portion** (not `qty × portions`) |
 | `sourceUrl` | Original page (opens as “Original recipe”) |
 | `image` | Path under `public/`, e.g. `images/recipes/foo.jpg` |
 | `proteinOptions` | Extra proteins allowed as swaps, e.g. `["pork","white"]` |
 | `proteinOptionLabels` | Chip labels, e.g. `{ "white": "Turkey mince" }` |
 | `catalog` | `meal` (default) or `sauce` for dressings/sauces |
+
+Macros are required for **meals**. For sauces they are optional (one sauce serving, not a dinner).
 
 Do **not** use `householdNotes`. Real changes belong in `ingredients` / `method`.
 
@@ -73,23 +79,34 @@ Rules:
 - Write the dish **as this house cooks it** (chicken not monkfish, two tins already in the sauce, couscous in the ingredients).
 - Do not leave “follow the original” as the only step once amounts exist.
 
-### Calories
+### Calories and macros
 
-`caloriesPerPortion` is always **per portion**, so you can do the maths in your head:
+All of `caloriesPerPortion`, `proteinPerPortionG`, `carbsPerPortionG`, and `fatPerPortionG` are **per portion**, so you can do the maths in your head:
 
-`people eating × kcal/portion ≈ energy for that meal`
+`people eating × value ≈ meal total`
 
-Never store the whole-pot total. If a source lists “nutrition for the recipe” as one number for all servings, **divide by `basePortions`** before saving.
+Never store the whole-pot total. If a source lists nutrition for the whole recipe, **divide by `basePortions`** before saving.
 
-- Prefer the source’s **per-serving** number.
-- Otherwise approximate one plated share (protein + sauce + carb if the recipe includes it).
-- Dressings: one serving of dressing, not a dinner.
-- App label: `~N kcal/portion`.
+- Prefer the source’s **per-serving** numbers when trustworthy.
+- Otherwise approximate one plated share (meat + sauce + carb).
+- Keep kcal roughly consistent with `4×protein + 4×carbs + 9×fat`.
+- Dressings: one serving of dressing, not a dinner; 35g protein floor does **not** apply.
+- App: detail shows the macros panel; lists may show `~N kcal/portion`.
+
+### Protein floor (dinners)
+
+Each dinner portion should deliver **~35g protein minimum**.
+
+- Benchmark: about **125g raw chicken breast per person** (or equivalent other meat by protein density).
+- Scale the meat ingredient: e.g. `basePortions` 4 → about **500g** chicken/mince minimum before sauce losses.
+- Protein swaps keep the **same grams**; bump the shared meat line so every swap still clears the floor.
+- Do not ship “token” meat amounts that leave a hungry plate.
 
 ### Household cooking rules
 
 - **Every dinner meal must have real meat** (chicken, turkey, beef, pork, lamb, or fish/prawns). No vegetarian mains.
 - **Every dinner meal must include a proper carb** so the plate fills you up: rice, pasta, noodles, potatoes, bread, wraps/tortillas, couscous, quinoa, or similar. Meat + veg alone is not a complete meal — put the carb in `ingredients` (with real amounts) and the method.
+- **~35g protein per portion** (see Protein floor above).
 - **Tofu is never the main protein.** Optional as a small extra only if a meat dish already has proper meat.
 - **Kit:** frying pan / wok, saucepan / pot, slow cooker, oven (metal tray or ceramic/clay lasagne-style dish). **Do not** write recipes that need a cast-iron / iron skillet as the hero cookware.
 - **Thai basil** is hard to buy in the UK. Prefer Italian basil + a squeeze of lime, or mint + basil; note the substitute in the method. Do not rely on Thai basil alone.
