@@ -139,6 +139,9 @@ export function MealCard({
             {plate?.caloriesPerPortion != null && (
               <span className="rounded-full bg-cream-dark px-2 py-0.5">
                 ~{plate.caloriesPerPortion} kcal/portion
+                {carbOptions.length > 0 && plate.carbsPerPortionG != null
+                  ? ` · ${plate.carbsPerPortionG}g carbs`
+                  : ''}
               </span>
             )}
           </div>

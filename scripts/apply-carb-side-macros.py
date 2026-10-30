@@ -11,22 +11,43 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 JSON_PATH = ROOT / "public" / "recipes.json"
 
-# Approx macros for **one person's** side (matches ~70g dry rice / typical sides).
+def _macros(p: int, c: int, f: int) -> dict[str, int]:
+    """Per-portion side macros; kcal from 4P+4C+9F so swaps always move the total."""
+    return {
+        "proteinPerPortionG": p,
+        "carbsPerPortionG": c,
+        "fatPerPortionG": f,
+        "caloriesPerPortion": 4 * p + 4 * c + 9 * f,
+    }
+
+
+# Approx macros for **one person's** side (~70g dry grain unless noted).
 SIDE_MACROS: dict[str, dict[str, int]] = {
-    "rice": {"caloriesPerPortion": 250, "proteinPerPortionG": 5, "carbsPerPortionG": 55, "fatPerPortionG": 1},
-    "couscous": {"caloriesPerPortion": 250, "proteinPerPortionG": 8, "carbsPerPortionG": 48, "fatPerPortionG": 1},
-    "quinoa": {"caloriesPerPortion": 250, "proteinPerPortionG": 9, "carbsPerPortionG": 44, "fatPerPortionG": 4},
-    "pasta": {"caloriesPerPortion": 280, "proteinPerPortionG": 10, "carbsPerPortionG": 55, "fatPerPortionG": 1},
-    "potatoes": {"caloriesPerPortion": 110, "proteinPerPortionG": 3, "carbsPerPortionG": 25, "fatPerPortionG": 0},
-    "mash": {"caloriesPerPortion": 160, "proteinPerPortionG": 4, "carbsPerPortionG": 35, "fatPerPortionG": 1},
-    "crusty-bread": {"caloriesPerPortion": 200, "proteinPerPortionG": 7, "carbsPerPortionG": 38, "fatPerPortionG": 2},
-    "garlic-bread": {"caloriesPerPortion": 280, "proteinPerPortionG": 7, "carbsPerPortionG": 35, "fatPerPortionG": 12},
-    "naan": {"caloriesPerPortion": 300, "proteinPerPortionG": 9, "carbsPerPortionG": 50, "fatPerPortionG": 8},
-    "chapati": {"caloriesPerPortion": 150, "proteinPerPortionG": 5, "carbsPerPortionG": 28, "fatPerPortionG": 3},
-    "tortillas": {"caloriesPerPortion": 280, "proteinPerPortionG": 8, "carbsPerPortionG": 46, "fatPerPortionG": 7},
-    "flatbreads": {"caloriesPerPortion": 220, "proteinPerPortionG": 7, "carbsPerPortionG": 40, "fatPerPortionG": 4},
-    "glass-noodles": {"caloriesPerPortion": 180, "proteinPerPortionG": 0, "carbsPerPortionG": 44, "fatPerPortionG": 0},
-    "egg-noodles": {"caloriesPerPortion": 280, "proteinPerPortionG": 10, "carbsPerPortionG": 52, "fatPerPortionG": 3},
+    # Dry white rice ~70g
+    "rice": _macros(5, 56, 1),  # 253 kcal
+    # Dry couscous ~70g — more protein, slightly fewer carbs than rice
+    "couscous": _macros(9, 51, 1),  # 249 kcal — close to rice; carb/protein differ
+    # Dry quinoa ~70g
+    "quinoa": _macros(10, 46, 4),  # 260 kcal
+    # Dry pasta ~80g
+    "pasta": _macros(10, 58, 1),  # 281 kcal
+    # Baby potatoes ~150g
+    "potatoes": _macros(3, 26, 0),  # 116 kcal
+    # Potatoes for mash ~200g plain
+    "mash": _macros(4, 36, 1),  # 169 kcal
+    # Shared loaf → ~1 large slice / person
+    "crusty-bread": _macros(7, 40, 2),  # 206 kcal
+    "garlic-bread": _macros(7, 36, 12),  # 280 kcal
+    # 1 naan / person
+    "naan": _macros(9, 52, 8),  # 316 kcal
+    "chapati": _macros(5, 30, 3),  # 167 kcal
+    # ~2 soft flour tortillas
+    "tortillas": _macros(8, 48, 7),  # 295 kcal
+    "flatbreads": _macros(7, 42, 4),  # 230 kcal
+    # Glass noodles ~50g dry
+    "glass-noodles": _macros(0, 45, 0),  # 180 kcal
+    # Egg noodles ~80g
+    "egg-noodles": _macros(10, 54, 3),  # 283 kcal
 }
 
 

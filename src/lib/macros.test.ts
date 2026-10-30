@@ -12,18 +12,18 @@ const base = {
       id: 'rice',
       label: 'Rice',
       ingredients: [{ name: 'Rice', qty: 280, unit: 'g' as const }],
-      caloriesPerPortion: 250,
+      caloriesPerPortion: 253,
       proteinPerPortionG: 5,
-      carbsPerPortionG: 55,
+      carbsPerPortionG: 56,
       fatPerPortionG: 1,
     },
     {
       id: 'couscous',
       label: 'Couscous',
       ingredients: [{ name: 'Couscous', qty: 280, unit: 'g' as const }],
-      caloriesPerPortion: 220,
-      proteinPerPortionG: 8,
-      carbsPerPortionG: 45,
+      caloriesPerPortion: 249,
+      proteinPerPortionG: 9,
+      carbsPerPortionG: 51,
       fatPerPortionG: 1,
     },
   ],
@@ -39,20 +39,25 @@ const base = {
 describe('portionMacros', () => {
   it('adds the default (first) side when no id is chosen', () => {
     expect(portionMacros(base)).toEqual({
-      caloriesPerPortion: 650,
+      caloriesPerPortion: 653,
       proteinPerPortionG: 45,
-      carbsPerPortionG: 65,
+      carbsPerPortionG: 66,
       fatPerPortionG: 21,
     })
   })
 
   it('swaps plate macros when a different side is selected', () => {
-    expect(portionMacros(base, 'couscous')).toEqual({
-      caloriesPerPortion: 620,
-      proteinPerPortionG: 48,
-      carbsPerPortionG: 55,
+    const rice = portionMacros(base, 'rice')
+    const couscous = portionMacros(base, 'couscous')
+    expect(couscous).toEqual({
+      caloriesPerPortion: 649,
+      proteinPerPortionG: 49,
+      carbsPerPortionG: 61,
       fatPerPortionG: 21,
     })
+    // Same dry weight ≈ similar kcal; carbs/protein must still move.
+    expect(couscous.carbsPerPortionG).not.toBe(rice.carbsPerPortionG)
+    expect(couscous.proteinPerPortionG).not.toBe(rice.proteinPerPortionG)
   })
 
   it('leaves macros alone when the recipe has no side options', () => {

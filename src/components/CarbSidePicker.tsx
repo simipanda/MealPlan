@@ -33,7 +33,9 @@ export function CarbSidePicker({
       >
         {options.map((o) => (
           <option key={o.id} value={o.id}>
-            {o.label}
+            {o.caloriesPerPortion != null
+              ? `${o.label} (~${o.caloriesPerPortion} kcal)`
+              : o.label}
           </option>
         ))}
       </select>
