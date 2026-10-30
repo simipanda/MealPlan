@@ -154,7 +154,12 @@ export function saveTagOverrides(overlays: Record<string, RecipeTagOverlay>): vo
 }
 
 export function loadShop(): ShopState {
-  return readJson(KEYS.shop, { checked: {}, extras: [] })
+  const stored = readJson<Partial<ShopState> | null>(KEYS.shop, null)
+  return {
+    checked: stored?.checked ?? {},
+    extras: stored?.extras ?? [],
+    sauces: stored?.sauces ?? [],
+  }
 }
 
 export function saveShop(shop: ShopState): void {
@@ -171,7 +176,7 @@ export function savePrefs(prefs: Prefs): void {
 }
 
 export function clearShopState(): ShopState {
-  const empty = { checked: {}, extras: [] as ShopState['extras'] }
+  const empty: ShopState = { checked: {}, extras: [], sauces: [] }
   saveShop(empty)
   return empty
 }

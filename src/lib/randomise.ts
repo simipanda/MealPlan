@@ -3,6 +3,7 @@ import {
   PROTEIN_LABELS,
   RED_MEAT_PROTEINS,
 } from '../data/proteinIcons'
+import { isMealRecipe } from './recipes'
 import type {
   CookId,
   CookTag,
@@ -64,6 +65,7 @@ export function candidatePool(input: RandomiseInput): EffectiveRecipe[] {
   )
 
   return input.recipes.filter((recipe) => {
+    if (!isMealRecipe(recipe)) return false
     if (!cookMatches(recipe.cookTag, slot.cookId)) return false
     if (input.blockedRecipeIds.has(recipe.id)) return false
     if (usedIds.has(recipe.id)) return false
@@ -168,6 +170,7 @@ export type PickBlockKind =
   | 'protein_limit'
   | 'rich'
   | 'wrong_cook'
+  | 'not_a_meal'
   | 'unavailable'
 
 export type ManualPickStatus =
@@ -193,6 +196,14 @@ export function manualPickStatus(
 
   if (slot.recipeId === recipe.id) {
     return { ok: true, current: true }
+  }
+
+  if (!isMealRecipe(recipe)) {
+    return {
+      ok: false,
+      reason: 'Dressing / sauce — not for the meal plan',
+      kind: 'not_a_meal',
+    }
   }
 
   const { usedLimited, hasRich, usedIds, limited } = lockedConstraints(

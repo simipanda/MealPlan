@@ -8,7 +8,7 @@ import {
   type ReactNode,
 } from 'react'
 import { DEFAULT_HOUSEHOLD } from '../data/defaultHousehold'
-import { mergeAllRecipes, loadRecipes } from '../lib/recipes'
+import { isSauceRecipe, mergeAllRecipes, loadRecipes } from '../lib/recipes'
 import { manualPickStatus, randomiseUnlockedSlots } from '../lib/randomise'
 import {
   clearShopState,
@@ -63,6 +63,8 @@ interface AppContextValue {
   toggleChecked: (key: string) => void
   addExtra: (label: string) => void
   removeExtra: (id: string) => void
+  addSauceToShop: (recipeId: string, portions?: number) => void
+  removeSauceFromShop: (recipeId: string) => void
   clearShop: () => void
   tagOverrides: Record<string, RecipeTagOverlay>
   updateTags: (recipeId: string, overlay: RecipeTagOverlay) => void
@@ -107,7 +109,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     createEmptyWeekPlan(DEFAULT_HOUSEHOLD),
   )
   const [prefs, setPrefsState] = useState<Prefs>(DEFAULT_PREFS)
-  const [shop, setShopState] = useState<ShopState>({ checked: {}, extras: [] })
+  const [shop, setShopState] = useState<ShopState>({
+    checked: {},
+    extras: [],
+    sauces: [],
+  })
   const [tagOverrides, setTagOverridesState] = useState<
     Record<string, RecipeTagOverlay>
   >({})
@@ -210,6 +216,35 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const next = {
         ...prev,
         extras: prev.extras.filter((e) => e.id !== id),
+      }
+      saveShop(next)
+      return next
+    })
+  }, [])
+
+  const addSauceToShop = useCallback(
+    (recipeId: string, portions?: number) => {
+      const recipe = recipes.find((r) => r.id === recipeId)
+      if (!recipe || !isSauceRecipe(recipe)) return
+      const qty = portions ?? recipe.basePortions
+      setShopState((prev) => {
+        const without = (prev.sauces ?? []).filter((s) => s.recipeId !== recipeId)
+        const next = {
+          ...prev,
+          sauces: [...without, { recipeId, portions: qty }],
+        }
+        saveShop(next)
+        return next
+      })
+    },
+    [recipes],
+  )
+
+  const removeSauceFromShop = useCallback((recipeId: string) => {
+    setShopState((prev) => {
+      const next = {
+        ...prev,
+        sauces: (prev.sauces ?? []).filter((s) => s.recipeId !== recipeId),
       }
       saveShop(next)
       return next
@@ -410,6 +445,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     toggleChecked,
     addExtra,
     removeExtra,
+    addSauceToShop,
+    removeSauceFromShop,
     clearShop,
     tagOverrides,
     updateTags,

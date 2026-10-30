@@ -12,6 +12,8 @@ const recipes: EffectiveRecipe[] = [
     method: [],
     cookTag: 'cook1',
     protein: 'veg',
+    baseProtein: 'veg',
+    rating: null,
     indulgence: 'light',
     kidFriendly: true,
     ingredients: [
@@ -28,6 +30,8 @@ const recipes: EffectiveRecipe[] = [
     method: [],
     cookTag: 'cook2',
     protein: 'white',
+    baseProtein: 'white',
+    rating: null,
     indulgence: 'light',
     kidFriendly: false,
     ingredients: [
@@ -78,5 +82,40 @@ describe('buildShopLines', () => {
     )
     expect(lines.at(-1)?.name).toBe('Toilet paper')
     expect(lines.at(-1)?.isExtra).toBe(true)
+  })
+
+  it('merges sauce ingredients into the shop without planning them', () => {
+    const dressing: EffectiveRecipe = {
+      id: 'dressing',
+      title: 'Cilantro lime dressing',
+      basePortions: 2,
+      totalMinutes: 10,
+      cuisine: 'mexican',
+      method: [],
+      cookTag: 'either',
+      protein: 'veg',
+      baseProtein: 'veg',
+      rating: null,
+      catalog: 'sauce',
+      indulgence: 'light',
+      kidFriendly: true,
+      ingredients: [
+        { name: 'Lime juice', qty: 60, unit: 'ml' },
+        { name: 'Onion', qty: 0.5, unit: 'each' },
+      ],
+    }
+    const lines = buildShopLines(
+      slots,
+      [...recipes, dressing],
+      { cook1: 'Sim', cook2: 'Adam' },
+      [],
+      [{ recipeId: 'dressing', portions: 2 }],
+    )
+    const lime = lines.find((l) => l.name === 'Lime juice')
+    expect(lime?.qty).toBe(60)
+    expect(lime?.fromMeals).toContain('Cilantro lime dressing')
+    const onion = lines.find((l) => l.name.toLowerCase() === 'onion')
+    // meals: 4 + sauce: 0.5
+    expect(onion?.qty).toBe(4.5)
   })
 })

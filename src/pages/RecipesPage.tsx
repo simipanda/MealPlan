@@ -3,6 +3,7 @@ import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
+import { StarRating } from '../components/StarRating'
 import { useApp } from '../context/AppContext'
 import { ALL_CUISINES, CUISINE_LABELS } from '../data/cuisines'
 import { ALL_PROTEINS, PROTEIN_LABELS } from '../data/proteinIcons'
@@ -12,6 +13,7 @@ import {
   cookTimeBand,
 } from '../lib/cookTime'
 import { manualPickStatus, type PickBlockKind } from '../lib/randomise'
+import { isMealRecipe, recipeCatalog } from '../lib/recipes'
 import { recentRecipeIds } from '../lib/week'
 import type {
   CookTag,
@@ -19,6 +21,7 @@ import type {
   Cuisine,
   Indulgence,
   Protein,
+  RecipeCatalog,
 } from '../types'
 
 const BLOCK_STYLES: Record<
@@ -55,6 +58,11 @@ const BLOCK_STYLES: Record<
     reason: 'text-ink-muted',
     title: 'line-through text-ink-muted',
   },
+  not_a_meal: {
+    card: 'border-line/60 bg-cream-dark/40',
+    reason: 'text-ink-muted',
+    title: 'line-through text-ink-muted',
+  },
 }
 
 type ProteinFilter = 'all' | Protein
@@ -67,6 +75,11 @@ type KidsFilter = 'all' | 'yes' | 'no'
 const selectClass =
   'rounded-xl border border-line bg-card px-2.5 py-2 text-xs font-semibold text-ink'
 
+const CATALOG_LABELS: Record<RecipeCatalog, string> = {
+  meal: 'Meals',
+  sauce: 'Dressings & sauces',
+}
+
 export function RecipesPage() {
   const {
     recipes,
@@ -77,6 +90,7 @@ export function RecipesPage() {
     history,
   } = useApp()
   const [q, setQ] = useState('')
+  const [catalog, setCatalog] = useState<RecipeCatalog>('meal')
   const [proteinFilter, setProteinFilter] = useState<ProteinFilter>('all')
   const [cuisineFilter, setCuisineFilter] = useState<CuisineFilter>('all')
   const [timeFilter, setTimeFilter] = useState<TimeFilter>('all')
@@ -92,6 +106,8 @@ export function RecipesPage() {
     ? weekPlan.slots.findIndex((s) => s.id === assignSlotId)
     : -1
   const assignSlot = slotIndex >= 0 ? weekPlan.slots[slotIndex] : null
+  // Assigning a meal slot → meals only
+  const activeCatalog: RecipeCatalog = assignSlot ? 'meal' : catalog
 
   const blockedHistory = useMemo(
     () =>
@@ -99,9 +115,16 @@ export function RecipesPage() {
     [history, weekPlan.weekId, household.noRepeatWeeks],
   )
 
+  const catalogCounts = useMemo(() => {
+    const counts: Record<RecipeCatalog, number> = { meal: 0, sauce: 0 }
+    for (const r of recipes) counts[recipeCatalog(r)] += 1
+    return counts
+  }, [recipes])
+
   const filtered = useMemo(() => {
     const needle = q.trim().toLowerCase()
     return recipes.filter((r) => {
+      if (recipeCatalog(r) !== activeCatalog) return false
       if (needle) {
         const cuisineLabel = CUISINE_LABELS[r.cuisine].toLowerCase()
         const hit =
@@ -109,8 +132,7 @@ export function RecipesPage() {
           r.protein.includes(needle) ||
           r.indulgence.includes(needle) ||
           r.cuisine.toLowerCase().includes(needle) ||
-          cuisineLabel.includes(needle) ||
-          (r.householdNotes?.toLowerCase().includes(needle) ?? false)
+          cuisineLabel.includes(needle)
         if (!hit) return false
       }
       if (proteinFilter !== 'all' && r.protein !== proteinFilter) return false
@@ -132,6 +154,7 @@ export function RecipesPage() {
   }, [
     recipes,
     q,
+    activeCatalog,
     proteinFilter,
     cuisineFilter,
     timeFilter,
@@ -172,6 +195,8 @@ export function RecipesPage() {
 
   function onAssign(recipeId: string, overrideCookTag = false) {
     if (!assignSlotId) return
+    const recipe = recipes.find((r) => r.id === recipeId)
+    if (!recipe || !isMealRecipe(recipe)) return
     assignRecipe(assignSlotId, recipeId, { lock: true, overrideCookTag })
     navigate('/')
   }
@@ -180,6 +205,9 @@ export function RecipesPage() {
     return (
       <span className="mt-1.5 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
         <ProteinBadge protein={recipe.protein} />
+        {recipe.rating != null && (
+          <StarRating value={recipe.rating} editable={false} size="sm" />
+        )}
         <span className="rounded-full bg-cream-dark px-2 py-0.5 text-[11px] font-semibold text-ink-muted">
           {CUISINE_LABELS[recipe.cuisine]}
         </span>
@@ -188,7 +216,7 @@ export function RecipesPage() {
           {cookLabel(recipe.cookTag)} · {recipe.indulgence}
           {recipe.kidFriendly ? ' · kids' : ''}
           {recipe.caloriesPerPortion != null
-            ? ` · ~${recipe.caloriesPerPortion} kcal`
+            ? ` · ~${recipe.caloriesPerPortion} kcal/portion`
             : ''}
         </span>
       </span>
@@ -204,12 +232,41 @@ export function RecipesPage() {
         <h1 className="font-display text-3xl text-ink">Recipes</h1>
         {assignSlot && (
           <p className="mt-1 rounded-lg bg-forest/10 px-3 py-2 text-sm text-forest">
-            Pick a recipe for <strong>{cookName(assignSlot.cookId)}</strong>.
-            Filters narrow the list; blocked recipes stay visible (crossed out)
-            unless filtered out. Only cook-tag mismatches get Override.
+            Pick a meal for <strong>{cookName(assignSlot.cookId)}</strong>.
+            Dressings stay in their own book section and can’t be planned.
           </p>
         )}
       </header>
+
+      {!assignSlot && (
+        <div className="flex gap-2">
+          {(['meal', 'sauce'] as const).map((key) => {
+            const on = catalog === key
+            return (
+              <button
+                key={key}
+                type="button"
+                onClick={() => setCatalog(key)}
+                className={[
+                  'flex-1 rounded-xl px-3 py-2.5 text-sm font-bold',
+                  on ? 'bg-forest text-cream' : 'bg-cream-dark text-ink-muted',
+                ].join(' ')}
+              >
+                {CATALOG_LABELS[key]}
+                <span className="ml-1 font-semibold opacity-80">
+                  ({catalogCounts[key]})
+                </span>
+              </button>
+            )
+          })}
+        </div>
+      )}
+
+      {activeCatalog === 'sauce' && (
+        <p className="rounded-xl bg-cream-dark/80 px-3 py-2 text-sm text-ink-muted">
+          Dressings and sauces for reuse — not part of the week meal plan.
+        </p>
+      )}
 
       <input
         type="search"
@@ -456,7 +513,8 @@ export function RecipesPage() {
 
       <p className="text-xs text-ink-muted">
         {household.cooks.map((c) => c.name).join(' & ')} · showing{' '}
-        {filtered.length} of {recipes.length}
+        {filtered.length} of {catalogCounts[activeCatalog]}{' '}
+        {CATALOG_LABELS[activeCatalog].toLowerCase()}
       </p>
     </div>
   )

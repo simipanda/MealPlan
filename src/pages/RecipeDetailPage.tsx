@@ -1,13 +1,18 @@
 import { useMemo, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams } from 'react-router-dom'
 import { CookTimeBadge } from '../components/CookTimeBadge'
-import { HouseholdNotes } from '../components/HouseholdNotes'
 import { IngredientLine } from '../components/IngredientLine'
 import { ProteinBadge } from '../components/ProteinBadge'
 import { RecipeThumb } from '../components/RecipeThumb'
 import { SourceRecipeLink } from '../components/SourceRecipeLink'
+import { StarRating } from '../components/StarRating'
 import { useApp } from '../context/AppContext'
 import { CUISINE_LABELS } from '../data/cuisines'
+import { isSauceRecipe } from '../lib/recipes'
+import {
+  proteinChoiceLabel,
+  proteinChoices,
+} from '../lib/proteinSwap'
 import type { CookTag, Indulgence } from '../types'
 
 interface LocationState {
@@ -28,9 +33,16 @@ export function RecipeDetailPage() {
     cookName,
     household,
     weekPlan,
+    shop,
+    addSauceToShop,
+    removeSauceFromShop,
   } = useApp()
   const [editingTags, setEditingTags] = useState(false)
   const recipe = getRecipe(id ?? null)
+  const sauceOnShop = Boolean(
+    recipe &&
+      (shop.sauces ?? []).some((s) => s.recipeId === recipe.id),
+  )
 
   function goBack() {
     if (navState?.from) {
@@ -94,6 +106,14 @@ export function RecipeDetailPage() {
           <h1 className="font-display text-3xl text-ink">{recipe.title}</h1>
           <SourceRecipeLink url={recipe.sourceUrl} />
         </div>
+        <div className="mt-2">
+          <StarRating
+            value={recipe.rating}
+            onChange={(rating) =>
+              updateTags(recipe.id, { rating: rating ?? 0 })
+            }
+          />
+        </div>
         <p className="mt-1 text-sm text-ink-muted">
           {scaledForPlan ? (
             <>
@@ -113,6 +133,11 @@ export function RecipeDetailPage() {
             : ''}
         </p>
         <div className="mt-3 flex flex-wrap items-center gap-2">
+          {isSauceRecipe(recipe) && (
+            <span className="rounded-full bg-clay/15 px-2.5 py-1 text-xs font-semibold text-clay">
+              Dressing / sauce
+            </span>
+          )}
           <ProteinBadge protein={recipe.protein} size="md" />
           <span className="rounded-full bg-cream-dark px-2.5 py-1 text-xs font-semibold text-ink-muted">
             {CUISINE_LABELS[recipe.cuisine]}
@@ -141,14 +166,46 @@ export function RecipeDetailPage() {
             {editingTags ? 'Done' : 'Edit tags'}
           </button>
         </div>
+        {proteinChoices(recipe).length > 1 && (
+          <div className="mt-3">
+            <p className="mb-1.5 text-xs font-semibold text-ink-muted">
+              Meat this time
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {proteinChoices(recipe).map((p) => {
+                const active = recipe.protein === p
+                return (
+                  <button
+                    key={p}
+                    type="button"
+                    onClick={() => updateTags(recipe.id, { protein: p })}
+                    className={[
+                      'rounded-full px-3 py-1.5 text-xs font-bold',
+                      active
+                        ? 'bg-forest text-cream'
+                        : 'border border-line bg-card text-ink',
+                    ].join(' ')}
+                  >
+                    {proteinChoiceLabel(recipe, p)}
+                  </button>
+                )
+              })}
+            </div>
+            <p className="mt-1.5 text-xs text-ink-muted">
+              Same amounts — swap which meat you buy. Used for once-per-week
+              protein rules.
+            </p>
+          </div>
+        )}
       </header>
 
       {editingTags && (
         <section className="rounded-2xl border border-forest/25 bg-card p-4">
           <h2 className="mb-1 font-display text-lg">Edit tags</h2>
           <p className="mb-3 text-xs text-ink-muted">
-            Protein is set when the recipe is added to the book and can’t be
-            changed here.
+            {proteinChoices(recipe).length > 1
+              ? 'Meat swap is above. Other tags stay on this device.'
+              : 'Tags stay on this device. Meat swaps are set per recipe when they make sense.'}
           </p>
           <label className="mb-3 block text-sm">
             <span className="mb-1 block font-semibold text-ink-muted">Cook</span>
@@ -232,7 +289,6 @@ export function RecipeDetailPage() {
             ))}
           </ul>
         )}
-        <HouseholdNotes notes={recipe.householdNotes} />
       </section>
 
       <section className="rounded-2xl border border-line bg-card p-4">
@@ -244,7 +300,39 @@ export function RecipeDetailPage() {
         </ol>
       </section>
 
-      {planSlot && (
+      {isSauceRecipe(recipe) && (
+        <div className="space-y-2">
+          {sauceOnShop ? (
+            <button
+              type="button"
+              onClick={() => removeSauceFromShop(recipe.id)}
+              className="block w-full rounded-2xl border border-line py-3 text-center font-bold text-ink"
+            >
+              Remove from this week’s shop
+            </button>
+          ) : (
+            <button
+              type="button"
+              onClick={() => addSauceToShop(recipe.id)}
+              className="block w-full rounded-2xl bg-forest py-3 text-center font-bold text-cream"
+            >
+              Add ingredients to this week’s shop
+            </button>
+          )}
+          <p className="text-center text-xs text-ink-muted">
+            Uses one full recipe batch ({recipe.basePortions} portions). Not
+            added to the meal plan.
+          </p>
+          <Link
+            to="/shop"
+            className="block text-center text-sm font-semibold text-forest"
+          >
+            Open shop →
+          </Link>
+        </div>
+      )}
+
+      {planSlot && !isSauceRecipe(recipe) && (
         <Link
           to={`/cook/${planSlot.id}`}
           className="block rounded-2xl bg-forest py-3 text-center font-bold text-cream"

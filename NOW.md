@@ -6,24 +6,24 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 
 ## Done
 
-- Plan, randomise, locks, portions linked to the week strip
-- Recipes, filters, cook time, cuisine, cook mode, shop
-- Settings: meals per week, once-per-week (all ticked except poultry)
-- Soft red-meat warning; scroll opens each screen at the top
+- Plan, randomise, locks, portions, shop, cook mode, filters, settings
 - Live: https://simipanda.github.io/MealPlan/
-- Repo: https://github.com/simipanda/MealPlan (public read, only this account can edit)
-- Phone check passed
+- Recipes populated; kcal/portion; stars; protein swaps (ramen, cowboy pasta)
+- **Dressings & sauces** book section (`catalog: "sauce"`) — cilantro-lime dressing lives here, not on the plan
+- **Add sauce to shop** — from sauce detail or Shop tab; ingredients merge for the week; cleared with shop / next week
+- Authoring: `docs/agents/recipes.md`
 
 ## Next
 
-Household recipe cards are in `public/recipes.json` (titles, links, our changes). Amounts and full methods stay on the original page via the Original recipe button.
+Push `main` when you want GitHub Pages updated. Add more sauces to the book as wanted.
 
-Still to do when wanted: type our own ingredient amounts into the JSON so shop and portion scaling work, add photos, and confirm guessed proteins on the name-only soups. Then push `main`.
+## Latest
 
-No new features unless the scope changes.
+- Classic lasagne (BBC Good Food) added as Italian beef meal · 6 portions · ~580 kcal/portion
 
 ## Verify
 
-1. Reopen the installed app after a deploy
-2. Randomise, lock, portions vs week strip, shop, cook units
-3. Settings → Once per week: poultry unticked, everything else ticked
+1. Recipes → **Dressings & sauces** → Cilantro lime dressing
+2. **Add ingredients to this week’s shop** → Shop lists lime/cilantro/etc. tagged with the dressing name
+3. Dressing does not appear in Plan randomise / meal assign
+4. Remove sauce from shop or clear shop

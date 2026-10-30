@@ -49,10 +49,21 @@ export interface Ingredient {
 
 export type CookTimeBand = 'easy' | 'medium' | 'hard'
 
+/**
+ * Where the recipe lives in the book.
+ * `meal` — dinners on the week plan.
+ * `sauce` — dressings, sauces, condiments (reuse only; not planned).
+ */
+export type RecipeCatalog = 'meal' | 'sauce'
+
 export interface Recipe {
   id: string
   title: string
   basePortions: number
+  /**
+   * Approx kcal for **one portion** (one person’s plate), not the whole pot.
+   * Head maths: portions × this number ≈ meal total.
+   */
   caloriesPerPortion?: number
   /** Prep + cook time in minutes (admin-set). */
   totalMinutes: number
@@ -61,21 +72,31 @@ export interface Recipe {
   method: string[]
   cookTag: CookTag
   protein: Protein
+  /** Defaults to `meal` when omitted. */
+  catalog?: RecipeCatalog
+  /**
+   * Optional alternate proteins for this dish (e.g. pork ↔ chicken).
+   * Amounts stay the same; local overlay picks the active one.
+   */
+  proteinOptions?: Protein[]
+  /** Short labels for swap chips (e.g. white → "Turkey mince"). */
+  proteinOptionLabels?: Partial<Record<Protein, string>>
   cuisine: Cuisine
   indulgence: Indulgence
   kidFriendly: boolean
   ingredients: Ingredient[]
   /** Page the method and amounts come from. Opens in a new tab. */
   sourceUrl?: string
-  /** How this household changed the original. Shown under ingredients. */
-  householdNotes?: string
 }
 
 export interface RecipeTagOverlay {
   cookTag?: CookTag
+  /** Active protein when the recipe allows swaps. */
   protein?: Protein
   indulgence?: Indulgence
   kidFriendly?: boolean
+  /** 1–5 household star rating; omit or 0 = unrated. Local only. */
+  rating?: number
 }
 
 export interface Cook {
@@ -130,9 +151,18 @@ export interface ShopExtra {
   label: string
 }
 
+/** Dressing/sauce from the book, pulled into this week’s shop only. */
+export interface ShopSauceAdd {
+  recipeId: string
+  /** Scales the sauce recipe’s basePortions (default = one full recipe batch). */
+  portions: number
+}
+
 export interface ShopState {
   checked: Record<string, boolean>
   extras: ShopExtra[]
+  /** Sauces/dressings whose ingredients join the shop list this week. */
+  sauces: ShopSauceAdd[]
 }
 
 export interface Prefs {
@@ -140,5 +170,8 @@ export interface Prefs {
 }
 
 export interface EffectiveRecipe extends Recipe {
-  // tags already merged with overlays
+  /** Published default protein before local swap overlay. */
+  baseProtein: Protein
+  /** Local star rating 1–5, or null if unrated. */
+  rating: number | null
 }

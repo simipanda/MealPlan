@@ -1,5 +1,4 @@
 import { Link, useParams } from 'react-router-dom'
-import { HouseholdNotes } from '../components/HouseholdNotes'
 import { IngredientLine } from '../components/IngredientLine'
 import { SourceRecipeLink } from '../components/SourceRecipeLink'
 import { useApp } from '../context/AppContext'
@@ -89,7 +88,6 @@ export function CookPage() {
             ))}
           </ul>
         )}
-        <HouseholdNotes notes={recipe.householdNotes} />
       </section>
 
       <section className="rounded-2xl border border-line bg-card p-4">

@@ -2,7 +2,7 @@
   {
     "id": "chicken-tagine",
     "title": "Chicken tagine",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 60,
     "cookTag": "either",
     "protein": "white",
@@ -10,12 +10,130 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.recipetineats.com/chicken-tagine/#recipe",
-    "householdNotes": "Added couscous as the carb. Added 2 tins of tomatoes for flavour.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Dried apricot",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken thighs",
+        "qty": 1320,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Cinnamon stick",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Crushed tomatoes",
+        "qty": 2,
+        "unit": "tin"
+      },
+      {
+        "name": "Canned chickpeas",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Preserved lemon skin",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken stock, low-sodium",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "Cooking salt",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground cumin",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground ginger",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Allspice powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cinnamon powder",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Clove powder",
+        "qty": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "Fresh coriander",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Slivered almonds",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Couscous",
+        "qty": 420,
+        "unit": "g"
+      }
+    ],
     "method": [
-      "Follow the original recipe for the method and amounts.",
-      "Serve with couscous and include the extra tinned tomatoes."
-    ]
+      "Plump apricots - Soak the dried apricots in a bowl of boiling water for 30 minutes, then drain (this plumps them up).",
+      "Season chicken - Sprinkle both sides of the chicken with the salt.",
+      "Brown chicken - Heat oil the oil in a large, deep skillet or pot (Note 5) over high heat. Place chicken in the skillet skin side down and cook for 8 to 10 minutes until deep golden. Turn and cook the flesh side for 1 minute then remove to a plate.",
+      "Sauté aromatics & spices - Discard all but 2 tablespoons of fat in the skillet. Reduce heat to medium. Add onions and cook for 3 minutes. Add garlic and cook for 1 minute. Add the Ras el hanout and stir for 30 seconds.",
+      "Tagine sauce - Add the cinnamon stick, tomato, chickpeas, plumped apricots, stock and preserved lemon, then stir. Place the chicken on top, skin side up.",
+      "Simmer covered 5 minutes - Bring the liquid to a simmer then cover with a lid (Note 6). Cook for 5 minutes, adjusting the heat as needed so the liquid is simmering (but not too rapidly else base may catch).",
+      "Simmer uncovered 20 minutes - Remove lid then cook for a further 20 minutes or until the internal temperature of the chicken is at least 70°C/158°F (Note 6).",
+      "Serve - Remove from stove and rest for 5 minutes. Serve over couscous (Note 9), sprinkled with fresh coriander."
+    ],
+    "caloriesPerPortion": 780,
+    "image": "images/recipes/chicken-tagine.jpg"
   },
   {
     "id": "tuscan-chicken",
@@ -28,12 +146,77 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.thekitchn.com/tuscan-chicken-recipe-23624913",
-    "householdNotes": "Added mushrooms. Doubled all the spices for extra flavour, so the sauce is very liquid.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Large boneless, skinless chicken breasts",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Kosher salt, divided",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Freshly ground black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Olive oil, divided",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Small yellow onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Drained oil-packed sun-dried tomatoes",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Dried Italian seasoning",
+        "qty": 4.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Baby spinach",
+        "qty": 142,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan cheese",
+        "qty": 28,
+        "unit": "g"
+      },
+      {
+        "name": "Heavy cream",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Mushrooms",
+        "qty": 250,
+        "unit": "g"
+      }
+    ],
     "method": [
-      "Follow the original recipe for the method and amounts.",
-      "Add the mushrooms and use double the spices."
-    ]
+      "Butterfly the chicken breasts horizontally, pat dry, and season with most of the salt and the pepper.",
+      "Sear in batches in hot olive oil until browned on both sides (chicken will finish in the sauce). Set aside.",
+      "Soften onion in the pan, then add garlic, sun-dried tomatoes, Italian seasoning, and mushrooms. Cook until fragrant; wilt spinach.",
+      "Stir in Parmesan, cream, and remaining salt. Simmer gently, scraping up browned bits.",
+      "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid."
+    ],
+    "caloriesPerPortion": 640,
+    "image": "images/recipes/tuscan-chicken.jpg"
   },
   {
     "id": "chinese-lemon-chicken",
@@ -46,13 +229,118 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://cafedelites.com/chinese-lemon-chicken/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Chicken tenderloins",
+        "qty": 595,
+        "unit": "g"
+      },
+      {
+        "name": "Small egg",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chinese shaoxing wine",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Corn starch",
+        "qty": 112,
+        "unit": "g"
+      },
+      {
+        "name": "Vegetable oil",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ginger",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lemon juice",
+        "qty": 4.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Sugar",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "pinch"
+      },
+      {
+        "name": "Corn starch",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Sesame seeds",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Green onions",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lemon slices",
+        "qty": 5.0,
+        "unit": "each"
+      }
+    ],
+    "method": [
+      "In a large shallow bowl whisk egg, soy sauce and wine. Add in chicken, mix well and allow to marinate for 20 minutes, covered.",
+      "Place corn starch into a large baking tray. Pour chicken and marinade into the corn starch and coat chicken pieces evenly, lightly pressing the corn starch around the chicken.",
+      "Heat oil in a large wok, pan or skillet over medium-high heat on the stove top. When oil is hot (325°F | 165°C), shake off excess corn starch and fry chicken in batches in a single layer for about 5-6 minutes, turning half way during cooking, until golden and cooked through. Transfer to a plate lined with paper towel.",
+      "Discard oil and wipe wok/pan over with paper towel. Heat a little oil over medium-high heat and sauté the garlic and ginger until fragrant (about 30 seconds). Add stock, soy sauce, lemon juice, sugar, honey, and a pinch of salt. Whisk and bring to a simmer until the sugar dissolves.",
+      "Whisk corn starch mixture into the simmering sauce and stir until thickened. Add the fried chicken and toss until evenly coated in the sticky lemon sauce.",
+      "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture."
+    ],
+    "caloriesPerPortion": 660,
+    "image": "images/recipes/chinese-lemon-chicken.jpg"
   },
   {
     "id": "pulled-pork-wraps",
     "title": "Pulled pork wraps",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 180,
     "cookTag": "either",
     "protein": "pork",
@@ -60,13 +348,102 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.agonline.co.nz/recipes/pulled-pork-wraps-country-coleslaw-inspired-roger",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Pulled pork: 2.3-2.8 kg pork shoulder",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Brown sugar",
+        "qty": 38,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Black pepper",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cumin",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Smoked paprika",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Cayenne pepper",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "Ketchup",
+        "qty": 112,
+        "unit": "g"
+      },
+      {
+        "name": "Dark molasses",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Worcestershire",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Mustard",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Wraps: 6-8 flatbreads/wraps",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Crispy onions",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Coleslaw",
+        "qty": 225,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Mix dry rub: brown sugar, salt, pepper, cumin, paprika, cayenne.",
+      "Mix wet sauce: stock, ketchup, molasses, Worcestershire, mustard.",
+      "Put pork and halved onion in slow cooker; add dry spices then wet mixture.",
+      "Cook on low until shreddable (source notes long low cook).",
+      "Shred pork; assemble wraps with coleslaw and crispy onions."
+    ],
+    "image": "images/recipes/pulled-pork-wraps.png",
+    "caloriesPerPortion": 560
   },
   {
     "id": "chicken-japchae",
     "title": "Chicken japchae",
-    "basePortions": 4,
+    "basePortions": 2,
     "totalMinutes": 40,
     "cookTag": "either",
     "protein": "white",
@@ -74,13 +451,140 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://thatspicychick.com/chicken-japchae-korean-glass-noodles-stir-fry/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Low Sodium Light Soy Sauce",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Granulated White Sugar",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Toasted Sesame Oil",
+        "qty": 0.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fine Sea Salt",
+        "qty": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "qty": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Grams boneless",
+        "qty": 283,
+        "unit": "g"
+      },
+      {
+        "name": "Fine Sea Salt",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground Black Pepper",
+        "qty": 0.125,
+        "unit": "tsp"
+      },
+      {
+        "name": "Low Sodium Light Soy Sauce",
+        "qty": 0.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Toasted Sesame Oil",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Peanut Oil",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Medium / 80 grams Yellow Onion - thinly sliced",
+        "qty": 0.3333333333333333,
+        "unit": "each"
+      },
+      {
+        "name": "Medium / 100 grams Red Bell Pepper - thinly sliced",
+        "qty": 0.5,
+        "unit": "each"
+      },
+      {
+        "name": "Small / 50 grams Carrot - cut into matchsticks",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Pieces / 60 grams fresh Shiitake Mushrooms - thinly sliced",
+        "qty": 4.5,
+        "unit": "each"
+      },
+      {
+        "name": "Grams Chinese Baby Spinach - chopped into rough chunks",
+        "qty": 99,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 1.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Pieces / 30 grams Fresh Red Chilies - finely chopped",
+        "qty": 8.5,
+        "unit": "each"
+      },
+      {
+        "name": "Grams dried Sweet Potato Starch Noodles",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Peanut Oil",
+        "qty": 0.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "+ 1/4 TSP Fine Sea Salt, to taste",
+        "qty": 0.125,
+        "unit": "each"
+      },
+      {
+        "name": "To Serve: 1/2 TBSP Toasted White Sesame Seeds",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "In a large mixing bowl, mix together the low sodium light soy sauce, sugar, sesame oil, salt, black pepper and garlic until combined well. Set aside.",
+      "Clean and slice the chicken into bite-sized strips. Add to a medium bowl, followed by salt, black pepper, low sodium light soy sauce and sesame oil. Mix well to coat and set aside.",
+      "Chop/slice the yellow onion, red bell pepper, carrot, mushrooms, Chinese baby spinach, garlic and fresh red chilies (if using). Set aside.",
+      "In a large pot of boiling water (or use the same large wok you’ll use to stir-fry the chicken and veggies), cook the sweet potato glass noodles according the package instructions or until tender, not al-dente (note 5). Drain well. Cut the noodles using kitchen shears if they are the extra long ‘U’ shaped type. Then transfer to the bowl with the seasoning sauce. No need to mix at this point.",
+      "Heat ½ tablespoon peanut oil in a large nonstick wok (or large skillet) over medium-high heat. Add the onion, mushrooms, carrots and season with ⅛ TSP salt. Stir fry for 2-3 minutes, until starting to soften but the carrots are still tender crisp. Add the garlic and red chilies and stir-fry for 20-30 seconds until fragrant. Add the red bell pepper and stir-fry briefly to combine until barely softened – 30-40 seconds. Add the spinach and ¼ TSP salt.  Stir fry until just wilted – 20 seconds. Transfer to the bowl with the noodles and sauce. Do not mix.",
+      "Heat the remaining 1 teaspoon of peanut oil in the wok over high heat. Add the marinated chicken and allow to sear for 1 minute. Flip the pieces and sear the other side for another 40 seconds. Stir-fry for 1 minute or so until cooked through. Transfer to the bowl with the sauce, noodles and stir-fried veggies.",
+      "Add most of the toasted white sesame seeds (reserve some for topping) to the bowl. Toss and mix continuously until everything is combined and evenly coated in the sauce.",
+      "Transfer to a large serving dish to serve family style or divide evenly onto plates or in bowls. Sprinkle with the remaining sesame seeds. Enjoy warm, at room temperature, or cold from the fridge (note 6)."
+    ],
+    "caloriesPerPortion": 628,
+    "image": "images/recipes/chicken-japchae.jpg"
   },
   {
     "id": "thai-chicken-coconut-curry",
     "title": "Thai chicken coconut curry",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 40,
     "cookTag": "either",
     "protein": "white",
@@ -88,8 +592,98 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.averiecooks.com/thai-chicken-coconut-curry/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Coconut oil",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Medium/large sweet Vidalia or yellow onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Boneless skinless chicken breast",
+        "qty": 454,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground ginger or 1 tablespoon fresh ginger",
+        "qty": 2.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground coriander",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "One 13-ounce can coconut milk",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "1/2 cups shredded carrots",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Thai red curry paste",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Kosher salt",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Freshly ground black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "About 3 cups fresh spinach leaves",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Lime juice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fresh cilantro",
+        "qty": 38,
+        "unit": "g"
+      },
+      {
+        "name": "Rice",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "To a large skillet, add the oil, onion, and sauté over medium-high heat until the onion begins to soften about 5 minutes; stir intermittently.",
+      "Add the chicken and cook for about 5 minutes, or until chicken is done; flip and stir often to ensure even cooking.",
+      "Add the garlic, ginger, coriander, and cook for about 1 minute, or until fragrant; stir frequently.",
+      "Add the coconut milk, carrots, Thai curry paste, salt, pepper, and stir to combine. Reduce the heat to medium, and allow mixture to gently boil for about 5 minutes, or until liquid volume has reduced as much as desired and thickens slightly.",
+      "Add the spinach, lime juice, and stir to combine. Cook until spinach has wilted and is tender, about 1 to 2 minutes. Taste and optionally add brown sugar, additional curry paste, salt, pepper, etc. to taste.",
+      "Evenly sprinkle with the cilantro and serve immediately. Curry is best warm and fresh but will keep airtight in the fridge for up to 1 week."
+    ],
+    "caloriesPerPortion": 474,
+    "image": "images/recipes/thai-chicken-coconut-curry.jpg"
   },
   {
     "id": "south-indian-chicken-lentil-curry",
@@ -102,12 +696,133 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.thedoctorskitchen.com/recipes/south-indian-style-monkfish-and-lentil-curry",
-    "householdNotes": "Use chicken instead of monkfish.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Red chilli flakes",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Desiccated coconut",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Boiling water",
+        "qty": 100.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Red onion",
+        "qty": 100.0,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatoes",
+        "qty": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 6.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Ginger",
+        "qty": 25.0,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Coconut oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Star anise",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cumin seeds",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Black mustard seeds",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Curry leaves",
+        "qty": 12.0,
+        "unit": "each"
+      },
+      {
+        "name": "Dried red lentils, washed",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 1.0,
+        "unit": "tin"
+      },
+      {
+        "name": "Vegetable stock",
+        "qty": 300.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Chicken",
+        "qty": 600.0,
+        "unit": "g"
+      },
+      {
+        "name": "Green beans",
+        "qty": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "Baby spinach",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Coriander",
+        "qty": 30.0,
+        "unit": "g"
+      },
+      {
+        "name": "Limes",
+        "qty": 2.0,
+        "unit": "each"
+      }
+    ],
     "method": [
-      "Follow the original recipe for the method and amounts.",
-      "Swap the fish for chicken."
-    ]
+      "Gather and prepare your ingredients.",
+      "For the curry paste, soak the chilli flakes and coconut in the boiling water for 10 minutes. Blend with onion, tomatoes, garlic, ginger, salt and pepper until smooth.",
+      "Heat coconut oil in a heavy pan over medium-low heat. Fry star anise, cumin seeds, mustard seeds, turmeric and curry leaves 1–2 minutes. Add the paste and fry about 5 minutes until thick and fragrant.",
+      "Add lentils, coconut milk and stock. Simmer gently about 20 minutes until lentils are soft.",
+      "Add chicken (instead of monkfish), green beans and spinach; cook until chicken is done and beans are tender (about 8–12 minutes).",
+      "Serve with coriander and lime wedges."
+    ],
+    "image": "images/recipes/south-indian-chicken-lentil-curry.jpg",
+    "caloriesPerPortion": 621
   },
   {
     "id": "sukiyaki-curry",
@@ -119,9 +834,77 @@
     "cuisine": "japanese",
     "indulgence": "rich",
     "kidFriendly": false,
-    "householdNotes": "Name only so far. No source link yet. Protein is set to beef until you say otherwise.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Thinly sliced beef",
+        "qty": 450.0,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Handful shiitake or button mushrooms",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Napa cabbage or greens",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Block firm tofu, cubed",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Mirin",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Sugar",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Dashi or light stock",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "Japanese curry roux or mild curry powder + thickener",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cooked rice",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Optional: beaten egg stirred in at the end",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Brown beef quickly; set aside.",
+      "Sweat onion and mushrooms; add cabbage/tofu.",
+      "Add soy, mirin, sugar, and stock; simmer until vegetables soften.",
+      "Stir in curry roux/powder to thicken into a glossy stew.",
+      "Return beef briefly; serve over rice. Critique note: balance sweet-salty vs curry heat."
+    ],
+    "image": "images/recipes/sukiyaki-curry.jpg",
+    "caloriesPerPortion": 520
   },
   {
     "id": "patang-curry",
@@ -133,9 +916,62 @@
     "cuisine": "thai",
     "indulgence": "rich",
     "kidFriendly": false,
-    "householdNotes": "Name only so far. No source link yet. If this is Penang curry, rename it next time.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Chicken thighs",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Panang curry paste",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 1.0,
+        "unit": "tin"
+      },
+      {
+        "name": "Fish sauce",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Palm or brown sugar",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Makrut lime leaves, torn",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Thai basil",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Red chilli",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Jasmine rice",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Fry curry paste in a splash of thick coconut cream until fragrant.",
+      "Add chicken; coat and cook until sealed.",
+      "Pour remaining coconut milk; simmer until chicken is cooked and sauce thickens.",
+      "Season with fish sauce and sugar; finish with lime leaves and basil.",
+      "Serve with rice. Critique note: Panang should be thicker/richer than a thin red curry."
+    ],
+    "image": "images/recipes/patang-curry.jpg",
+    "caloriesPerPortion": 550
   },
   {
     "id": "tom-yum",
@@ -147,9 +983,71 @@
     "cuisine": "thai",
     "indulgence": "light",
     "kidFriendly": false,
-    "householdNotes": "Name only so far. No source link yet. Protein is set to poultry until you say otherwise.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Chicken or prawn stock / water + stock",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemongrass stalks, bruised",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Galangal slices",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Makrut lime leaves",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Thai chillies, bruised",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Mushrooms",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Chicken or prawns",
+        "qty": 350.0,
+        "unit": "g"
+      },
+      {
+        "name": "Fish sauce",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lime juice",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Optional: nam prik pao for tom yum nam khon richness",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Coriander, to finish",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Simmer aromatics (lemongrass, galangal, lime leaves, chilli) in stock until fragrant.",
+      "Add mushrooms and protein; cook through.",
+      "Season hot-sour-salty with fish sauce and lime; add chilli paste if using creamy style.",
+      "Finish with coriander. Critique note: balance sour vs spicy; don’t boil lime juice long."
+    ],
+    "image": "images/recipes/tom-yum.jpg",
+    "caloriesPerPortion": 220
   },
   {
     "id": "clear-mince-soup",
@@ -161,9 +1059,56 @@
     "cuisine": "thai",
     "indulgence": "light",
     "kidFriendly": false,
-    "householdNotes": "Idea only. No source link yet. Protein is set to beef mince until you say otherwise.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Minced beef or pork",
+        "qty": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "Light stock or water + seasoning",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Garlic, crushed",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "White pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Soy sauce or fish sauce",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Soft tofu cubes",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Spring onion / coriander",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Optional: glass noodles or soft vegetables",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Bring stock to a simmer with garlic.",
+      "Drop in mince in small clumps or pre-seasoned meatballs; poach gently.",
+      "Add tofu/veg; season clear and savoury (fish sauce + white pepper).",
+      "Finish with spring onion. Critique note: keep broth clear — don’t boil hard after adding mince."
+    ],
+    "image": "images/recipes/clear-mince-soup.jpg",
+    "caloriesPerPortion": 280
   },
   {
     "id": "tom-jeid",
@@ -175,9 +1120,57 @@
     "cuisine": "thai",
     "indulgence": "light",
     "kidFriendly": false,
-    "householdNotes": "Clear soup with glass noodles, egg, tofu and meat. No source link yet. Protein is set to pork until you say which meat.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Light pork or chicken stock",
+        "qty": 1000,
+        "unit": "ml"
+      },
+      {
+        "name": "Minced pork or sliced meat",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Soft tofu, cubed",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Glass noodles , soaked",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Eggs",
+        "qty": 1.5,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Spring onion, coriander",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Optional: cabbage or Chinese greens",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Simmer stock; season lightly.",
+      "Cook meat; add tofu and greens.",
+      "Add soaked glass noodles briefly so they don’t over-soften.",
+      "Stir in beaten egg in a thin stream for ribbons, or poach eggs whole.",
+      "Finish with herbs. Critique note: noodles last; soup should stay clear and gentle."
+    ],
+    "image": "images/recipes/tom-jeid.jpg",
+    "caloriesPerPortion": 320
   },
   {
     "id": "tom-saab",
@@ -189,9 +1182,51 @@
     "cuisine": "thai",
     "indulgence": "light",
     "kidFriendly": false,
-    "householdNotes": "Ground beef soup. No source link yet.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Ground beef",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Stock or water",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Lemongrass",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Fish sauce, lime juice, chilli",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Toasted rice powder",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Shallots",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Optional offal for traditional versions",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Simmer aromatics in stock.",
+      "Cook ground beef in the broth; skim if needed.",
+      "Season boldly hot-sour-salty; thicken mouthfeel with toasted rice powder.",
+      "Heap with fresh herbs and shallot. Critique note: toasted rice powder is the signature texture."
+    ],
+    "image": "images/recipes/tom-saab.jpg",
+    "caloriesPerPortion": 300
   },
   {
     "id": "khao-soi",
@@ -203,9 +1238,52 @@
     "cuisine": "thai",
     "indulgence": "rich",
     "kidFriendly": false,
-    "householdNotes": "You wrote khao san. Stored as khao soi, the northern Thai curry soup. No source link yet. Protein is set to poultry until you say otherwise.",
-    "ingredients": [],
-    "method": ["Add a source link and your own amounts before cooking from the app."]
+    "ingredients": [
+      {
+        "name": "Egg noodles",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Chicken pieces",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Khao soi / yellow curry paste",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Fish sauce, sugar, curry powder",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Pickled mustard greens",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Fry paste in coconut cream; add chicken and brown lightly.",
+      "Add coconut milk and stock; simmer until chicken is tender and sauce is rich.",
+      "Season; ladle over boiled noodles.",
+      "Top with crisp noodles, pickles, shallot, lime, chilli oil.",
+      "Critique note: contrast soft noodles + crunchy topping is the dish’s teaching point."
+    ],
+    "image": "images/recipes/khao-soi.jpg",
+    "caloriesPerPortion": 620
   },
   {
     "id": "chicken-bites",
@@ -218,13 +1296,67 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/chicken-bites/#wprm-recipe-container-72649",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Chili powder",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chipotle chili pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "EACH ground cumin",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chicken breasts",
+        "qty": 454,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lime juice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chopped cilantro for garnish",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Spice mix: Whisk all the spices together in a medium bowl.",
+      "Season chicken: While the chopped chicken is still on the cutting board, pat it dry with paper towels, then toss it with the spice mix.",
+      "Cook chicken: Heat 1 1/2 tablespoons olive oil in a large nonstick skillet or enameled cast iron pan over medium-high heat. Once smoking, add chicken in a single layer. Sear chicken for about 3 minutes, then flip over.  Continue to cook for an additional 2-3 minutes, or just until cooked through.",
+      "Add glaze: Stir in the lime juice and honey until evenly coated. (start with 1 TBS honey if you want it less sweet),  Serve with all that yummy glaze.  Garnish with cilantro if desired.",
+      "Serve:  See post for lots of tasty serving ideas!"
+    ],
+    "image": "images/recipes/chicken-bites.jpg",
+    "caloriesPerPortion": 380
   },
   {
     "id": "cilantro-lime-dressing",
     "title": "Cilantro lime dressing",
-    "basePortions": 4,
+    "basePortions": 2,
     "totalMinutes": 10,
     "cookTag": "either",
     "protein": "veg",
@@ -232,9 +1364,65 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/cilantro-lime-dressing/",
-    "householdNotes": "A dressing, not a dinner. Kept in the book so it can be planned or shopped later.",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Packed cilantro",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatillos",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Jalapeno",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Real mayonnaise",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Sour cream",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "Lime juice",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ranch seasoning mix - see DIY NOTES",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Smoked paprika",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Milk as needed",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Add all of the ingredients to a blender puree until smooth, scraping sides down as needed. Add milk, a tablespoon at a time to reach desired consistency.",
+      "Chill before serving (a must!).  Dressing will thicken in the refrigerator so you may need to whisk in some milk before serving. This Cilantro Lime Dressing stores fabulously well for about 5-7 days, but honestly, it never lasts that long at our house!"
+    ],
+    "image": "images/recipes/cilantro-lime-dressing.jpg",
+    "caloriesPerPortion": 90,
+    "catalog": "sauce"
   },
   {
     "id": "peri-peri-chicken-rice",
@@ -247,8 +1435,71 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.tamingtwins.com/peri-peri-chicken-and-rice-one-pot/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Sunflower oil",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Skinless boneless chicken breast, bite-sized",
+        "qty": 600.0,
+        "unit": "g"
+      },
+      {
+        "name": "Peri peri seasoning",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Red onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Red peppers",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Hot chicken stock",
+        "qty": 800.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Long grain rice, rinsed",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Frozen peas",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Sea salt and freshly ground black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Brown chicken pieces in oil over medium heat about 5 minutes.",
+      "Add peri peri seasoning, garlic and onion; fry 3–5 minutes until onion softens.",
+      "Add peppers, stock, tomato purée, rice, salt and pepper. Cover, low heat, 15 minutes.",
+      "Stir in peas; cover and cook 5 minutes more until rice and chicken are done."
+    ],
+    "caloriesPerPortion": 518,
+    "image": "images/recipes/peri-peri-chicken-rice.jpg"
   },
   {
     "id": "marry-me-chicken-orzo",
@@ -261,13 +1512,82 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.tamingtwins.com/marry-me-chicken-orzo/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Skinless boneless chicken breast",
+        "qty": 650.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Sun-dried tomatoes in oil, drained",
+        "qty": 170.0,
+        "unit": "g"
+      },
+      {
+        "name": "Oregano",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Paprika",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Orzo",
+        "qty": 250.0,
+        "unit": "g"
+      },
+      {
+        "name": "Hot chicken stock",
+        "qty": 650.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Double / heavy cream",
+        "qty": 150.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmesan, grated",
+        "qty": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "Spinach",
+        "qty": 120.0,
+        "unit": "g"
+      },
+      {
+        "name": "Freshly ground black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Fry chicken in oil over medium heat about 5 minutes until starting to colour.",
+      "Add garlic, sun-dried tomatoes, oregano and paprika; stir 3–5 minutes.",
+      "Add orzo, stock and pepper; cover and cook about 10 minutes, stirring now and then.",
+      "On lowest heat, stir in spinach and cream 1–3 minutes until wilted and hot; check chicken is cooked.",
+      "Off heat, stir in Parmesan."
+    ],
+    "caloriesPerPortion": 790,
+    "image": "images/recipes/marry-me-chicken-orzo.jpg"
   },
   {
     "id": "slow-cooker-chicken-curry",
     "title": "Slow cooker chicken curry",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 240,
     "cookTag": "either",
     "protein": "white",
@@ -275,8 +1595,104 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://myfoodstory.com/slow-cooker-chicken-curry-recipe/#wprm-recipe-container-12321",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onions",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Baby Potatoes",
+        "qty": 7.5,
+        "unit": "each"
+      },
+      {
+        "name": "Chicken Thighs",
+        "qty": 685.0,
+        "unit": "g"
+      },
+      {
+        "name": "Bayleaf",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cloves (spice)",
+        "qty": 2.5,
+        "unit": "each"
+      },
+      {
+        "name": "Peppercorns",
+        "qty": 7.0,
+        "unit": "each"
+      },
+      {
+        "name": "Green Chilli",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Coriander Powder",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Red Chilli Powder",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Turmeric Powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Garam Masala Powder",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Tomato Puree",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "Water",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Butter",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chopped coriander for topping",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat oil in a pan and add chopped onions and minced garlic. Saute for 3-4 minutes till the onions soften. Transfer this mixture to the slow cooker along with all the other ingredients. Mix well.",
+      "Cover and cook on high for 3.5-4 hours or low for 6 hours. Once the chicken curry is cooked, mix in the chopped coriander and serve hot on top of steamed rice or with some butter naan."
+    ],
+    "caloriesPerPortion": 374,
+    "image": "images/recipes/slow-cooker-chicken-curry.jpg"
   },
   {
     "id": "chicken-shawarma",
@@ -289,13 +1705,114 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.recipetineats.com/chicken-sharwama-middle-eastern/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Lb chicken thigh fillets",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 1.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Ground coriander",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground cumin",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground cardamon",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground cayenne pepper",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Smoked paprika",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Lemon juice",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Batch Lemon yogurt sauce",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Flatbreads",
+        "qty": 4.5,
+        "unit": "each"
+      },
+      {
+        "name": "Sliced lettuce",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Tomato slices",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Red onion",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Cheese",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Hot sauce of choice",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Marinade chicken - Combine the marinade ingredients in a large ziplock bag. Add the chicken, seal, the massage from the outside with your hands to make sure each piece is coated. Marinate 24 hours (minimum 3 hours).",
+      "Yogurt Sauce - Combine the Yogurt Sauce ingredients in a bowl and mix. Cover and put in the fridge until required (it will last for 3 days in the fridge).",
+      "Preheat stove or BBQ - Heat a large non-stick skillet with 1 tablespoon over medium high heat, or lightly brush a BBQ hotplate/grills with oil and heat to medium high. (See notes for baking)",
+      "Cook chicken - Place chicken in the skillet or on the grill and cook the first side for 4 to 5 minutes until nicely charred. Turn and cook the other side for 3 to 4 minutes (the 2nd side takes less time).",
+      "Rest - Remove chicken from the grill and cover loosely with foil. Set aside to rest for 5 minutes.",
+      "Slice chicken and pile onto platter alongside flatbreads, Salad and the Yoghurt Sauce (or dairy free Tahini sauce from this recipe).",
+      "To make a wrap, get a piece of flatbread and smear with Yoghurt Sauce. Top with a bit of lettuce and tomato and Chicken Shawarma. Roll up and enjoy!"
+    ],
+    "caloriesPerPortion": 275,
+    "image": "images/recipes/chicken-shawarma.jpg"
   },
   {
     "id": "chicken-passanda",
     "title": "Chicken passanda",
-    "basePortions": 4,
+    "basePortions": 2,
     "totalMinutes": 45,
     "cookTag": "either",
     "protein": "white",
@@ -303,8 +1820,98 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.rachelphipps.com/2020/09/better-than-takeaway-chicken-passanda-curry-recipe.html",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Ghee or light oil",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cinnamon stick",
+        "qty": 0.5,
+        "unit": "each"
+      },
+      {
+        "name": "Green cardamom pods",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Small white onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": 20.0,
+        "unit": "g"
+      },
+      {
+        "name": "Ground coriander",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground turmeric",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Mild chilli powder",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Skinless boneless chicken thighs",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Full fat natural yogurt",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Sea salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Water",
+        "qty": 4.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground almonds",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Small handful freshly chopped coriander, for garnish",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Small handful toasted almond flakes, for garnish",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat a large, non-stick shallow casserole or frying pan over a medium high heat. If you’re serving the passanda with toasted almond flakes, toast these in the dry pan first, and set aside.",
+      "Heat the ghee or cooking oil until shimmering before toasting the cinnamon stick and the cardamom pods – bashed lightly with a rolling pin to reveal their seeds – for a minute or two until sizzling and fragrant.",
+      "Meanwhile, peel and roughly chop the onion, garlic and ginger, and blitz to a fine paste in a mini chopper or food processor. Add the mixture to the pan and gently fry for 5 minutes until translucent and starting to brown.",
+      "Add the ground coriander, tumeric and chilli powder, and fry for a further minute until aromatic.",
+      "Cube the chicken thighs and stir into the pan until the pieces are well coated in the onion mixture. Stir in the yogurt, salt, water and ground almonds.",
+      "Raise the heat until the mixture is bubbling before dropping it down to low. Allow the curry to simmer, uncovered, for 15 minutes until the chicken has cooked through and the sauce has thickened."
+    ],
+    "image": "images/recipes/chicken-passanda.jpg",
+    "caloriesPerPortion": 580
   },
   {
     "id": "chicken-biryani",
@@ -317,13 +1924,83 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-biryani",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Basmati rice",
+        "qty": 300.0,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "qty": 25.0,
+        "unit": "g"
+      },
+      {
+        "name": "Large onion finely sliced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Bay leaf",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cardamom pods",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Small cinnamon stick",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Turmeric",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Skinless chicken breasts cut into large chunks",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Balti curry paste",
+        "qty": 4.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Raisins",
+        "qty": 85.0,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 850.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Coriander 1/2 chopped",
+        "qty": 30.0,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Soak 300g basmati rice in warm water, then wash in cold until the water runs clear.",
+      "Heat 25g butter in a saucepan and cook 1 finely sliced large onion with 1 bay leaf, 3 cardamom pods and 1 small cinnamon stick for 10 mins.",
+      "Sprinkle in 1 tsp turmeric, then add 4 chicken breasts, cut into large chunks, and 4 tbsp curry paste. Cook until aromatic.",
+      "Stir the rice into the pan with 85g raisins, then pour over 850ml chicken stock.",
+      "Place a tight-fitting lid on the pan and bring to a hard boil, then lower the heat to a minimum and cook the rice for another 5 mins.",
+      "Turn off the heat and leave for 10 mins. Stir well, mixing through 15g chopped coriander. To serve, scatter over the leaves of the remaining 15g coriander and 2 tbsp toasted almonds."
+    ],
+    "caloriesPerPortion": 660,
+    "image": "images/recipes/chicken-biryani.jpg"
   },
   {
     "id": "chipotle-chicken-pasta",
     "title": "Spicy chipotle chicken pasta",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "white",
@@ -331,13 +2008,157 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/spicy-chicken-chipotle-pasta/#wprm-recipe-container-74584",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Chipotle chili pepper, chili powder",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "EACH ground cumin",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Medium chicken breasts",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lime juice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Asparagus, 1-inch chop",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Penne",
+        "qty": 454,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Unsalted butter",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Yellow onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Bell peppers",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 5.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Flour",
+        "qty": 38,
+        "unit": "g"
+      },
+      {
+        "name": "Low sodium chicken broth",
+        "qty": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "Half and half",
+        "qty": 225,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken bouillon",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Dried oregano",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Freshly shredded sharp cheddar",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Freshly grated Parmesan",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Lime juice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Frozen petite peas",
+        "qty": 75,
+        "unit": "g"
+      },
+      {
+        "name": "Freshly grated Parmesan cheese",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Fresh parsley or cilantro",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Lime juice",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Pasta water:  Start the water boiling for your pasta in a large pot, meanwhile season the chicken and prep the veggies.",
+      "Spice Mix: In a small bowl, whisk the spices together. Remove 1 1/2 tablespoons to use on the chicken (the rest is for the pasta sauce).",
+      "Season chicken: While the chopped chicken is still on the cutting board, pat dry with paper towels, then toss with the 1 1/2 tablespoon spice mix; set aside.",
+      "Cook asparagus:  Prepare a large bowl of ice water and place a colander inside (skip colander if you have a pasta pot with drain insert).  Season the boiling pasta water generously with salt.  Add the asparagus and boil for 2-3 minutes or until tender crisp.  Use a fine mesh sieve (or drain insert) to transfer the asparagus to the colander in the ice bath to prevent it from continuing to cook.",
+      "Cook pasta: Cook pasta in the boiling water just until al dente. Reserve ½ cup pasta water before draining. Drain, rinse and toss pasta with a drizzle of olive oil; set aside.",
+      "Cook chicken: Heat 2 tablespoons olive oil in an enameled cast iron braiser or Dutch oven over medium-high heat. Once smoking, add chicken in a single layer. Sear chicken for 2-3 minutes, then flip over. Continue to cook for an additional 2-3 minutes, or just until cooked through.  Stir in 2 tablespoon honey and 1 tablespoon lime juice, until evenly coated.   Transfer to a plate including all of the yummy glaze (use a spatula to get it all).  Wipe the pan clean (so the residual honey doesn’t burn).",
+      "Sauté onions and peppers:  To the now empty pan, melt 2 tablespoons butter in 2 tablespoons olive oil over medium-high heat.  Add onions and sauté for 4 minutes.  Add bell peppers and remaining spice mix and cook for 2 minutes. Add garlic, and sauté for 30 seconds.",
+      "Make sauce: Sprinkle in the flour and cook for 1 additional minute. Reduce heat to low, then slowly whisk in the chicken broth, followed by the half and half. Stir in the chicken bouillon and oregano. Increase heat to medium-high and bring the sauce to a simmer until thickened, stirring often.",
+      "Add cheeses: Reduce heat to low. Working in batches, stir in the cheddar until melted, followed by Parmesan cheese until melted. You may need to cook for 1-2 minutes on low for the cheeses to completely melt.",
+      "Combine and season: Stir in the lime juice, chicken, asparagus, and peas, followed by the pasta.  Season with salt, pepper and/or chipotle chili pepper to taste.  If you would like to thin the sauce (optional), add some reserved pasta water a little at a time.   Garnish with freshly grated Parmesan cheese, fresh parsley or cilantro and lime juice (optional)."
+    ],
+    "image": "images/recipes/chipotle-chicken-pasta.jpg",
+    "caloriesPerPortion": 650
   },
   {
     "id": "creamy-mushroom-chicken",
     "title": "Creamy mushroom chicken",
-    "basePortions": 4,
+    "basePortions": 6,
     "totalMinutes": 35,
     "cookTag": "either",
     "protein": "white",
@@ -345,8 +2166,67 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://healthyfitnessmeals.com/creamy-mushroom-chicken/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Olive oil, divided",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Boneless skinless chicken breasts",
+        "qty": 680,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Button mushrooms",
+        "qty": 227,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken broth",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "name": "Cornstarch",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Light cream cheese, softened",
+        "qty": 113,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh chopped parsley",
+        "qty": 1.0,
+        "unit": "tbsp"
+      }
+    ],
+    "method": [
+      "Heat 1 tbsp oil; sear chicken until golden, about 5 minutes per side. Remove and keep warm.",
+      "Heat remaining oil; brown mushrooms, then garlic until fragrant.",
+      "Whisk cornstarch with 2 tbsp water. Add broth and slurry; season; bring to a bubble.",
+      "Whisk in softened cream cheese until smooth and thick.",
+      "Return chicken; spoon sauce over; garnish with parsley."
+    ],
+    "caloriesPerPortion": 224,
+    "image": "images/recipes/creamy-mushroom-chicken.jpg"
   },
   {
     "id": "quick-pork-ramen",
@@ -359,8 +2239,103 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.macheesmo.com/quick-pork-ramen-recipe/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Beef stock",
+        "qty": 720,
+        "unit": "ml"
+      },
+      {
+        "name": "White miso paste",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Butter",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "1/4 pound pork loin",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Hoisin sauce",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Rice wine vinegar",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Udon noodles",
+        "qty": 227,
+        "unit": "g"
+      },
+      {
+        "name": "Soft Boiled Eggs",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Grated carrot",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Scallions",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Cilantro",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Sesame oil",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Sesame seeds",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "For cheater stock, combine beef stock, miso, butter, and soy sauce in a pot and warm over low heat. It should never boil, but a light simmer is okay.",
+      "For pork loin (optional, but good), mix together all ingredients in a bowl and pour over pork loin. Ideally, do this a few hours in advance or the night before so pork can marinate.",
+      "Place pork in a roasting pan and roast at 400 °F. for 20-25 minutes until the thickest part of the pork loin registers at least 145 degrees F. Flip the pork every 10 minutes and baste with any marinade in the pan.",
+      "Remove pork and let rest.",
+      "Meanwhile, prep other ramen ingredients including cooking the noodles according to package, grating carrot, and chopping herbs, and making Soft Boiled Eggs.",
+      "Slice pork thin into coins. Divide noodles between bowls and pour in warmed ramen stock. Top each bowl with some pork, an egg, veggies, and a drizzle of sesame oil and sesame seeds. You can also add soy sauce and chili oil if you want!"
+    ],
+    "caloriesPerPortion": 582,
+    "image": "images/recipes/quick-pork-ramen.jpg"
   },
   {
     "id": "curried-chicken-golden-rice",
@@ -373,13 +2348,91 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a31280477/curried-chicken-garlic-golden-rice-recipe/",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Medium red onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Lime, juiced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Kosher salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Extra-virgin olive oil",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "3\" piece ginger, grated",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Curry powder",
+        "qty": 2.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Coconut milk",
+        "qty": 1.0,
+        "unit": "tin"
+      },
+      {
+        "name": "Uncooked white basmati rice, rinsed",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Packed fresh spinach",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Plain Greek yogurt",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cayenne pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Tyson® Individually Frozen Boneless Skinless Chicken Breasts",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cilantro leaves, for serving",
+        "qty": 38,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Thinly slice 1/4 of the onion and place in a medium bowl. Add lime juice, season with salt, and stir to combine. Use the back of a spoon to crush the onions against the side of your mixing bowl. (This will allow them to pickle more quickly.) Chop the remaining onion and set aside.",
+      "In a medium saucepan over medium heat, heat 2 tablespoons oil. Add chopped onion and cook, stirring frequently, until soft, about 6 minutes. Add half the garlic, half the ginger, and 1 tablespoon of the curry powder, and cook until fragrant, 1 minute more. Add coconut milk and bring up to a simmer; then add rice. Bring to a low simmer, cover and cook until rice is tender, 15 to 17 minutes. When rice is cooked, fold in spinach until wilted.",
+      "Meanwhile, in a large bowl, whisk yogurt, remaining garlic, ginger, and curry powder, and cayenne, if using, until combined. Season with 1/2 teaspoon kosher salt, and use a small spatula or pastry brush to spread yogurt mixture all over frozen chicken breasts.",
+      "In a 10\" or 12” high-sided skillet over medium heat, heat remaining oil. Add chicken and sear until lightly golden, 10 minutes per side, until internal temperature reaches 165°. Remove from heat and let rest 5 minutes before slicing. Divide rice and chicken between 4 bowls and top with the lime-pickled onions. Garnish with cilantro before serving."
+    ],
+    "caloriesPerPortion": 905,
+    "image": "images/recipes/curried-chicken-golden-rice.jpg"
   },
   {
     "id": "cowboy-pasta-salad",
     "title": "Cowboy pasta salad",
-    "basePortions": 4,
+    "basePortions": 10,
     "totalMinutes": 25,
     "cookTag": "either",
     "protein": "pork",
@@ -387,14 +2440,151 @@
     "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/cowboy-pasta-salad/",
-    "householdNotes": "A pasta salad, not a hot dinner. Protein is set to pork until you say otherwise.",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Mini farfalle or other small pasta such as rigatoni or shells",
+        "qty": 454,
+        "unit": "g"
+      },
+      {
+        "name": "Lean ground beef or turkey",
+        "qty": 454,
+        "unit": "g"
+      },
+      {
+        "name": "4 oz. can mild diced green chiles",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "EACH chili powder, ground cumin",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "EACH garlic powder, onion powder, salt",
+        "qty": 0.75,
+        "unit": "tsp"
+      },
+      {
+        "name": "Diced canned/pickled jalapeno peppers",
+        "qty": 5.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Green bell pepper",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "15 oz. can black beans",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Corn from 1 ear sweet corn",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Pint cherry tomatoes",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cubed sharp cheddar cheese",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Small red onion",
+        "qty": 0.25,
+        "unit": "each"
+      },
+      {
+        "name": "Chopped cilantro",
+        "qty": 38,
+        "unit": "g"
+      },
+      {
+        "name": "Thick center cut bacon",
+        "qty": 227,
+        "unit": "g"
+      },
+      {
+        "name": "Ketchup",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Mayonnaise",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Sour cream",
+        "qty": 80,
+        "unit": "ml"
+      },
+      {
+        "name": "Salsa",
+        "qty": 38,
+        "unit": "g"
+      },
+      {
+        "name": "Brown sugar",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Yellow mustard",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Apple cider vinegar, plus more to taste",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "EACH smoked paprika, salt, pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Hot sauce/Tabasco",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Whisk together all of the Dressing ingredients in a medium bowl.  Add plenty of Tabasco to taste.  Set aside.",
+      "Cook pasta just until al dente according to package directions.  Rinse with cold water and drain.  Add to a large serving bowl and toss with half of the dressing.",
+      "Brown meat in a large skillet over medium heat.  Drain off excess grease. Stir in green chiles and all spices.  Set aside to cool while you chop your veggies.",
+      "Add beef and all remaining salad ingredients to pasta except bacon.",
+      "If serving immediately,  add bacon and stir in desired amount of dressing.  If not serving immediately, hold bacon and dressing and add when ready to serve.  Add hot sauce for spicier, apple cider vinegar for tangier, brown sugar for less tangy if desired.",
+      "Cowboy Pasta Salad can be served slightly chilled, at room temperature, or heated through.  Leftovers are equally delicious heated in the microwave."
+    ],
+    "image": "images/recipes/cowboy-pasta-salad.jpg",
+    "proteinOptions": [
+      "pork",
+      "white"
+    ],
+    "proteinOptionLabels": {
+      "pork": "Pork mince",
+      "white": "Turkey mince"
+    },
+    "caloriesPerPortion": 520
   },
   {
     "id": "easiest-ramen",
     "title": "Easiest ramen",
-    "basePortions": 4,
+    "basePortions": 2,
     "totalMinutes": 40,
     "cookTag": "either",
     "protein": "pork",
@@ -402,8 +2592,213 @@
     "indulgence": "light",
     "kidFriendly": false,
     "sourceUrl": "https://www.joshuaweissman.com/post/i-made-the-easiest-ramen-ever",
-    "householdNotes": "Highly rated in this house. Protein is set to pork until you say otherwise.",
-    "ingredients": [],
-    "method": ["Follow the original recipe for the method and amounts."]
+    "ingredients": [
+      {
+        "name": "Vegetable oil",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground pork",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Shiitake mushrooms",
+        "qty": 5.0,
+        "unit": "each"
+      },
+      {
+        "name": "Kosher salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Green onions",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Shallot",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "2.5 cm Ginger, finely grated",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Sugar",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Toasted sesame oil",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground white pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Doubanjiang",
+        "qty": 2.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Mirin",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Dashi or chicken stock",
+        "qty": 360.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 960.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Toasted white sesame seeds, lightly ground",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Red miso",
+        "qty": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "Large egg",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Dry ramen noodles",
+        "qty": 113.0,
+        "unit": "g"
+      },
+      {
+        "name": "Corn kernels",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Pickled ginger, optional",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Chilli oil",
+        "qty": 3.0,
+        "unit": "tsp"
+      }
+    ],
+    "method": [
+      "Optional dashi: steep kombu in nearly boiling water 5 minutes, add bonito flakes off heat 8–10 minutes, strain.",
+      "Brown ground pork in oil until crumbly and golden. Add mushrooms and salt; cook until softened.",
+      "Add onion whites, shallot and ginger; cook 1–2 minutes. Stir in sugar, sesame oil, white pepper, doubanjiang and mirin for 1 minute.",
+      "Add dashi (if using) and chicken stock; bring to a boil. Stir in sesame seeds; simmer 3–4 minutes.",
+      "Off heat, press miso through a mesh strainer into the broth and stir until smooth. Keep warm.",
+      "Soft-boil egg 6 minutes; ice bath; peel and halve.",
+      "Cook ramen noodles per packet. Ladle broth over noodles; top with egg, corn, green onion greens, pickled ginger and chilli oil."
+    ],
+    "image": "images/recipes/easiest-ramen.jpg",
+    "proteinOptions": [
+      "pork",
+      "white"
+    ],
+    "proteinOptionLabels": {
+      "pork": "Pork",
+      "white": "Chicken"
+    },
+    "caloriesPerPortion": 550
+  },
+  {
+    "id": "classic-lasagne",
+    "title": "Classic lasagne",
+    "basePortions": 6,
+    "caloriesPerPortion": 580,
+    "totalMinutes": 120,
+    "cookTag": "either",
+    "protein": "red",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": true,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/classic-lasagne-0",
+    "image": "images/recipes/classic-lasagne.jpg",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lean beef mince",
+        "qty": 750,
+        "unit": "g"
+      },
+      {
+        "name": "Prosciutto",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "name": "Passata",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "name": "Hot beef stock",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Nutmeg",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Fresh lasagne sheets",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "White sauce (shop-bought or homemade)",
+        "qty": 650,
+        "unit": "ml"
+      },
+      {
+        "name": "Mozzarella",
+        "qty": 125,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Heat 2 tbsp olive oil in a frying pan and brown the beef mince in two batches for about 10 minutes.",
+      "Finely chop 4 slices of the prosciutto and stir through the meat.",
+      "Add the passata and hot beef stock. Grate in a little nutmeg, season with salt and pepper.",
+      "Bring to the boil, then simmer for 30 minutes until the sauce looks rich.",
+      "Heat the oven to 180C/160C fan/gas 4 and lightly oil a dish about 30 x 20cm.",
+      "Spoon one third of the meat sauce into the dish, cover with lasagne sheets, then drizzle about 130ml white sauce.",
+      "Repeat the meat, pasta and white sauce layers until you have three layers of pasta. Cover with the remaining white sauce so no pasta shows.",
+      "Scatter torn mozzarella over the top, then arrange the rest of the prosciutto on top.",
+      "Bake for 45 minutes until bubbling and lightly browned. Rest 10–15 minutes before serving."
+    ]
   }
 ]

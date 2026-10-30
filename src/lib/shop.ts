@@ -1,4 +1,11 @@
-import type { EffectiveRecipe, IngredientUnit, MealSlot, ShopExtra } from '../types'
+import type {
+  EffectiveRecipe,
+  IngredientUnit,
+  MealSlot,
+  ShopExtra,
+  ShopSauceAdd,
+} from '../types'
+import { isSauceRecipe } from './recipes'
 import { scaleQty } from './units'
 
 export interface ShopLine {
@@ -19,40 +26,62 @@ function lineKey(name: string, unit: IngredientUnit): string {
   return `${normalizeName(name)}::${unit}`
 }
 
+function addIngredient(
+  map: Map<string, ShopLine>,
+  name: string,
+  qty: number | null,
+  unit: IngredientUnit,
+  sourceLabel: string,
+) {
+  const key = lineKey(name, unit)
+  const existing = map.get(key)
+  if (existing) {
+    if (existing.qty !== null && qty !== null) {
+      existing.qty += qty
+    }
+    if (!existing.fromMeals.includes(sourceLabel)) {
+      existing.fromMeals.push(sourceLabel)
+    }
+  } else {
+    map.set(key, {
+      key,
+      name,
+      qty,
+      unit,
+      fromMeals: [sourceLabel],
+    })
+  }
+}
+
 export function buildShopLines(
   slots: MealSlot[],
   recipes: EffectiveRecipe[],
   mealLabels: Record<string, string>,
   extras: ShopExtra[] = [],
+  sauces: ShopSauceAdd[] = [],
 ): ShopLine[] {
   const map = new Map<string, ShopLine>()
 
   for (const slot of slots) {
     if (!slot.recipeId) continue
     const recipe = recipes.find((r) => r.id === slot.recipeId)
-    if (!recipe) continue
+    if (!recipe || isSauceRecipe(recipe)) continue
     const mealLabel = mealLabels[slot.cookId] ?? slot.cookId
 
     for (const ing of recipe.ingredients) {
-      const key = lineKey(ing.name, ing.unit)
       const scaled = scaleQty(ing.qty, recipe.basePortions, slot.portions)
-      const existing = map.get(key)
-      if (existing) {
-        if (existing.qty !== null && scaled !== null) {
-          existing.qty += scaled
-        }
-        if (!existing.fromMeals.includes(mealLabel)) {
-          existing.fromMeals.push(mealLabel)
-        }
-      } else {
-        map.set(key, {
-          key,
-          name: ing.name,
-          qty: scaled,
-          unit: ing.unit,
-          fromMeals: [mealLabel],
-        })
-      }
+      addIngredient(map, ing.name, scaled, ing.unit, mealLabel)
+    }
+  }
+
+  for (const add of sauces) {
+    const recipe = recipes.find((r) => r.id === add.recipeId)
+    if (!recipe || !isSauceRecipe(recipe)) continue
+    const label = recipe.title
+    const portions = add.portions > 0 ? add.portions : recipe.basePortions
+    for (const ing of recipe.ingredients) {
+      const scaled = scaleQty(ing.qty, recipe.basePortions, portions)
+      addIngredient(map, ing.name, scaled, ing.unit, label)
     }
   }
 
