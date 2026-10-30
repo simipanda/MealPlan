@@ -3377,7 +3377,7 @@
     "cookTag": "cook2",
     "kidFriendly": false,
     "title": "Sticky chilli beef",
-    "sourceUrl": "https://www.marksandspencer.com/recipes/sticky-chilli-beef",
+    "sourceUrl": "https://www.marksandspencer.com/c/food-and-wine/cooking/recipes/204428/sticky-chilli-beef-with-egg-fried-rice/",
     "basePortions": 4,
     "totalMinutes": 35,
     "protein": "red",
@@ -3452,7 +3452,8 @@
       "Fry garlic, ginger and chilli briefly until fragrant.",
       "Add soy, honey and vinegar; bubble to a sticky glaze.",
       "Return beef and toss to coat. Finish with spring onions and sesame seeds; serve with rice."
-    ]
+    ],
+    "image": "images/recipes/sticky-chilli-beef.jpg"
   },
   {
     "id": "lighter-chicken-cacciatore",
@@ -3688,7 +3689,8 @@
       "Brush or spoon the honey mustard mixture liberally on top of the chicken.",
       "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin."
     ],
-    "caloriesPerPortion": 371
+    "caloriesPerPortion": 371,
+    "image": "images/recipes/herbed-honey-mustard-chicken.jpg"
   },
   {
     "id": "learn-to-make-spaghetti-carbonara",
@@ -3880,7 +3882,7 @@
   },
   {
     "id": "meatballs-spaghetti",
-    "title": "How to make spaghetti and meatballs",
+    "title": "Spaghetti and meatballs",
     "basePortions": 6,
     "totalMinutes": 75,
     "cookTag": "cook2",
