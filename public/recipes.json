@@ -209,6 +209,11 @@
         "name": "Mushrooms",
         "qty": 250,
         "unit": "g"
+      },
+      {
+        "name": "Pasta or crusty bread to serve",
+        "qty": 320,
+        "unit": "g"
       }
     ],
     "method": [
@@ -218,10 +223,10 @@
       "Stir in Parmesan, cream, and remaining salt. Simmer gently, scraping up browned bits.",
       "Return chicken and juices; cook until chicken reaches 165F / 74C (about 4-7 minutes). Sauce will be quite liquid."
     ],
-    "caloriesPerPortion": 900,
+    "caloriesPerPortion": 1022,
     "image": "images/recipes/tuscan-chicken.jpg",
     "proteinPerPortionG": 37,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 70,
     "fatPerPortionG": 66
   },
   {
@@ -330,6 +335,11 @@
         "name": "Lemon slices",
         "qty": 5.0,
         "unit": "each"
+      },
+      {
+        "name": "Jasmine rice (dry)",
+        "qty": 280,
+        "unit": "g"
       }
     ],
     "method": [
@@ -340,10 +350,10 @@
       "Whisk corn starch mixture into the simmering sauce and stir until thickened. Add the fried chicken and toss until evenly coated in the sticky lemon sauce.",
       "Garnish with sesame seeds, green onions and lemon slices. Serve immediately for the crispiest texture."
     ],
-    "caloriesPerPortion": 710,
+    "caloriesPerPortion": 818,
     "image": "images/recipes/chinese-lemon-chicken.jpg",
     "proteinPerPortionG": 43,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 42
   },
   {
@@ -834,6 +844,11 @@
         "name": "Limes",
         "qty": 2.0,
         "unit": "each"
+      },
+      {
+        "name": "Basmati rice (dry)",
+        "qty": 280,
+        "unit": "g"
       }
     ],
     "method": [
@@ -845,9 +860,9 @@
       "Serve with coriander and lime wedges."
     ],
     "image": "images/recipes/south-indian-chicken-lentil-curry.jpg",
-    "caloriesPerPortion": 692,
+    "caloriesPerPortion": 796,
     "proteinPerPortionG": 42,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 40
   },
   {
@@ -1013,7 +1028,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -1070,6 +1085,11 @@
         "name": "Coriander, to finish",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Jasmine rice (dry)",
+        "qty": 280,
+        "unit": "g"
       }
     ],
     "method": [
@@ -1079,9 +1099,9 @@
       "Finish with coriander. Critique note: balance sour vs spicy; don’t boil lime juice long."
     ],
     "image": "images/recipes/tom-yum.jpg",
-    "caloriesPerPortion": 439,
+    "caloriesPerPortion": 547,
     "proteinPerPortionG": 36,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 15
   },
   {
@@ -1092,7 +1112,7 @@
     "cookTag": "cook1",
     "protein": "red",
     "cuisine": "thai",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -1131,9 +1151,9 @@
         "unit": "toTaste"
       },
       {
-        "name": "Optional: glass noodles or soft vegetables",
-        "qty": null,
-        "unit": "toTaste"
+        "name": "Glass noodles",
+        "qty": 200,
+        "unit": "g"
       }
     ],
     "method": [
@@ -1143,9 +1163,9 @@
       "Finish with spring onion. Critique note: keep broth clear — don’t boil hard after adding mince."
     ],
     "image": "images/recipes/clear-mince-soup.jpg",
-    "caloriesPerPortion": 451,
+    "caloriesPerPortion": 541,
     "proteinPerPortionG": 35,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 62,
     "fatPerPortionG": 17
   },
   {
@@ -1156,7 +1176,7 @@
     "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "thai",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "ingredients": [
       {
@@ -1171,11 +1191,6 @@
       },
       {
         "name": "Soft tofu, cubed",
-        "qty": null,
-        "unit": "toTaste"
-      },
-      {
-        "name": "Glass noodles , soaked",
         "qty": null,
         "unit": "toTaste"
       },
@@ -1198,6 +1213,11 @@
         "name": "Optional: cabbage or Chinese greens",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Glass noodles",
+        "qty": 200,
+        "unit": "g"
       }
     ],
     "method": [
@@ -1208,9 +1228,9 @@
       "Finish with herbs. Critique note: noodles last; soup should stay clear and gentle."
     ],
     "image": "images/recipes/tom-jeid.jpg",
-    "caloriesPerPortion": 461,
+    "caloriesPerPortion": 549,
     "proteinPerPortionG": 37,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 62,
     "fatPerPortionG": 17
   },
   {
@@ -1340,7 +1360,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "american",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://carlsbadcravings.com/chicken-bites/#wprm-recipe-container-72649",
     "ingredients": [
@@ -1388,6 +1408,11 @@
         "name": "Chopped cilantro for garnish",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Soft flour tortillas",
+        "qty": 8,
+        "unit": "each"
       }
     ],
     "method": [
@@ -1398,9 +1423,9 @@
       "Serve:  See post for lots of tasty serving ideas!"
     ],
     "image": "images/recipes/chicken-bites.jpg",
-    "caloriesPerPortion": 430,
+    "caloriesPerPortion": 526,
     "proteinPerPortionG": 35,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 65,
     "fatPerPortionG": 14
   },
   {
@@ -1962,6 +1987,11 @@
         "name": "Small handful toasted almond flakes, for garnish",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Basmati rice (dry)",
+        "qty": 140,
+        "unit": "g"
       }
     ],
     "method": [
@@ -1973,9 +2003,9 @@
       "Raise the heat until the mixture is bubbling before dropping it down to low. Allow the curry to simmer, uncovered, for 15 minutes until the chicken has cooked through and the sauce has thickened."
     ],
     "image": "images/recipes/chicken-passanda.jpg",
-    "caloriesPerPortion": 683,
+    "caloriesPerPortion": 788,
     "proteinPerPortionG": 67,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 28
   },
   {
@@ -2234,7 +2264,7 @@
     "cookTag": "cook1",
     "protein": "white",
     "cuisine": "american",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://healthyfitnessmeals.com/creamy-mushroom-chicken/",
     "ingredients": [
@@ -2287,6 +2317,11 @@
         "name": "Fresh chopped parsley",
         "qty": 1.0,
         "unit": "tbsp"
+      },
+      {
+        "name": "Jasmine rice (dry)",
+        "qty": 420,
+        "unit": "g"
       }
     ],
     "method": [
@@ -2296,10 +2331,10 @@
       "Whisk in softened cream cheese until smooth and thick.",
       "Return chicken; spoon sauce over; garnish with parsley."
     ],
-    "caloriesPerPortion": 496,
+    "caloriesPerPortion": 608,
     "image": "images/recipes/creamy-mushroom-chicken.jpg",
     "proteinPerPortionG": 40,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 20
   },
   {
@@ -3411,7 +3446,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "misc",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/one-pot-chicken-chasseur",
     "ingredients": [
@@ -3464,6 +3499,11 @@
         "name": "Chicken stock",
         "qty": 500.0,
         "unit": "ml"
+      },
+      {
+        "name": "Crusty bread",
+        "qty": 1,
+        "unit": "each"
       }
     ],
     "method": [
@@ -3476,10 +3516,10 @@
       "Remove the chicken legs from the pan and keep warm. Rapidly boil down the sauce for 10 mins or so until it is syrupy and the flavour has concentrated.",
       "Put the chicken legs back into the sauce and serve."
     ],
-    "caloriesPerPortion": 443,
+    "caloriesPerPortion": 530,
     "image": "images/recipes/one-pot-chicken-chasseur.jpg",
     "proteinPerPortionG": 39,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 62,
     "fatPerPortionG": 14
   },
   {
@@ -3576,7 +3616,7 @@
     "cookTag": "cook2",
     "protein": "pork",
     "cuisine": "italian",
-    "indulgence": "light",
+    "indulgence": "medium",
     "kidFriendly": false,
     "sourceUrl": "https://www.bbcgoodfood.com/recipes/lighter-chicken-cacciatore",
     "ingredients": [
@@ -3639,6 +3679,11 @@
         "name": "Small handful chopped flat-leaf parsley to serve",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Pasta or new potatoes",
+        "qty": 320,
+        "unit": "g"
       }
     ],
     "method": [
@@ -3646,10 +3691,10 @@
       "Spread the onion out in the pan, then lay the chicken breasts on top. Season with pepper and fry for 5 mins over a medium heat, turning the chicken once, until starting to brown on both sides and the onion is caramelising on the bottom of the pan. Remove the chicken and set aside on a plate. Raise the heat, give it a quick stir and, when sizzling, pour in the wine and let it bubble for 2 mins to reduce slightly.",
       "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve."
     ],
-    "caloriesPerPortion": 481,
+    "caloriesPerPortion": 592,
     "image": "images/recipes/lighter-chicken-cacciatore.jpg",
     "proteinPerPortionG": 45,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 16
   },
   {
@@ -3800,6 +3845,11 @@
         "name": "¼ teaspoon freshly ground black pepper",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Baby potatoes",
+        "qty": 800,
+        "unit": "g"
       }
     ],
     "method": [
@@ -3808,10 +3858,10 @@
       "Brush or spoon the honey mustard mixture liberally on top of the chicken.",
       "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin."
     ],
-    "caloriesPerPortion": 413,
+    "caloriesPerPortion": 480,
     "image": "images/recipes/herbed-honey-mustard-chicken.jpg",
     "proteinPerPortionG": 36,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 57,
     "fatPerPortionG": 12
   },
   {
@@ -4388,7 +4438,7 @@
     "cookTag": "cook2",
     "protein": "white",
     "cuisine": "misc",
-    "indulgence": "medium",
+    "indulgence": "rich",
     "kidFriendly": false,
     "sourceUrl": "https://30seconds.com/food/tip/61580/Juicy-Skillet-Chimichurri-Chicken-Thighs-Recipe-One-Pan-Fabulous-Flavor",
     "ingredients": [
@@ -4436,6 +4486,11 @@
         "name": "Crushed red pepper flakes, to taste",
         "qty": null,
         "unit": "toTaste"
+      },
+      {
+        "name": "Jasmine rice (dry)",
+        "qty": 420,
+        "unit": "g"
       }
     ],
     "method": [
@@ -4444,10 +4499,10 @@
       "Preheat the oven to 375 degrees F. While the oven heats up, heat an ovenproof skillet (preferably cast iron) over medium heat on the stovetop. Add the chicken, top side down, into the hot skillet with any marinade in the bag or dish. Cook until golden on the bottom, then flip the chicken over. Immediately put the chicken into the oven.",
       "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce."
     ],
-    "caloriesPerPortion": 600,
+    "caloriesPerPortion": 706,
     "image": "images/recipes/chimichurri-chicken-thighs-2.jpg",
     "proteinPerPortionG": 42,
-    "carbsPerPortionG": 40,
+    "carbsPerPortionG": 67,
     "fatPerPortionG": 30
   },
   {
@@ -4852,7 +4907,7 @@
   },
   {
     "id": "mexican-spice-sachet-tacos",
-    "title": "Mexican spice-sachet tacos",
+    "title": "Mexican tacos",
     "basePortions": 4,
     "caloriesPerPortion": 660,
     "totalMinutes": 25,

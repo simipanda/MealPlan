@@ -83,17 +83,22 @@ export function ShopPage() {
       <ul className="space-y-1">
         {lines.map((line) => {
           const checked = Boolean(shop.checked[line.key])
-          const amount =
-            line.isExtra || line.qty === null
-              ? null
-              : formatAmountLine(
-                  formatIngredientAmount(
-                    { name: line.name, qty: line.qty, unit: line.unit },
-                    1,
-                    1,
-                    prefs.unitSystem,
-                  ),
-                )
+          const amount = line.isExtra
+            ? null
+            : line.unit === 'toTaste' || line.unit === 'pinch'
+              ? line.unit === 'pinch'
+                ? 'pinch'
+                : 'to taste'
+              : line.qty === null
+                ? null
+                : formatAmountLine(
+                    formatIngredientAmount(
+                      { name: line.name, qty: line.qty, unit: line.unit },
+                      1,
+                      1,
+                      prefs.unitSystem,
+                    ),
+                  )
 
           return (
             <li

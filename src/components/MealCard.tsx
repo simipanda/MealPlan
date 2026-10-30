@@ -4,6 +4,7 @@ import { CUISINE_LABELS } from '../data/cuisines'
 import { CookTimeBadge } from './CookTimeBadge'
 import { IndulgenceBadge } from './IndulgenceBadge'
 import { ProteinBadge } from './ProteinBadge'
+import { RecipeThumb } from './RecipeThumb'
 import type { CookId, DayIndex, EffectiveRecipe, MealSlot } from '../types'
 
 interface Props {
@@ -49,12 +50,12 @@ export function MealCard({
       ].join(' ')}
     >
       <header className="mb-3 flex items-start justify-between gap-2">
-        <div>
+        <div className="min-w-0">
           <p className="text-xs font-bold uppercase tracking-[0.14em] text-clay">
             Meal {mealNumber}
           </p>
           <select
-            className="mt-1 rounded-lg border border-line bg-cream px-2 py-1 font-display text-xl text-ink"
+            className="mt-1 max-w-full rounded-lg border border-line bg-cream px-2 py-1 font-display text-xl text-ink"
             value={slot.cookId}
             onChange={(e) => onCookChange(e.target.value as CookId)}
             aria-label="Cook for this meal"
@@ -66,28 +67,39 @@ export function MealCard({
             ))}
           </select>
         </div>
-        <div className="flex flex-col items-end gap-1">
-          <button
-            type="button"
-            onClick={onToggleLock}
-            className={[
-              'rounded-full px-3 py-1 text-xs font-bold',
-              slot.locked
-                ? 'bg-forest text-cream'
-                : 'bg-cream-dark text-ink-muted',
-            ].join(' ')}
-          >
-            {slot.locked ? 'Locked' : 'Unlocked'}
-          </button>
-          {canRemove && (
+        <div className="flex shrink-0 items-start gap-2">
+          {recipe && (
+            <RecipeThumb
+              title={recipe.title}
+              protein={recipe.protein}
+              image={recipe.image}
+              size="sm"
+              className="rounded-lg"
+            />
+          )}
+          <div className="flex flex-col items-end gap-1">
             <button
               type="button"
-              onClick={onRemove}
-              className="text-[11px] font-semibold text-clay"
+              onClick={onToggleLock}
+              className={[
+                'rounded-full px-3 py-1 text-xs font-bold',
+                slot.locked
+                  ? 'bg-forest text-cream'
+                  : 'bg-cream-dark text-ink-muted',
+              ].join(' ')}
             >
-              Remove meal
+              {slot.locked ? 'Locked' : 'Unlocked'}
             </button>
-          )}
+            {canRemove && (
+              <button
+                type="button"
+                onClick={onRemove}
+                className="text-[11px] font-semibold text-clay"
+              >
+                Remove meal
+              </button>
+            )}
+          </div>
         </div>
       </header>
 

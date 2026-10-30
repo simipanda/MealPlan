@@ -22,8 +22,39 @@ function normalizeName(name: string): string {
   return name.trim().toLowerCase()
 }
 
+function isLooseUnit(unit: IngredientUnit): boolean {
+  return unit === 'toTaste' || unit === 'pinch'
+}
+
+/** toTaste still means buy it — house defaults for common aromatics. */
+function shoppableFromLoose(
+  name: string,
+  unit: IngredientUnit,
+): { name: string; qty: number; unit: IngredientUnit } | null {
+  if (!isLooseUnit(unit)) return null
+  const n = normalizeName(name)
+  if (n === 'garlic' || n.startsWith('garlic ')) {
+    return { name: 'Garlic', qty: 2, unit: 'clove' }
+  }
+  return null
+}
+
 function lineKey(name: string, unit: IngredientUnit): string {
+  if (isLooseUnit(unit)) return `${normalizeName(name)}::loose`
   return `${normalizeName(name)}::${unit}`
+}
+
+function findCountableSameName(
+  map: Map<string, ShopLine>,
+  name: string,
+): ShopLine | undefined {
+  const n = normalizeName(name)
+  for (const line of map.values()) {
+    if (normalizeName(line.name) === n && !isLooseUnit(line.unit)) {
+      return line
+    }
+  }
+  return undefined
 }
 
 function addIngredient(
@@ -33,11 +64,49 @@ function addIngredient(
   unit: IngredientUnit,
   sourceLabel: string,
 ) {
+  // "Garlic, to taste" → still garlic: shop as cloves and merge with measured garlic
+  const fromLoose = shoppableFromLoose(name, unit)
+  if (fromLoose) {
+    addIngredient(map, fromLoose.name, fromLoose.qty, fromLoose.unit, sourceLabel)
+    return
+  }
+
+  if (isLooseUnit(unit)) {
+    const countable = findCountableSameName(map, name)
+    if (countable) {
+      if (!countable.fromMeals.includes(sourceLabel)) {
+        countable.fromMeals.push(sourceLabel)
+      }
+      return
+    }
+  }
+
   const key = lineKey(name, unit)
+  const looseKey = `${normalizeName(name)}::loose`
+
+  // Countable line absorbs a prior loose same-name row
+  if (!isLooseUnit(unit) && map.has(looseKey)) {
+    const loose = map.get(looseKey)!
+    map.delete(looseKey)
+    const cooks = [...loose.fromMeals]
+    if (!cooks.includes(sourceLabel)) cooks.push(sourceLabel)
+    map.set(key, {
+      key,
+      name,
+      qty,
+      unit,
+      fromMeals: cooks,
+    })
+    return
+  }
+
   const existing = map.get(key)
   if (existing) {
     if (existing.qty !== null && qty !== null) {
       existing.qty += qty
+    } else if (existing.qty === null && qty !== null) {
+      existing.qty = qty
+      existing.unit = unit
     }
     if (!existing.fromMeals.includes(sourceLabel)) {
       existing.fromMeals.push(sourceLabel)

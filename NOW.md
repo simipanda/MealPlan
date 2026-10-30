@@ -8,23 +8,23 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 
 - Plan, randomise, locks, portions, shop, cook mode, filters, settings
 - Live: https://simipanda.github.io/MealPlan/
-- Macros per portion; ~35g protein floor; household cooking rules
-- Indulgence **light / medium / rich** from kcal (colour chips)
-- Randomise: one rich max; unique cuisine + flavour families (East Asian / Mediterranean / Latin)
+- Macros; ~35g protein floor; meat + carb on every dinner
+- Indulgence light/medium/rich; cuisine variety on randomise
+- Plan thumbnails; shop merges garlic toTaste into cloves
 
 ## Next
 
-Push `main` when you want GitHub Pages updated.
+Push done this session. Next: user feedback only.
 
 ## Latest
 
-- Indulgence retagged from calories; medium tier added
-- Cuisine variety on randomise: no duplicate cuisine; flavour-family blocks for similar palettes
+- Filled missing carbs on 13 dinners; Mexican tacos renamed
+- Recipe list: cook + kcal always on second row
+- Shop: toTaste garlic = buy garlic (2 cloves) and merge cooks
 
 ## Verify
 
-1. Recipe chips show Light / Medium / Rich
-2. Lock Italian → other cook cannot get Italian, Greek, or Spanish
-3. Lock Japanese → other cook cannot get Korean/Chinese/Thai
-4. Lock American → other cook cannot get another American
-5. Second rich meal still blocked
+1. Plan cards show thumbs; Mexican tacos title
+2. Shop: one Garlic line with Sim · Adam when both meals use it
+3. Recipes page meta layout consistent (kcal under badges)
+4. No dinner without meat + carb; protein ≥ ~35g/portion

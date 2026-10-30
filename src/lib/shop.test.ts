@@ -84,6 +84,60 @@ describe('buildShopLines', () => {
     expect(lines.at(-1)?.isExtra).toBe(true)
   })
 
+  it('treats toTaste garlic as real garlic (cloves) and merges with measured', () => {
+    const withGarlic: EffectiveRecipe[] = [
+      {
+        ...recipes[0]!,
+        id: 'soup',
+        ingredients: [
+          { name: 'Garlic', qty: null, unit: 'toTaste' },
+          { name: 'Stock', qty: 200, unit: 'ml' },
+        ],
+      },
+      {
+        ...recipes[1]!,
+        id: 'tacos',
+        ingredients: [
+          { name: 'Garlic', qty: 2, unit: 'clove' },
+          { name: 'Beef mince', qty: 500, unit: 'g' },
+        ],
+      },
+    ]
+    const lines = buildShopLines(
+      [
+        { ...slots[0]!, recipeId: 'soup' },
+        { ...slots[1]!, recipeId: 'tacos' },
+      ],
+      withGarlic,
+      { cook1: 'Sim', cook2: 'Adam' },
+    )
+    const garlicLines = lines.filter((l) => l.name.toLowerCase() === 'garlic')
+    expect(garlicLines).toHaveLength(1)
+    expect(garlicLines[0]?.unit).toBe('clove')
+    // toTaste → 2 cloves + taco 2×(4/2) = 4 → 6 total
+    expect(garlicLines[0]?.qty).toBe(6)
+    expect(garlicLines[0]?.fromMeals).toEqual(['Sim', 'Adam'])
+  })
+
+  it('lists toTaste-only garlic as cloves so it still appears to buy', () => {
+    const onlyLoose: EffectiveRecipe[] = [
+      {
+        ...recipes[0]!,
+        id: 'soup',
+        ingredients: [{ name: 'Garlic', qty: null, unit: 'toTaste' }],
+      },
+    ]
+    const lines = buildShopLines(
+      [{ ...slots[0]!, recipeId: 'soup' }],
+      onlyLoose,
+      { cook1: 'Sim', cook2: 'Adam' },
+    )
+    const garlic = lines.find((l) => l.name.toLowerCase() === 'garlic')
+    expect(garlic?.unit).toBe('clove')
+    expect(garlic?.qty).toBe(2)
+    expect(garlic?.fromMeals).toEqual(['Sim'])
+  })
+
   it('merges sauce ingredients into the shop without planning them', () => {
     const dressing: EffectiveRecipe = {
       id: 'dressing',

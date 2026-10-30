@@ -214,24 +214,26 @@ export function RecipesPage() {
 
   function recipeMeta(recipe: (typeof recipes)[0]) {
     return (
-      <span className="mt-1.5 flex flex-wrap items-center gap-1.5 text-xs text-ink-muted">
-        <ProteinBadge protein={recipe.protein} />
-        {recipe.rating != null && (
-          <StarRating value={recipe.rating} editable={false} size="sm" />
-        )}
-        <span className="rounded-full bg-cream-dark px-2 py-0.5 text-[11px] font-semibold text-ink-muted">
-          {CUISINE_LABELS[recipe.cuisine]}
-        </span>
-        <CookTimeBadge totalMinutes={recipe.totalMinutes} showBand />
-        <IndulgenceBadge indulgence={recipe.indulgence} />
-        <span>
+      <div className="mt-1.5 space-y-1">
+        <div className="flex flex-wrap items-center gap-1.5">
+          <ProteinBadge protein={recipe.protein} />
+          {recipe.rating != null && (
+            <StarRating value={recipe.rating} editable={false} size="sm" />
+          )}
+          <span className="rounded-full bg-cream-dark px-2 py-0.5 text-[11px] font-semibold text-ink-muted">
+            {CUISINE_LABELS[recipe.cuisine]}
+          </span>
+          <CookTimeBadge totalMinutes={recipe.totalMinutes} showBand />
+          <IndulgenceBadge indulgence={recipe.indulgence} />
+        </div>
+        <p className="text-xs text-ink-muted">
           {cookLabel(recipe.cookTag)}
           {recipe.kidFriendly ? ' · kids' : ''}
           {recipe.caloriesPerPortion != null
             ? ` · ~${recipe.caloriesPerPortion} kcal/portion`
             : ''}
-        </span>
-      </span>
+        </p>
+      </div>
     )
   }
 
