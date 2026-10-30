@@ -4,7 +4,7 @@
     "title": "Chicken tagine",
     "basePortions": 6,
     "totalMinutes": 60,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "african",
     "indulgence": "light",
@@ -140,7 +140,7 @@
     "title": "Tuscan chicken",
     "basePortions": 4,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "italian",
     "indulgence": "rich",
@@ -223,7 +223,7 @@
     "title": "Chinese lemon chicken",
     "basePortions": 4,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "chinese",
     "indulgence": "light",
@@ -342,7 +342,7 @@
     "title": "Pulled pork wraps",
     "basePortions": 6,
     "totalMinutes": 180,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "american",
     "indulgence": "rich",
@@ -445,7 +445,7 @@
     "title": "Chicken japchae",
     "basePortions": 2,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "korean",
     "indulgence": "light",
@@ -586,7 +586,7 @@
     "title": "Thai chicken coconut curry",
     "basePortions": 6,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
     "indulgence": "rich",
@@ -690,7 +690,7 @@
     "title": "South Indian chicken and lentil curry",
     "basePortions": 4,
     "totalMinutes": 50,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
     "indulgence": "light",
@@ -829,7 +829,7 @@
     "title": "Sukiyaki curry",
     "basePortions": 4,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "red",
     "cuisine": "japanese",
     "indulgence": "rich",
@@ -911,7 +911,7 @@
     "title": "Patang curry",
     "basePortions": 4,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
     "indulgence": "rich",
@@ -978,7 +978,7 @@
     "title": "Tom yum",
     "basePortions": 4,
     "totalMinutes": 30,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
     "indulgence": "light",
@@ -1054,7 +1054,7 @@
     "title": "Clear soup with mince",
     "basePortions": 4,
     "totalMinutes": 30,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "red",
     "cuisine": "thai",
     "indulgence": "light",
@@ -1115,7 +1115,7 @@
     "title": "Tom jeid",
     "basePortions": 4,
     "totalMinutes": 30,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "thai",
     "indulgence": "light",
@@ -1177,7 +1177,7 @@
     "title": "Tom saab",
     "basePortions": 4,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "red",
     "cuisine": "thai",
     "indulgence": "light",
@@ -1233,7 +1233,7 @@
     "title": "Khao soi",
     "basePortions": 4,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "thai",
     "indulgence": "rich",
@@ -1290,7 +1290,7 @@
     "title": "Chicken bites",
     "basePortions": 4,
     "totalMinutes": 30,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "american",
     "indulgence": "light",
@@ -1429,7 +1429,7 @@
     "title": "Peri peri chicken and rice",
     "basePortions": 4,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "african",
     "indulgence": "light",
@@ -1506,7 +1506,7 @@
     "title": "Marry me chicken orzo",
     "basePortions": 4,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "italian",
     "indulgence": "rich",
@@ -1589,7 +1589,7 @@
     "title": "Slow cooker chicken curry",
     "basePortions": 6,
     "totalMinutes": 240,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
     "indulgence": "light",
@@ -1699,7 +1699,7 @@
     "title": "Chicken shawarma",
     "basePortions": 4,
     "totalMinutes": 50,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "middleEastern",
     "indulgence": "light",
@@ -1814,7 +1814,7 @@
     "title": "Chicken passanda",
     "basePortions": 2,
     "totalMinutes": 45,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
     "indulgence": "rich",
@@ -1918,7 +1918,7 @@
     "title": "Chicken biryani",
     "basePortions": 4,
     "totalMinutes": 75,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
     "indulgence": "rich",
@@ -2002,7 +2002,7 @@
     "title": "Spicy chipotle chicken pasta",
     "basePortions": 6,
     "totalMinutes": 35,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "mexican",
     "indulgence": "rich",
@@ -2160,7 +2160,7 @@
     "title": "Creamy mushroom chicken",
     "basePortions": 6,
     "totalMinutes": 35,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "american",
     "indulgence": "rich",
@@ -2233,7 +2233,7 @@
     "title": "Quick pork ramen",
     "basePortions": 4,
     "totalMinutes": 30,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "japanese",
     "indulgence": "light",
@@ -2342,7 +2342,7 @@
     "title": "Curried chicken garlic golden rice",
     "basePortions": 4,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "white",
     "cuisine": "indian",
     "indulgence": "light",
@@ -2434,7 +2434,7 @@
     "title": "Cowboy pasta salad",
     "basePortions": 10,
     "totalMinutes": 25,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "american",
     "indulgence": "rich",
@@ -2586,7 +2586,7 @@
     "title": "Easiest ramen",
     "basePortions": 2,
     "totalMinutes": 40,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "pork",
     "cuisine": "japanese",
     "indulgence": "light",
@@ -2725,7 +2725,7 @@
     "basePortions": 6,
     "caloriesPerPortion": 580,
     "totalMinutes": 120,
-    "cookTag": "either",
+    "cookTag": "cook1",
     "protein": "red",
     "cuisine": "italian",
     "indulgence": "rich",
@@ -2800,5 +2800,1892 @@
       "Scatter torn mozzarella over the top, then arrange the rest of the prosciutto on top.",
       "Bake for 45 minutes until bubbling and lightly browned. Rest 10–15 minutes before serving."
     ]
+  },
+  {
+    "id": "chilli-con-carne-recipe",
+    "title": "Chilli con carne recipe",
+    "basePortions": 4,
+    "totalMinutes": 70,
+    "cookTag": "cook2",
+    "protein": "red",
+    "cuisine": "mexican",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chilli-con-carne-recipe",
+    "ingredients": [
+      {
+        "name": "Large onion",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Red pepper",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Heaped tsp hot chilli powder",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Paprika",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground cumin",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Lean minced beef",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Beef stock cube",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Can Mutti chopped tomatoes",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "½ tsp dried marjoram",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Sugar",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Can red kidney beans",
+        "qty": 410.0,
+        "unit": "g"
+      },
+      {
+        "name": "Plain boiled long grain rice to serve",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Soured cream to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Prepare your vegetables. Chop 1 large onion into small dice, about 5mm square. The easiest way to do this is to cut the onion in half from root to tip, peel it and slice each half into thick matchsticks lengthways, not quite cutting all the way to the root end so they are still held together. Slice across the matchsticks into neat dice.",
+      "Cut 1 red pepper in half lengthways, remove stalk and wash the seeds away, then chop. Peel and finely chop 2 garlic cloves.",
+      "Start cooking. Put your pan on the hob over a medium heat. Add 1 tbsp oil and leave it for 1-2 minutes until hot (a little longer for an electric hob).",
+      "Add the onion and cook, stirring fairly frequently, for about 5 minutes, or until the onion is soft, squidgy and slightly translucent.",
+      "Tip in the garlic, red pepper, 1 heaped tsp hot chilli powder or 1 level tbsp mild chilli powder, 1 tsp paprika and 1 tsp ground cumin.",
+      "Give it a good stir, then leave it to cook for another 5 minutes, stirring occasionally.",
+      "Brown 500g lean minced beef. Turn the heat up a bit, add the meat to the pan and break it up with your spoon or spatula. The mix should sizzle a bit when you add the mince.",
+      "Keep stirring and prodding for at least 5 minutes, until all the mince is in uniform, mince-sized lumps and there are no more pink bits. Make sure you keep the heat hot enough for the meat to fry and become brown, rather than just stew.",
+      "Make the sauce. Crumble 1 beef stock cube into 300ml hot water. Pour this into the pan with the mince mixture.",
+      "Add a 400g can of chopped tomatoes. Tip in ½ tsp dried marjoram, 1 tsp sugar and add a good shake of salt and pepper. Squirt in about 2 tbsp tomato purée and stir the sauce well.",
+      "Simmer it gently. Bring the whole thing to the boil, give it a good stir and put a lid on the pan. Turn down the heat until it is gently bubbling and leave it for 20 minutes.",
+      "Check on the pan occasionally to stir it and make sure the sauce doesn’t catch on the bottom of the pan or isn’t drying out. If it is, add a couple of tablespoons of water and make sure that the heat really is low enough. After simmering gently, the saucy mince mixture should look thick, moist and juicy.",
+      "Drain and rinse a 410g can of red kidney beans in a sieve and stir them into the chilli pot. Bring to the boil again, and gently bubble without the lid for another 10 minutes, adding a little more water if it looks too dry.",
+      "Taste a bit of the chilli and season. It will probably take a lot more seasoning than you think.",
+      "Now replace the lid, turn off the heat and leave your chilli to stand for 10 minutes before serving. This is really important as it allows the flavours to mingle.",
+      "Serve with soured cream and plain boiled long grain rice."
+    ],
+    "caloriesPerPortion": 380,
+    "image": "images/recipes/chilli-con-carne-recipe.jpg"
+  },
+  {
+    "id": "chicken-chorizo-jambalaya",
+    "title": "Chicken & chorizo jambalaya",
+    "basePortions": 4,
+    "totalMinutes": 55,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "american",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-chorizo-jambalaya",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken breasts chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Onion diced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Red pepper thinly sliced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Chorizo sliced",
+        "qty": 75.0,
+        "unit": "g"
+      },
+      {
+        "name": "Cajun seasoning",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Long grain rice",
+        "qty": 250.0,
+        "unit": "g"
+      },
+      {
+        "name": "Can plum tomato",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 350.0,
+        "unit": "ml"
+      }
+    ],
+    "method": [
+      "Heat 1 tbsp olive oil in a large frying pan with a lid over a medium-high heat and brown 2 chopped chicken breasts for 5-8 mins until golden.",
+      "Remove and set aside. Tip in the 1 diced onion and cook for 3-4 mins until soft.",
+      "Add 1 thinly sliced red pepper, 2 crushed garlic cloves, 75g sliced chorizo and 1 tbsp Cajun seasoning, and cook for 5 mins more.",
+      "Stir the chicken back in with 250g long grain rice, add the 400g can of tomatoes and 350ml chicken stock. Cover and simmer over a medium heat for 20-25 mins until the rice is tender."
+    ],
+    "caloriesPerPortion": 445,
+    "image": "images/recipes/chicken-chorizo-jambalaya.jpg"
+  },
+  {
+    "id": "chicken-fajitas",
+    "title": "Chicken Fajitas",
+    "basePortions": 4,
+    "totalMinutes": 30,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "mexican",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.recipetineats.com/chicken-fajitas/",
+    "ingredients": [
+      {
+        "name": "/ 65 ml lime juice",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "/ 65 ml orange juice )",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic cloves",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cumin powder",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "/ 1.2 lb skinless chicken thighs or 2 large chicken breasts )",
+        "qty": 700.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Capsicums / bell peppers )",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Large onion )",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "8– 12 small tortillas",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Large avocado",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Sour cream",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Fresh lime wedges",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Place Marinade ingredients in a large bowl and mix. Add chicken, toss well to coat. Marinade for 1 hour to 24 hours (or freeze immediately then defrost overnight).",
+      "Use 2 skillets to cook the chicken and vegetables at the same time, if you can.",
+      "Heat 1 tbsp oil in a heavy based skillet over high heat until smoking. Add vegetables to cover the base of the pan in a single layer without too much overlapping (I cook in 3 batches). Spread out, leave for 45 seconds (to char it).",
+      "Toss quickly then spread out. Sprinkle with salt and pepper. Leave 45 seconds, toss then spread out, then leave 45 seconds. Remove onto platter and repeat with remaining Vegetables.",
+      "Heat 1 tbsp oil in a large skillet over medium high heat. Add chicken and cook for 3 to 4 minutes until caramelised. Turn and cook the other side for 3 – 4 minutes.",
+      "Remove onto a plate, cover loosely with foil. Rest for 3 minutes then slice.",
+      "Warm tortillas using chosen method.",
+      "Pile peppers and onion onto tortilla. Top with chicken, drizzle with sour cream, squeeze over lime juice. Fold, devour and be happy."
+    ],
+    "caloriesPerPortion": 196,
+    "image": "images/recipes/chicken-fajitas.jpg"
+  },
+  {
+    "id": "speedy-sausage-stroganoff-tagliatelle",
+    "title": "Speedy sausage stroganoff tagliatelle",
+    "basePortions": 4,
+    "totalMinutes": 20,
+    "cookTag": "cook2",
+    "protein": "pork",
+    "cuisine": "misc",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/speedy-sausage-stroganoff-tagliatelle",
+    "ingredients": [
+      {
+        "name": "Unsalted butter",
+        "qty": 20.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil for drizzling",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Pork sausages",
+        "qty": 6.0,
+        "unit": "each"
+      },
+      {
+        "name": "Chestnut mushrooms sliced",
+        "qty": 350.0,
+        "unit": "g"
+      },
+      {
+        "name": "Sweet smoked paprika",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Soured cream",
+        "qty": 300.0,
+        "unit": "ml"
+      },
+      {
+        "name": "½ tbsp wholegrain mustard",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Beef stock",
+        "qty": 150.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Dried tagliatelle",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Small bunch parsley chopped",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat the butter and oil in a frying pan over a medium-high heat until foaming. Squeeze large chunks of the sausagemeat out of the skins and into the pan. Cook for 5-8 mins or until golden brown. Add the mushrooms and cook for a further 5 mins until starting to turn brown. Stir through the paprika and cook for 1 min before stirring in the soured cream, mustard and stock. Bring to a simmer and season to taste.",
+      "Meanwhile, cook the pasta in a large pan of salted water according to pack instructions, then add to the sauce with half the parsley. Serve in deep bowls with the remaining parsley sprinkled on top."
+    ],
+    "caloriesPerPortion": 826,
+    "image": "images/recipes/speedy-sausage-stroganoff-tagliatelle.jpg"
+  },
+  {
+    "id": "chicken-stroganoff",
+    "title": "Chicken stroganoff",
+    "basePortions": 4,
+    "totalMinutes": 45,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "misc",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-stroganoff",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Skinless chicken breasts cut into chunks",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Onions finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Sweet paprika",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 400.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Dijon mustard",
+        "qty": 4.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soured cream or crème fraiche",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "A large handful of parsley chopped",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Rice mash or pasta, to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat half the oil in a frying pan and fry the chicken pieces over a medium high heat, stirring frequently. until golden brown. Season and transfer to a plate.",
+      "Heat the remaining oil and lower the heat to medium. Fry the onion for 6-8 mins until softened but not golden, then stir in the garlic and paprika. Fry for a minute until fragrant, then pour in the stock, and add the Dijon and Worcestershire sauce. Tip in the seared chicken with any resting juices, and simmer for 5-6 mins until reduced slightly and the chicken is cooked through.",
+      "Over a low heat, stir in the soured cream until just combined to create a creamy sauce, and it’s just started to simmer. Scatter over the parsley and serve with rice, mash or pasta, if you like."
+    ],
+    "caloriesPerPortion": 425,
+    "image": "images/recipes/chicken-stroganoff.jpg"
+  },
+  {
+    "id": "prawn-harissa-spaghetti",
+    "title": "Prawn & harissa spaghetti",
+    "basePortions": 2,
+    "totalMinutes": 20,
+    "cookTag": "cook2",
+    "protein": "fish",
+    "cuisine": "italian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/prawn-harissa-spaghetti",
+    "ingredients": [
+      {
+        "name": "Long-stem broccoli cut into thirds",
+        "qty": 100.0,
+        "unit": "g"
+      },
+      {
+        "name": "Dried spaghetti regular or wholemeal",
+        "qty": 180.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Large garlic clove lightly bashed",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cherry tomatoes halved",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Raw king prawns",
+        "qty": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Heaped tbsp rose harissa paste",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Lemon finely zested",
+        "qty": 1.0,
+        "unit": "each"
+      }
+    ],
+    "method": [
+      "Bring a pan of lightly salted water to the boil. Add the broccoli and boil for 1 min 30 secs, or until tender. Drain and set aside. Cook the spaghetti following pack instructions, then drain, reserving a ladleful of cooking water.",
+      "Heat the oil in a large frying pan, add the garlic clove and fry over a low heat for 2 mins. Remove with a slotted spoon and discard, leaving the flavoured oil.",
+      "Add the tomatoes to the pan and fry over a medium heat for 5 mins, or until beginning to soften and turn juicy. Stir through the prawns and cook for 2 mins, or until turning pink. Add the harissa and lemon zest, stirring to coat.",
+      "Toss the cooked spaghetti and pasta water through the prawns and harissa. Stir through the broccoli, season to taste and serve."
+    ],
+    "caloriesPerPortion": 511,
+    "image": "images/recipes/prawn-harissa-spaghetti.jpg"
+  },
+  {
+    "id": "one-pot-chicken-chasseur",
+    "title": "One-pot chicken chasseur",
+    "basePortions": 4,
+    "totalMinutes": 110,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "misc",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/one-pot-chicken-chasseur",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Butter",
+        "qty": 25.0,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken legs",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Onion chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Pack small button or chestnut mushrooms",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Red wine",
+        "qty": 225.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Thyme sprigs",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Chicken stock",
+        "qty": 500.0,
+        "unit": "ml"
+      }
+    ],
+    "method": [
+      "Heat 1 tsp olive oil and half of the 25g butter in a large lidded casserole.",
+      "Season 4 chicken legs, then fry for about 5 mins on each side until golden brown. Remove and set aside.",
+      "Melt the remaining butter in the pan. Add 1 chopped onion, then fry for about 5 mins until soft.",
+      "Add 2 crushed garlic cloves, cook for about 1 min, add 200g small button or chestnut mushrooms, cook for 2 mins, then add 225ml red wine.",
+      "Stir in 2 tbsp tomato purée, let the liquid bubble and reduce for about 5 mins, then stir in 2 thyme sprigs and pour over 500ml chicken stock.",
+      "Slip the chicken legs back into the pan, then cover and simmer on a low heat for about 1 hr until the chicken is very tender.",
+      "Remove the chicken legs from the pan and keep warm. Rapidly boil down the sauce for 10 mins or so until it is syrupy and the flavour has concentrated.",
+      "Put the chicken legs back into the sauce and serve."
+    ],
+    "caloriesPerPortion": 439,
+    "image": "images/recipes/one-pot-chicken-chasseur.jpg"
+  },
+  {
+    "id": "sticky-chilli-beef",
+    "cookTag": "cook2",
+    "kidFriendly": false,
+    "title": "Sticky chilli beef",
+    "sourceUrl": "https://www.marksandspencer.com/recipes/sticky-chilli-beef",
+    "basePortions": 4,
+    "totalMinutes": 35,
+    "protein": "red",
+    "cuisine": "chinese",
+    "indulgence": "rich",
+    "caloriesPerPortion": 520,
+    "ingredients": [
+      {
+        "name": "Beef steak strips",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Cornflour",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Fresh ginger",
+        "qty": 20,
+        "unit": "g"
+      },
+      {
+        "name": "Red chilli",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Honey",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Rice vinegar or lime juice",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Spring onions",
+        "qty": 3,
+        "unit": "each"
+      },
+      {
+        "name": "Sesame seeds",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Cooked rice",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Toss beef strips in cornflour and season.",
+      "Stir-fry in hot oil in batches until browned; set aside.",
+      "Fry garlic, ginger and chilli briefly until fragrant.",
+      "Add soy, honey and vinegar; bubble to a sticky glaze.",
+      "Return beef and toss to coat. Finish with spring onions and sesame seeds; serve with rice."
+    ]
+  },
+  {
+    "id": "lighter-chicken-cacciatore",
+    "title": "Lighter chicken cacciatore",
+    "basePortions": 4,
+    "totalMinutes": 65,
+    "cookTag": "cook2",
+    "protein": "pork",
+    "cuisine": "italian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/lighter-chicken-cacciatore",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Slices prosciutto fat removed, chopped",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Medium onion chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Sage sprigs",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Rosemary sprigs",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Skinless chicken breasts , preferably organic",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Dry white wine",
+        "qty": 150.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Can plum tomatoes in natural juice",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chestnut mushrooms quartered or halved if large",
+        "qty": 225.0,
+        "unit": "g"
+      },
+      {
+        "name": "Small handful chopped flat-leaf parsley to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat the oil in a large non-stick frying pan. Tip in the prosciutto and fry for about 2 mins until crisp. Remove with a slotted spoon, letting any fat drain back into the pan, and set aside. Put the onion, garlic and herbs in the pan and fry for 3-4 mins.",
+      "Spread the onion out in the pan, then lay the chicken breasts on top. Season with pepper and fry for 5 mins over a medium heat, turning the chicken once, until starting to brown on both sides and the onion is caramelising on the bottom of the pan. Remove the chicken and set aside on a plate. Raise the heat, give it a quick stir and, when sizzling, pour in the wine and let it bubble for 2 mins to reduce slightly.",
+      "Lower the heat to medium, return the prosciutto to the pan, then stir in the tomatoes (breaking them up with your spoon), tomato purée and mushrooms. Spoon 4 tbsp of water into the empty tomato can, swirl it around, then pour it into the pan. Cover and simmer for 15-20 mins or until the sauce has thickened and reduced slightly, then return the chicken to the pan and cook, uncovered, for about 15 mins or until the chicken is cooked through. Season and scatter over the parsley to serve."
+    ],
+    "caloriesPerPortion": 285,
+    "image": "images/recipes/lighter-chicken-cacciatore.jpg"
+  },
+  {
+    "id": "chicken-madras",
+    "title": "Chicken madras",
+    "basePortions": 4,
+    "totalMinutes": 55,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "indian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-madras",
+    "ingredients": [
+      {
+        "name": "Onion peeled and quartered",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Thumb-sized chunk of ginger peeled",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "½ red chilli",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Vegetable oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "½ tsp turmeric",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Ground cumin",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Ground coriander",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Hot chilli powder",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Chicken breasts cut into chunks",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Can chopped tomatoes",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Small pack coriander chopped",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Rice naan and mango chutney, to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Blitz 1 quartered onion, 2 garlic cloves, a thumb-sized chunk of ginger and ½ red chilli together in a food processor until it becomes a coarse paste.",
+      "Heat 1 tbsp vegetable oil in a large saucepan and add the paste, fry for 5 mins, until softened. If it starts to stick to the pan at all, add a splash of water.",
+      "Tip in ½ tsp turmeric, 1 tsp ground cumin, 1 tsp ground coriander and 1-2 tsp hot chilli powder and stir well, cook for a couple of mins to toast them a bit, then add 4 chicken breasts, cut into chunks. Stir and make sure everything is covered in the spice mix.",
+      "Cook until the chicken begins to turn pale, adding a small splash of water if it sticks to the base of the pan at all.",
+      "Pour in 400g can chopped tomatoes, along with a big pinch of salt, cover and cook on a low heat for 30 mins, until the chicken is tender.",
+      "Stir through small pack of coriander and serve with rice, naan and a big dollop of mango chutney."
+    ],
+    "caloriesPerPortion": 373,
+    "image": "images/recipes/chicken-madras.jpg"
+  },
+  {
+    "id": "herbed-honey-mustard-chicken",
+    "title": "Honey Mustard Chicken",
+    "basePortions": 8,
+    "totalMinutes": 55,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "misc",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://downshiftology.com/recipes/herbed-honey-mustard-chicken/",
+    "ingredients": [
+      {
+        "name": "Bone-in chicken thighs",
+        "qty": 8.0,
+        "unit": "each"
+      },
+      {
+        "name": "¼ cup honey",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "¼ cup Dijon mustard",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Garlic gloves",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Extra-virgin olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "½ teaspoons finely chopped fresh rosemary",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "½ teaspoons finely chopped fresh thyme",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "½ teaspoon kosher salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "¼ teaspoon freshly ground black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Preheat the oven to 350°F (177°C). Place the chicken in a baking dish and pat dry with a paper towel.",
+      "In a small bowl, stir together the honey, mustard, garlic, oil, rosemary, thyme, salt, and pepper.",
+      "Brush or spoon the honey mustard mixture liberally on top of the chicken.",
+      "Bake for 40 to 45 minutes or until the chicken is fully cooked and registers 175°F (80°C). Turn on the top oven broiler in the last 2 to 3 minutes to crisp up the skin."
+    ],
+    "caloriesPerPortion": 371
+  },
+  {
+    "id": "learn-to-make-spaghetti-carbonara",
+    "title": "Creamy carbonara",
+    "basePortions": 4,
+    "totalMinutes": 25,
+    "cookTag": "cook2",
+    "protein": "pork",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/learn-to-make-spaghetti-carbonara",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Smoked pancetta cubes or streaky bacon, chopped",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Eggs",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Double cream",
+        "qty": 75.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Grana padano or parmesan finely grated, plus extra to serve",
+        "qty": 50.0,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Bring a large, deep pan of salted water to the boil. Plunge the spaghetti into the water, stir well and cook, following pack instructions. Aim for 'al dente': cooked, but retaining some bite in the middle. Take a few strands out of the water with a spaghetti spoon or tongs 1-2 mins before the end of the cooking time and bite into it. Repeat until you think it is properly cooked.",
+      "Meanwhile, heat the olive oil in a frying pan. When hot, tip in the pancetta. Fry over a medium heat until the fat in the meat has melted down into the pan and the meat has turned lightly golden. Be careful not to crisp the pancetta too much; it will be cooked a little bit more later on in the recipe. Remove from the heat and set aside.",
+      "Crack two of the eggs into a mixing bowl. Separate the yolk from the third egg: gently crack the side of the shell and, using both hands, slowly open it into two halves over a separate bowl - you want to keep the yolk in one of the halves. Tip the yolk from one shell half to the other and repeat until all the egg white has fallen into the bowl below, taking care not to crack the yolk on any rough shell edges. Tip the yolk in with the other eggs and beat together, along with the double cream, parmesan and some seasoning.",
+      "Add the garlic to the pancetta and return the frying pan to hob. Fry over high heat for 1 min or until garlic is cooked and pancetta warmed through. Meanwhile, drain the spaghetti. Tip back into the hot saucepan off the heat. Pour egg mixture over pasta, followed by hot pancetta, garlic, any fat and oils. Toss quickly and thoroughly with spaghetti spoon or tongs. Mix until it has thickened to a smooth, creamy sauce. Serve with extra cheese and freshly ground pepper."
+    ],
+    "caloriesPerPortion": 734,
+    "image": "images/recipes/learn-to-make-spaghetti-carbonara.jpg"
+  },
+  {
+    "id": "jerk-chicken-rice-peas",
+    "title": "Jerk chicken with rice & peas",
+    "basePortions": 6,
+    "totalMinutes": 70,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "caribbean",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/jerk-chicken-rice-peas",
+    "ingredients": [
+      {
+        "name": "Chicken thighs bone in",
+        "qty": 12.0,
+        "unit": "each"
+      },
+      {
+        "name": "Lime halved",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Hot sauce to serve",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Big bunch spring onions roughly chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Thumb-sized piece ginger roughly chopped",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Garlic cloves",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "½ a small onion",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Scotch bonnet chillies, deseeded if you want less heat",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "½ tsp dried thyme or 1 tbsp thyme leaves",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Lime juiced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Soy sauce",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Vegetable oil",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Brown sugar",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ground allspice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Basmati rice",
+        "qty": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Can coconut milk",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Spring onions sliced",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Large thyme sprigs",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Ground allspice",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "X 410g cans kidney beans drained",
+        "qty": 2.0,
+        "unit": "each"
+      }
+    ],
+    "method": [
+      "To make the jerk marinade, combine the spring onions, ginger, garlic, onion, scotch bonnet chillies, dried thyme, lime juice, soy sauce, vegetable oil, brown sugar and ground allspice in a food processor along with 1 tsp salt, and blend to a purée. If you’re having trouble getting it to blend, just keep turning off the blender, stirring the mixture, and trying again. Eventually it will start to blend up – don’t be tempted to add water, as you want a thick paste.",
+      "Taste the jerk mixture for seasoning – it should taste pretty salty, but not unpleasantly, puckering salty. You can now throw in more chillies if it’s not spicy enough for you. If it tastes too salty and sour, try adding in a bit more brown sugar until the mixture tastes well balanced.",
+      "Make a few slashes in 12 chicken thighs and pour the marinade over the meat, rubbing it into all the crevices. Cover and leave to marinate overnight in the fridge.",
+      "If you want to barbecue your chicken, get the coals burning 1 hr or so before you’re ready to cook. Authentic jerked meats are not exactly grilled as we think of grilling, but sort of smoke-grilled. To get a more authentic jerk experience, add some wood chips to your barbecue, and cook your chicken over slow, indirect heat for 30 mins.",
+      "To cook in the oven, heat to 180C/160C fan/gas 4. Put the chicken pieces in a roasting tin with the halved lime and cook for 45 mins until tender and cooked through.",
+      "While the chicken is cooking, prepare the rice & peas. Rinse the basmati rice in plenty of cold water, then tip it into a large saucepan. Add the coconut milk, spring onions, thyme sprigs, garlic and ground allspice.",
+      "Season with salt, add 300ml cold water and set over a high heat. Once the rice begins to boil, turn it down to a medium heat, cover and cook for 10 mins. Add the kidney beans to the rice, then cover with a lid. Leave off the heat for 5 mins until all the liquid is absorbed.",
+      "Squeeze the roasted lime over the chicken and serve with the rice & peas, and some hot sauce if you like it really spicy."
+    ],
+    "caloriesPerPortion": 757,
+    "image": "images/recipes/jerk-chicken-rice-peas.jpg"
+  },
+  {
+    "id": "meatballs-spaghetti",
+    "title": "How to make spaghetti and meatballs",
+    "basePortions": 6,
+    "totalMinutes": 75,
+    "cookTag": "cook2",
+    "protein": "red",
+    "cuisine": "italian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/meatballs-spaghetti",
+    "ingredients": [
+      {
+        "name": "Pack of 8 good-quality sausages",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Pack minced beef",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Small bunch fresh parsley finely chopped",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Dried breadcrumbs",
+        "qty": 3.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Egg lightly beaten",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Plain flour for rolling",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Sunflower or vegetable oil",
+        "qty": 4.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "qty": 2.0,
+        "unit": "tin"
+      },
+      {
+        "name": "Pinch sugar",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Spaghetti",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Grated parmesan to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Cut through the skin of each sausage and pull them off. Put the sausage meat into a large bowl with the mince. Add half the garlic, half the parsley, the breadcrumbs and egg, and mix well. Season generously with pepper and a little salt, and mix again.",
+      "Sprinkle a chopping board with flour. Scoop out level dessertspoons of the mix, dip them in the flour and roll them into balls. Heat 3 tbsp of the oil in a large frying pan or wok, then fry the meatballs in batches, browning them on all sides. Set aside on a plate. When you’ve fried all the meatballs, pour away any excess fat. Rinse and dry the pan.",
+      "Pour the remaining oil into the pan, heat for 1 min then add the remaining garlic and fry for a few seconds. Tip in the tomatoes and break them down with a fork or wooden spoon. Cook over a moderately high heat for 5 mins until jammy. Season with salt, pepper and a little sugar.",
+      "Tip in the meatballs and turn them over in the sauce, ensuring they’re all covered. Cover the pan and cook the meatballs on a low heat for about 30 mins, spoon over the sauce occasionally and add a little water if it’s becoming too dry. 15 mins before the end of the cooking time, cook the spaghetti. To serve, stir most of the remaining parsley into the sauce then spoon the meatballs and sauce over the spaghetti. Scatter with last of the parsley and serve Parmesan on the side."
+    ],
+    "caloriesPerPortion": 791,
+    "image": "images/recipes/meatballs-spaghetti.jpg"
+  },
+  {
+    "id": "cajun-chicken-one-pot",
+    "title": "Cajun chicken pasta",
+    "basePortions": 6,
+    "totalMinutes": 40,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "american",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/cajun-chicken-one-pot",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken breasts chopped into large chunks",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves finely chopped or grated",
+        "qty": 3.0,
+        "unit": "each"
+      },
+      {
+        "name": "Cajun-style seasoning",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Can chopped tomatoes or passata",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Chicken stock cube crumbled",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Penne or another tube- shaped pasta",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Double cream",
+        "qty": 150.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmesan finely grated, plus extra to serve",
+        "qty": 20.0,
+        "unit": "g"
+      },
+      {
+        "name": "½ lemon juiced",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Chopped parsley to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat the olive oil in a large, shallow saucepan or deep frying pan over a medium heat, then add the chicken, season lightly and fry for 6-8 mins, stirring occasionally until just golden all over – no need to worry about it being cooked through at this stage.",
+      "Stir in the garlic and cook for 2 mins more, then scatter over the Cajun-style seasoning and stir so the chicken pieces are evenly coated. Tip in the tomatoes, a quarter of a can of water and the stock cube. Stir, then bring to a simmer and cook for 5 mins.",
+      "Meanwhile, bring a large pan of salted water to the boil and cook the pasta for a minute less than pack instructions. Stir the cream into the chicken and continue to simmer gently. When the pasta is cooked, drain well and stir into chicken mixture. Finish cooking the pasta in the sauce over a low heat for 2 mins, then stir in the parmesan and lemon juice, and cook for 1 min more. Serve the pasta straight from the pan, or tip into a large serving bowl. Scatter with parsley, if you like, and extra parmesan."
+    ],
+    "caloriesPerPortion": 555,
+    "image": "images/recipes/cajun-chicken-one-pot.jpg"
+  },
+  {
+    "id": "best-spaghetti-bolognese-recipe",
+    "title": "The best spaghetti bolognese recipe",
+    "basePortions": 6,
+    "totalMinutes": 135,
+    "cookTag": "cook2",
+    "protein": "red",
+    "cuisine": "italian",
+    "indulgence": "light",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/best-spaghetti-bolognese-recipe",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Rashers smoked streaky bacon finely chopped",
+        "qty": 4.0,
+        "unit": "each"
+      },
+      {
+        "name": "Medium onions finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Carrots trimmed and finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Celery sticks finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves finely chopped",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Sprigs rosemary leaves picked and finely chopped",
+        "qty": 2.5,
+        "unit": "each"
+      },
+      {
+        "name": "Beef mince",
+        "qty": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "X 400g tins plum tomatoes",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Small pack basil leaves picked, ¾ finely chopped and the rest left whole for garnish",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Dried oregano",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Fresh bay leaves",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Tomato purée",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Beef stock",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Red chilli deseeded and finely chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Red wine",
+        "qty": 125.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Cherry tomatoes sliced in half",
+        "qty": 6.0,
+        "unit": "each"
+      },
+      {
+        "name": "Parmesan grated, plus extra to serve",
+        "qty": 75.0,
+        "unit": "g"
+      },
+      {
+        "name": "Spaghetti",
+        "qty": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Crusty bread to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Put a large saucepan on a medium heat and add 1 tbsp olive oil.",
+      "Add 4 finely chopped bacon rashers and fry for 10 mins until golden and crisp.",
+      "Reduce the heat and add the 2 onions, 2 carrots, 2 celery sticks, 2 garlic cloves and the leaves from 2-3 sprigs rosemary, all finely chopped, then fry for 10 mins. Stir the veg often until it softens.",
+      "Increase the heat to medium-high, add 500g beef mince and cook stirring for 3-4 mins until the meat is browned all over.",
+      "Add 2 tins plum tomatoes, the finely chopped leaves from ¾ small pack basil, 1 tsp dried oregano, 2 bay leaves, 2 tbsp tomato purée, 1 beef stock, 1 deseeded and finely chopped red chilli (if using), 125ml red wine and 6 halved cherry tomatoes. Stir with a wooden spoon, breaking up the plum tomatoes.",
+      "Bring to the boil, reduce to a gentle simmer and cover with a lid. Cook for 1 hr 15 mins stirring occasionally, until you have a rich, thick sauce.",
+      "Add the 75g grated parmesan, check the seasoning and stir.",
+      "When the bolognese is nearly finished, cook 400g spaghetti following the pack instructions.",
+      "Drain the spaghetti and either stir into the bolognese sauce, or serve the sauce on top. Serve with more grated parmesan, the remaining basil leaves and crusty bread, if you like."
+    ],
+    "caloriesPerPortion": 624,
+    "image": "images/recipes/best-spaghetti-bolognese-recipe.jpg"
+  },
+  {
+    "id": "chorizo-mozzarella-gnocchi-bake",
+    "title": "Chorizo & mozzarella gnocchi bake",
+    "basePortions": 6,
+    "totalMinutes": 35,
+    "cookTag": "cook2",
+    "protein": "pork",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion finely chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic cloves crushed",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Chorizo diced",
+        "qty": 120.0,
+        "unit": "g"
+      },
+      {
+        "name": "X 400g cans chopped tomatoes",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Caster sugar",
+        "qty": 1.0,
+        "unit": "tsp"
+      },
+      {
+        "name": "Fresh gnocchi",
+        "qty": 600.0,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella ball, cut into chunks",
+        "qty": 125.0,
+        "unit": "g"
+      },
+      {
+        "name": "Small bunch of basil torn",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Green salad to serve",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Heat the oil in a medium pan over a medium heat. Fry the onion and garlic for 8-10 mins until soft. Add the chorizo and fry for 5 mins more. Tip in the tomatoes and sugar, and season. Bring to a simmer, then add the gnocchi and cook for 8 mins, stirring often, until soft. Heat the grill to high.",
+      "Stir ¾ of the mozzarella and most of the basil through the gnocchi. Divide the mixture between six ovenproof ramekins, or put in one baking dish. Top with the remaining mozzarella, then grill for 3 mins, or until the cheese is melted and golden. Season, scatter over the remaining basil and serve with green salad."
+    ],
+    "caloriesPerPortion": 353,
+    "image": "images/recipes/chorizo-mozzarella-gnocchi-bake.jpg"
+  },
+  {
+    "id": "chimichurri-chicken-thighs",
+    "title": "Chimichurri chicken thighs",
+    "basePortions": 6,
+    "totalMinutes": 95,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "misc",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://30seconds.com/food/tip/61580/Juicy-Skillet-Chimichurri-Chicken-Thighs-Recipe-One-Pan-Fabulous-Flavor",
+    "ingredients": [
+      {
+        "name": "Pounds boneless skinless chicken thighs",
+        "qty": 2.0,
+        "unit": "each"
+      },
+      {
+        "name": "Fresh parsley, packed",
+        "qty": 480,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh cilantro, packed",
+        "qty": 240,
+        "unit": "ml"
+      },
+      {
+        "name": "Green onion, chopped",
+        "qty": 1.0,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3.0,
+        "unit": "clove"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Red wine vinegar",
+        "qty": 2.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Lemon juice",
+        "qty": 1.0,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Crushed red pepper flakes, to taste",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Put all the chimichurri ingredients into a blender or food processor. Season with salt and black pepper. Pulse until combined, adding more olive oil, if needed, to reach desired consistency.",
+      "Put the chicken thighs into a plastic zipper bag or shallow dish. Add 3/4 cup of the chimichurri sauce (reserve the remaining for serving) and toss to coat the chicken. Marinate in the refrigerator for at least 1 hour and up to overnight.",
+      "Preheat the oven to 375 degrees F. While the oven heats up, heat an ovenproof skillet (preferably cast iron) over medium heat on the stovetop. Add the chicken, top side down, into the hot skillet with any marinade in the bag or dish. Cook until golden on the bottom, then flip the chicken over. Immediately put the chicken into the oven.",
+      "Bake for about 15 to 20 minutes or until chicken is cooked through (165 degrees F internal temperature). Serve with the reserved chimichurri sauce."
+    ],
+    "caloriesPerPortion": 352,
+    "image": "images/recipes/chimichurri-chicken-thighs.jpg"
+  },
+  {
+    "id": "tuscan-chicken-pasta",
+    "title": "Tuscan chicken pasta",
+    "basePortions": 4,
+    "caloriesPerPortion": 650,
+    "totalMinutes": 45,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.delish.com/cooking/recipe-ideas/a45774/chicken-bacon-and-spinach-spaghetti-recipe/",
+    "ingredients": [
+      {
+        "name": "Spaghetti",
+        "qty": 340,
+        "unit": "g"
+      },
+      {
+        "name": "Olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chicken breasts",
+        "qty": 565,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Bacon",
+        "qty": 6,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "Cherry tomatoes",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Heavy cream",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmesan",
+        "qty": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Baby spinach",
+        "qty": 90,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh basil",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Preheat oven to 350°F / 180°C, rack in the middle.",
+      "Cook spaghetti in salted boiling water until al dente; drain, reserving 1 cup pasta water.",
+      "Season chicken with salt and pepper. Sear in oil until golden, about 5 minutes per side. Finish in the oven 5–10 minutes; rest 10 minutes, then slice.",
+      "In the same skillet, cook bacon until crisp; drain and chop.",
+      "Cook garlic and halved cherry tomatoes 2 minutes. Add cream, Parmesan and ½ cup pasta water; simmer ~3 minutes. Wilt spinach.",
+      "Toss in pasta, then chicken and bacon. Loosen with more pasta water if needed. Garnish with basil."
+    ],
+    "image": "images/recipes/tuscan-chicken-pasta.jpg"
+  },
+  {
+    "id": "simple-lasagne-adam",
+    "title": "Simple lasagne",
+    "basePortions": 6,
+    "caloriesPerPortion": 739,
+    "totalMinutes": 100,
+    "cookTag": "cook2",
+    "protein": "red",
+    "cuisine": "italian",
+    "indulgence": "rich",
+    "kidFriendly": true,
+    "sourceUrl": "https://www.tesco.com/recipes/en-GB/recipe/simple-lasagne",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Carrot",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Celery",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 2,
+        "unit": "clove"
+      },
+      {
+        "name": "Beef mince",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Pork mince",
+        "qty": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Tomato puree",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Beef stock",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Red wine",
+        "qty": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Lasagne sheets",
+        "qty": 12,
+        "unit": "each"
+      },
+      {
+        "name": "Parmesan",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Mozzarella",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Plain flour",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Semi-skimmed milk",
+        "qty": 550,
+        "unit": "ml"
+      }
+    ],
+    "method": [
+      "Fry onion, carrot, celery and garlic in oil 5 minutes. Add beef and pork mince; brown. Pour in wine and reduce.",
+      "Stir in tomato puree, chopped tomatoes, stock and Worcestershire; simmer ~15 minutes until reduced. Season.",
+      "White sauce: melt butter, whisk in flour 1–2 minutes, then gradually whisk in milk until thick; season.",
+      "Heat oven to 200°C/180°C fan/gas 6. Layer ragu, pasta and white sauce three times. Top with Parmesan and mozzarella.",
+      "Bake 40–45 minutes until piping hot and bubbling."
+    ],
+    "image": "images/recipes/simple-lasagne-adam.jpg"
+  },
+  {
+    "id": "beef-enchiladas",
+    "title": "Beef enchiladas",
+    "basePortions": 4,
+    "caloriesPerPortion": 620,
+    "totalMinutes": 75,
+    "cookTag": "cook2",
+    "protein": "red",
+    "cuisine": "mexican",
+    "indulgence": "rich",
+    "kidFriendly": false,
+    "sourceUrl": "https://www.bbc.co.uk/food/recipes/spicysteakandmontere_88037",
+    "ingredients": [
+      {
+        "name": "Olive oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Beef mince",
+        "qty": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Red onion",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Garlic",
+        "qty": 3,
+        "unit": "clove"
+      },
+      {
+        "name": "Red chilli",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Celery",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Beef stock cube",
+        "qty": 1,
+        "unit": "each"
+      },
+      {
+        "name": "Chipotle chilli paste",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Kidney beans in chilli sauce",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Chopped tomatoes",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Fresh coriander",
+        "qty": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Soft corn tortillas",
+        "qty": 8,
+        "unit": "each"
+      },
+      {
+        "name": "Sliced red jalapenos",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Cheddar",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Black pepper",
+        "qty": null,
+        "unit": "toTaste"
+      },
+      {
+        "name": "Soured cream",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Brown the beef mince in oil over a high heat, breaking it up, 4–5 minutes.",
+      "Add onion, garlic, chilli and celery; stir-fry 3–4 minutes.",
+      "Add stock cube, chipotle paste, kidney beans and tomatoes. Simmer ~40 minutes until thick; stir in coriander and season.",
+      "Heat oven to 220°C/200°C fan/Gas 7. Lightly oil a shallow dish (~20x30cm).",
+      "Divide the beef down the centre of each tortilla, roll up and place seam-side down in the dish.",
+      "Scatter jalapeños and cheese. Cover with foil 10 minutes, then uncover 10 minutes until golden. Serve with soured cream."
+    ],
+    "image": "images/recipes/beef-enchiladas.jpg"
+  },
+  {
+    "id": "air-fryer-chimichangas",
+    "title": "Air fryer chimichangas",
+    "basePortions": 6,
+    "caloriesPerPortion": 455,
+    "totalMinutes": 30,
+    "cookTag": "cook2",
+    "protein": "white",
+    "cuisine": "mexican",
+    "indulgence": "rich",
+    "kidFriendly": true,
+    "sourceUrl": "https://www.allrecipes.com/recipe/278702/air-fryer-chimichangas/",
+    "ingredients": [
+      {
+        "name": "Vegetable oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Onion",
+        "qty": 0.5,
+        "unit": "each"
+      },
+      {
+        "name": "Shredded cooked chicken",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Neufchatel or cream cheese",
+        "qty": 115,
+        "unit": "g"
+      },
+      {
+        "name": "Fire-roasted diced green chiles",
+        "qty": 1,
+        "unit": "tin"
+      },
+      {
+        "name": "Chicken broth",
+        "qty": 60,
+        "unit": "ml"
+      },
+      {
+        "name": "Chicken taco seasoning",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Salt",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "qty": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "Flour tortillas (10 inch)",
+        "qty": 6,
+        "unit": "each"
+      },
+      {
+        "name": "Mexican cheese blend",
+        "qty": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Cooking spray",
+        "qty": null,
+        "unit": "toTaste"
+      }
+    ],
+    "method": [
+      "Preheat air fryer to 200°C / 400°F.",
+      "Soft fry onion in oil 4–6 minutes. Add chicken, cream cheese, green chiles, broth, taco seasoning, salt and pepper; cook until creamy.",
+      "Warm tortillas until pliable. Fill each with ~⅓ cup chicken mix and cheese; roll burrito-style and mist with cooking spray.",
+      "Air-fry 4–6 minutes, flip, spray again, and cook 2–4 minutes more until golden."
+    ],
+    "image": "images/recipes/air-fryer-chimichangas.jpg"
   }
 ]

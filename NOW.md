@@ -12,6 +12,7 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 - **Dressings & sauces** book section (`catalog: "sauce"`) — cilantro-lime dressing lives here, not on the plan
 - **Add sauce to shop** — from sauce detail or Shop tab; ingredients merge for the week; cleared with shop / next week
 - Authoring: `docs/agents/recipes.md`
+- Sim meals tagged **cook1**; Adam’s list from `adams_Recipes.html` tagged **cook2** (22 meals)
 
 ## Next
 
@@ -19,11 +20,11 @@ Push `main` when you want GitHub Pages updated. Add more sauces to the book as w
 
 ## Latest
 
-- Classic lasagne (BBC Good Food) added as Italian beef meal · 6 portions · ~580 kcal/portion
+- Adam cook2 complete: Tuscan chicken pasta, Tesco simple lasagne, BBC beef enchiladas, air-fryer chimichangas (plus 18 earlier)
+- Chimichurri chicken thighs id shortened
 
 ## Verify
 
-1. Recipes → **Dressings & sauces** → Cilantro lime dressing
-2. **Add ingredients to this week’s shop** → Shop lists lime/cilantro/etc. tagged with the dressing name
-3. Dressing does not appear in Plan randomise / meal assign
-4. Remove sauce from shop or clear shop
+1. Recipes → filter or browse — Adam meals show as cook2
+2. Open Tuscan chicken pasta, Simple lasagne, Beef enchiladas, Air fryer chimichangas
+3. Dressings stay out of Plan randomise
