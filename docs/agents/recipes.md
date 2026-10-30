@@ -86,6 +86,14 @@ Never store the whole-pot total. If a source lists “nutrition for the recipe�
 - Dressings: one serving of dressing, not a dinner.
 - App label: `~N kcal/portion`.
 
+### Household cooking rules
+
+- **Every dinner meal must have real meat** (chicken, turkey, beef, pork, lamb, or fish/prawns). No vegetarian mains.
+- **Every dinner meal must include a proper carb** so the plate fills you up: rice, pasta, noodles, potatoes, bread, wraps/tortillas, couscous, quinoa, or similar. Meat + veg alone is not a complete meal — put the carb in `ingredients` (with real amounts) and the method.
+- **Tofu is never the main protein.** Optional as a small extra only if a meat dish already has proper meat.
+- **Kit:** frying pan / wok, saucepan / pot, slow cooker, oven (metal tray or ceramic/clay lasagne-style dish). **Do not** write recipes that need a cast-iron / iron skillet as the hero cookware.
+- **Thai basil** is hard to buy in the UK. Prefer Italian basil + a squeeze of lime, or mint + basil; note the substitute in the method. Do not rely on Thai basil alone.
+
 ### Protein swaps
 
 Use when the same recipe is routinely cooked with another meat (ramen pork↔chicken, cowboy pasta pork↔turkey mince).

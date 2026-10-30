@@ -8,23 +8,22 @@ MealPlan PWA for Sim and Adam. Features for this version are done.
 
 - Plan, randomise, locks, portions, shop, cook mode, filters, settings
 - Live: https://simipanda.github.io/MealPlan/
-- Recipes populated; kcal/portion; stars; protein swaps (ramen, cowboy pasta)
-- **Dressings & sauces** book section (`catalog: "sauce"`) — cilantro-lime dressing lives here, not on the plan
-- **Add sauce to shop** — from sauce detail or Shop tab; ingredients merge for the week; cleared with shop / next week
-- Authoring: `docs/agents/recipes.md`
-- Sim meals tagged **cook1**; Adam’s list from `adams_Recipes.html` tagged **cook2** (22 meals)
+- Recipes populated; kcal/portion; stars; protein swaps
+- Dressings & sauces + shop add-in
+- Authoring: `docs/agents/recipes.md` (meat + carb every dinner; no tofu mains; no cast iron; Thai basil substitutes)
+- Sim cook1 / Adam cook2; shared midweek pack as **either**
 
 ## Next
 
-Push `main` when you want GitHub Pages updated. Add more sauces to the book as wanted.
+Push `main` when you want GitHub Pages updated.
 
 ## Latest
 
-- Adam cook2 complete: Tuscan chicken pasta, Tesco simple lasagne, BBC beef enchiladas, air-fryer chimichangas (plus 18 earlier)
-- Chimichurri chicken thighs id shortened
+- Mexican spice-sachet tacos (beef ↔ turkey)
+- 15 midweek flavour meals + photos (and taco photo). Black bean beef skipped. Book has no missing images.
 
 ## Verify
 
-1. Recipes → filter or browse — Adam meals show as cook2
-2. Open Tuscan chicken pasta, Simple lasagne, Beef enchiladas, Air fryer chimichangas
-3. Dressings stay out of Plan randomise
+1. Recipes → browse new either meals; each has meat + carb in ingredients
+2. Holy basil method names Italian basil + lime substitute
+3. Tacos + keema / holy basil / kimchi / Korean BBQ show protein swap chips where set
